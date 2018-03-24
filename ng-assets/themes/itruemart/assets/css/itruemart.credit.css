@@ -1,0 +1,20 @@
+@charset "UTF-8";/* CSS Document */
+body {padding: 0px;margin: 0px;font-size:14px;font-family:Arial, Helvetica, sans-serif;color:#565656;}
+a {color:#565656;text-decoration:none;}
+#edit-card {width: 700px; margin: 0 auto;}
+#edit-card:after {content: ''; display: block; clear: both;}
+#ic_creditcard{width:190px;behavior:url(css/iepngfix.htc);background: url('../images/icn/profile/icon_ordertrack.png') top left no-repeat;padding:0 0 0 20px}
+#ic_creditcard.active {background-image: url('../images/icn/profile/icon_ordertrack_current.png');}
+.clear {clear: both;font-size: 0px;line-height: 0px;}
+.left {float: left;}
+.edit-box {width: 330px;border: 2px solid #e2e2e2;padding:10px;margin: 10px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;float:left;}
+.edit-box:hover {background-color:#fafafa;}
+.edit-box ul {padding:0px;margin:0px;}
+.edit-box li {padding:5px;margin:5px;list-style:none;display:block;border-bottom:1px dotted #e4e4e4;height:20px;}
+.edit-label-info {width: 90px;text-align: right;padding:0 0 0 0;display:block;font-weight:bold;float:left;}
+.form-edit-info {padding: 0;float: left;padding-left:10px;display:block;float:left;color:#959595;}
+.non-bor {border:none !important ;}
+.ad-dress {float:right;padding: 5px;margin-top: 5px;}
+.ad-dress a {color:#F00;}
+.ad-dress a:hover {text-decoration:underline;}
+.address-delete {padding-left: 25px;padding-right:10px;background-image: url(../images/delete.png);background-position: left center;background-repeat: no-repeat;}

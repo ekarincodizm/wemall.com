@@ -1,0 +1,67 @@
+.page_main_subject
+{
+    height: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.page_main_h2_subject{
+    margin: 0;
+    height: 0;
+    font-size: 14px;
+    overflow: hidden;
+}
+.page_main_subject h1 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.full_cart_title
+{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+}
+
+.home__policy_banner .policy_box .policy_title {
+    margin-top: -22px;
+}
+
+.home__policy_banner .policy_box .policy_sub_title {
+    float: left;
+    margin-left: 120px;
+    margin-top: -31px;
+}
+
+.home__policy_banner .policy_box + .policy_box .policy_sub_title {
+    margin-left: 128px;
+}
+
+.home__policy_banner .policy_box + .policy_box + .policy_box .policy_sub_title {
+    margin-left: 112px;
+}
+
+.product__name h1 {
+    position: relative;
+    float: left;
+    width: 73.33333%;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+    color: #e93927;
+    margin: 0;
+    padding-left: 0;
+}
+
+.leveld_full_width{
+    width: 100% !important;
+}
+
+.product__policy .nav-tabs > li > a .policy_title .policy_sub_title {
+    margin: 0;
+    font-size: inherit;
+}
+

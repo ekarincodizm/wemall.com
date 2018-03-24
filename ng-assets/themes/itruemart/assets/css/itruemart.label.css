@@ -1,0 +1,69 @@
+.box-sizing { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; display: block; }
+.inline-box-sizing { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; display: inline-block; }
+.product-box-lvb{ background: url(http://www.itruemart.com/assets/itruemart_new/global/images/promotionbg.jpg) no-repeat center center;  width: 181px; height: 255px; }
+.product-box-lvb:hover { background-image: url(http://www.itruemart.com/assets/itruemart_new/global/images/promotionbg2_lvb.jpg); }
+.p-box-img { text-align: center; padding: 6px 6px 0 6px; position: relative; }
+.more-detail { position: absolute; left: 43px; top: 63px; display: none !important; }
+.product-box-lvb:hover .more-detail { display: block !important; }
+.p-box-img .img-display { margin: 0 auto; }
+.p-box-info { background: url(../images/product-borders.png) no-repeat top center; padding-bottom: 6px; width: 165px; margin: 0 auto; display: block;}
+.name-display { font-family: Tahoma; font-size: 11px; text-align: left; font-weight: bold; display: block; /* height: 42px; */ line-height: 1.1; padding-bottom: 3px;}
+.price-display { width: 100%; white-space: nowrap; font-family: Arial; font-size: 13px; font-weight: bold; line-height: 0.8; position: relative; display: block; margin: 5px 0 3px 0; }
+.discount { text-decoration: line-through; color: #9999B2; font-size: 10.37px; }
+.p-box-slide { padding-top: 16px; }
+.price-normal { width: 50%; text-align: left; display: block;}
+.price-special { width: 50%; color: #ab0b08; text-align: left; padding-right: 6px; display: block;}
+.deadline-box { font-family: TrueLight; font-size: 18px; }
+.valid-text {color: #fff; padding-bottom: 0; margin-left: 0; }
+
+div.discount_item_text { width: 142px; padding: 0 10px; position: relative; text-align: left; }
+.discount_item_text .font2 { height: 38px; display: block; }
+#image_show { text-align: center; }
+a#click_next { cursor: pointer; position: absolute; left: 0; display: none; }
+a#click_prev { cursor: pointer; position: absolute; right: 0; display: none; }
+.pull-left { float: left; }
+.pull-right { float: right; }
+div.over_lvb { margin-bottom: 30px; }
+
+
+.p-label {background-repeat: no-repeat; background-position: center center; width: 65px; height: 25px; display: block;  text-align: right; padding-top: 3px; padding-right: 4px;font: 13px Tahoma;}
+.p-label > i {font-size: 10px;}
+.p-label.home {margin-top: 0px;}
+.flash-sale, .flashsale, .flash_sale {background-image: url('../images/label/flash-sale.png'); color: #be1510;font-weight: bold;}
+.on-sale, .onsale {background-image: url('../images/label/on-sale.png'); color: #dc8a00;font-weight: bold;}
+.today-special {background-image: url(../images/label/today-special.png); color: green;font-weight: bold;}
+.label-text-mini { font-size: 8px; }
+.label-text-small { font-size: 10px; }
+.label-text-lg { font-size: 14px; }
+.label-amount { width: 31px; text-align: center; float: right; height: 17px; line-height: 1.2; margin: 4px 4px 0 0; }
+.pos-lg-1, .pos-lg-2, .pos-lg-3, .pos-lg-4, .pos-lg-5, .pos-sm-1, .pos-sm-2, .pos-sm-3, .pos-sm-4, .pos-sm-5 { position: absolute; }
+.pos-lg-1 { left: 6px; top: 0px; }
+.pos-lg-2 { right: 6px; top: 0px; }
+.pos-lg-3 { left: 6px; bottom: 4px; }
+.pos-lg-4 { right: 6px; bottom: 4px; }
+.pos-lg-5 { right: 0; bottom: -3px; }
+.pos-sm-1 { left: 6px; top: 6px; }
+.pos-sm-2 { right: 6px; top: 0; }
+.pos-sm-4 { right: 6px; bottom: 15px; }
+
+.label-delivery { background: url('../images/label/delivery.png') no-repeat center center; width: 56px; height: 23px; overflow: hidden; font-family: Tahoma; font-size: 11px; color: #fff; display: block; padding: 1px 5px; line-height: 1; }
+
+.label-instalment { width: 100%; height: 16px; background-color: #6fc633; margin: 0 auto; font-family: Tahoma; font-size: 11px; white-space: nowrap; line-height: 1.1; display: block; }
+.label-ins-text { width: 50%; text-align: center; color: #fff; display:inline-block; }
+.label-ins-period { width: 45%; margin: 2px 0; background-color: #fff; text-align: center;display:inline-block; }
+
+.label-flashsale, .label-onsale, .label-todayspecial { width: 65px; height: 25px; font-family: Tahoma; text-align: right; font-weight: normal; }
+.label-flashsale { color: #dc2f2f;  background: url(../images/label/flash-sale.png) no-repeat center center; }
+.label-onsale { color: #e1881e; background: url(../images/label/on-sale.png) no-repeat center center; }
+.label-todayspecial { color: #e1881e; background: url(../images/label/today-special.png) no-repeat center center;}
+
+.label-truestore { background: url(../images/label/truestore.png) no-repeat center center;width: 44px; height: 44px; display: block; color: #fff; text-align: center; }
+.label-ts-text { display: block; width: 30px; margin: 0 auto; margin-top: 7px; font-size: 10px; line-height: 1; }
+
+.p-box-info:after {content: ''; display: block; clear: both;}
+.trueyou-discount-display {font-size: 11px;font-family: tahoma;display: block;text-align: center;}
+/* Added by Kousuke */
+.trueyou-discount-display { clear:both; margin-top:2px; }
+.label-valid {display: block;width: 80%;margin: 0 auto;font-size: 13px;/* height: 22px; */}
+.label-valid > span:first-child {background-color: #C00C00;float: left;/* margin-left: 5px; */color: #fff;padding: 2px 3px;}
+.valid-exp {height: 22px; line-height: 1.8;}

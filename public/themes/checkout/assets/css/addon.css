@@ -1,0 +1,201 @@
+.icon-success-ex {
+    left: 220px;
+}
+
+.ccw-pwd {
+    width: 201px !important;
+}
+
+.form-max-info {
+    width: 340px;
+}
+
+.icon-success-2 {
+    left: auto;
+    right: 35px;
+}
+
+.modal-credit-wrap {
+    padding: 0 15px 15px;
+}
+
+.modal-credit-content {
+    padding: 0 10px 10px 5px;
+}
+
+.modal-credit-wrap .form-bot {
+    width: 150px;
+}
+
+.modal-credit-wrap .btn-default {
+    float: right;
+    font-size: 18px;
+    padding: 7px;
+    width: 100px;
+}
+
+.cartlightbox-update-shipping-method {
+    width: 73% !important;
+}
+
+.powered-by {
+    margin-left: 180px !important;
+}
+
+#add-address-btn {
+    cursor: pointer;
+}
+
+.add-addres:hover {
+    background-image: url(../images/add_address_active.png)
+}
+
+/** thank you page*/
+.p-title .p-title-n-s {
+    width: 120px !important;
+}
+
+.p-title .p-title-p {
+    width: 290px !important;
+}
+
+.icon-coupon-success {
+    position: absolute;
+    left: 199px;
+    top: 14px;
+}
+
+.idcard-number-success {
+    position: relative;
+    left: 313px;
+    top: -29px;
+}
+
+#coupon_code_error {
+    background-color: #f2dede;
+    text-align: center;
+    color: #a94442;
+    margin: 5px 0;
+    padding: 2px;
+}
+
+.in-form .icon-wait {
+    background-image: url("../images/clock_thank.png");
+}
+
+.in-form .icon-cancel {
+    background-image: url("../images/error_thank.png");
+}
+
+.icon-cancel h1 {
+    color: red;
+}
+
+.icon-cancel span {
+    color: gray;
+}
+
+.requery-btn, .requery-btn:hover {
+    color: blue;
+}
+
+.requery-btn:hover {
+    text-decoration: underline;
+}
+
+.icon-cancel h1 {
+    color: red;
+}
+
+.icon-wait h1 {
+    color: #999;
+}
+
+.step-on ul li:last-child {
+    max-width: 200px
+}
+
+.p-label {
+    padding-right: 8px !important;
+}
+
+#channel-ibanking ul li ul li {
+    list-style: none;
+}
+
+.trueyou-error {
+    background-color: #f2dede;
+    text-align: center;
+    color: #a94442;
+    margin: 5px 0;
+    padding: 2px;
+}
+
+.btn-disabled,
+.btn-disabled:hover,
+.btn-disabled:active {
+    background-color: #e2e2e2;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 8px 65px 8px 20px;
+    font-weight: normal;
+    border: none;
+    font-size: 18px;
+    margin-top: 0px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: text;
+}
+
+.confirm-delete-itm-dialog {
+    overflow: hidden;
+}
+
+.ui-msg-box__main-text--alert img{
+    width: 50px;
+}
+
+#confirm-payment-popup-msg {
+    overflow: hidden;
+}
+
+.edit-box a, .edit-box a:hover, .edit-box a:active {
+    color: #3705FF;
+}
+
+#instalment .installment--title{
+    font-size: 17px;
+}
+@media all\0  {
+    .step-on ul li {
+        width: 222px;
+    }
+}
+
+.background-green-btn{
+    background-color:#95c126 !important;
+    border-color: #87c80a !important;
+}
+.coupon-text-border-green{
+    border: 2px solid #87c80a;
+}
+
+#promotion-ccw-popup-msg{overflow: hidden;}
+#promotion-ccw-popup-msg .content .right{position: absolute;right: 40px}
+
+.text-green{
+    color: #95c126;
+}
+
+.text-blink-active{
+    color: #FF7000 !important;
+}
+
+.text-blink-animation{
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}

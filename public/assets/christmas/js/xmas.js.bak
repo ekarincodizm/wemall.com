@@ -1,0 +1,149 @@
+(function ( $ ) {
+
+    if (!Object.create) {
+        Object.create = function ( obj ) {
+            function F () {
+            };
+            F.prototype = obj;
+            return new F ();
+        }
+    }
+
+    var Xmas = {
+        initialize: function ( el, options ) {
+            var self = this,
+                rand = Math.floor ( ( Math.random () * 100) + 1 ) * 10;
+            self.el = el;
+            self.$el = $ ( el );
+            self.options = $.extend ( {}, $.fn.xmas.defaults, options );
+
+            setTimeout ( function () {
+                self.rotate ();
+            }, rand );
+        },
+        rotate: function () {
+            var self = this;
+            self.move ();
+        },
+        move: function () {
+            var self = this,
+                config = {angle: 0, direction: 'right'},
+
+                interval = setInterval ( function () {
+
+                    if (config.angle === -self.options.maxDegree) {
+                        config.direction = 'left';
+                    } else if (config.angle === self.options.maxDegree) {
+                        config.direction = 'right';
+                    }
+
+                    if (config.direction == 'right') {
+                        config.angle -= 1;
+                    } else if (config.direction == 'left') {
+                        config.angle += 1;
+                    }
+
+                    self.$el.find ( 'img' ).rotate ( {
+                        angle: config.angle,
+                        easing: $.easing.easeInExpo,
+                        center: ['50%', '0'],
+                        bind: {
+                            mouseover: function () {
+                                clearInterval ( interval );
+                            },
+                            mouseout: function () {
+                                var currentAngle = $ ( this ).getRotateAngle ();
+                                interval = setInterval ( function () {
+                                    if (config.angle === -self.options.maxDegree) {
+                                        config.direction = 'left';
+                                    } else if (config.angle === self.options.maxDegree) {
+                                        config.direction = 'right';
+                                    }
+
+                                    if (config.direction == 'right') {
+                                        config.angle -= 1;
+                                    } else if (config.direction == 'left') {
+                                        config.angle += 1;
+                                    }
+
+                                    self.$el.find ( 'img' ).rotate ( {
+                                        angle: config.angle,
+                                        easing: $.easing.easeInExpo (),
+                                        center: ['50%', '0']
+                                    } )
+                                }, 26 );
+                            },
+                            click: function ( e ) {
+                                e.preventDefault ();
+                                self.showModal ();
+                            }
+                        }
+                    } );
+                }, 26 );
+        },
+        templateModal: function ( text, productUri ) {
+            return ['<div class="xmas-modal-dialog">',
+                '<img src="/assets/christmas/img/modal/modal-bg.png" alt=""/>',
+                '<div class="modal-msg">',
+                '<p>' + text + '</p>',
+                '</div>',
+                '</div>'].join ( '' );
+        },
+        templateButton: function () {
+            return ['<div class="modal-action">',
+                '<div class="column">',
+                '<a href="/">',
+                '<img src="/assets/christmas/img/modal/backtoshopping.png" alt=""/>',
+                '</a>',
+                '</div>',
+                '<div class="column">',
+                '<a href="' + productUri + '"><img src="/assets/christmas/img/modal/buy.png" alt=""/></a>',
+                '</div>',
+                '</div>'].join ( '' );
+        },
+        showModal: function () {
+            var self = this,
+                $win = $ ( window ),
+                modal, name, url;
+
+            if (!$ ( '.xmas-modal-dialog' ).length) {
+
+                modal = self.templateModal ( 'กรุณารอสักครู่...', '#' );
+                $ ( modal ).animate ( {
+                    top: (($win.height () / 2 ) + $win.scrollTop () - (618 / 2)) + 'px'
+                } ).addClass ( 'open' ).appendTo ( 'body' );
+                $ ( 'body' ).off ( 'click', self.$el.find ( 'img' ) );
+
+                self.getCouponCode ().done ( function ( data ) {
+					console.log(data);
+               /*     if (data.data.user != null) {
+                        name = data.data.user.name;
+                        url = data.data.user.url;
+                    } else {
+                        name = data.data.check.name;
+                        url = data.data.groupcode.url;
+                    }
+                    $ ( modal ).find ( '.modal-msg' ).find ( 'p' ).text ( name ).end ()
+                        .append ( self.templateButton () );*/
+                } );
+            }
+        },
+        getCouponCode: function () {
+            var self = this;
+            return $.getJSON ( self.options.ajaxUri );
+        }
+    }
+
+    $.fn.xmas = function ( settings ) {
+        return this.each ( function () {
+            var xmas = Object.create ( Xmas );
+            xmas.initialize ( this, settings );
+        } );
+    }
+
+    $.fn.xmas.defaults = {
+        maxDegree: 13,
+        ajaxUri: 'http://www.dev.itruemart.com/ang-pao'
+    }
+
+} ( jQuery ));

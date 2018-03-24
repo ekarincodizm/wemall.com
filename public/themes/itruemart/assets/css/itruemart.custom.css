@@ -1,0 +1,34 @@
+.important-green-bg{
+    background-color: #298512 !important;
+}
+.cart-box-name h2{
+    color: #565656 !important;
+}
+.cls-buynow-container .btn-buynow{
+    margin-left: 120px;
+}
+#more-detail{
+	margin: 10px -14px;
+	padding: 0 0 0 109px;
+}
+.OD_topic{
+	width: 150px;
+}
+#address-form #shipping_address_list {
+	width:375px;
+}
+.form-search input{
+	cursor:auto;
+}
+.subscribe-en{
+	background: url('../images/btn-subscribe-news-en.jpg') no-repeat center center;	
+}
+#subscribe_news{
+	cursor:auto;
+}
+#payment-counter .panel-body, #Div1 .col-sm-9{
+	font-size:14px;
+}
+.category-header > ul {
+	max-width: 685px;
+}

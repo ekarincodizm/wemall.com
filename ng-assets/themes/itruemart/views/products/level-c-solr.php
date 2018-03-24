@@ -1,0 +1,1 @@
+<div ng-include="'app/beauty/level-c/level-c-search/level-c-search.html'"></div>

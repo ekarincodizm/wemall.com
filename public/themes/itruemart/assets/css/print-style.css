@@ -1,0 +1,8 @@
+@media print {
+	.no_print{display: none;}
+	a:link:after, a:visited:after {content:"";font-size:90%;} 
+}
+
+@page {
+  size: landscape;
+}

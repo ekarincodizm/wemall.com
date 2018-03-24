@@ -1,0 +1,73 @@
+﻿.glossymenu{
+padding: 0;
+width: auto; /*width of menu*/
+border: solid 7px #f7f7f7;
+}
+
+.glossymenu a.menuitem{
+color: #818181;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: 95%;
+padding-left: 10px;
+text-decoration: none;
+height: 44px;
+line-height: 44px;
+border-bottom: solid 2px #f7f7f7;
+margin: 0 auto;
+}
+.glossymenu a.menuitem.text_red { color: #d40000; }
+.glossymenu a.menuitem.text_green { color: #fc9503; }
+.glossymenu a.menuitem.text_orange{ color: #22a128; }
+.glossymenu a.menuitem.last { border-bottom: 0; }
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+/*color: #818181;*/
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+/* background: white; */
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: auto;
+margin: 0 10px;
+}
+
+.glossymenu div.submenu ul li{
+/* border-bottom: 1px solid #efefef; */
+border-top: 1px solid #efefef;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+/*color: #818181;*/
+text-decoration: none;
+padding: 2px 0;
+padding-left: 35px;
+background-color: #f7f7f7;
+height: 44px;
+line-height: 44px;
+}
+
+div.submenu a.menuitem.last
+{
+    border-bottom: 0;
+}
+
+span.accordsuffix
+{
+    position:absolute;
+    right: 0;
+    top: 25%;
+}

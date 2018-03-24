@@ -1,0 +1,85 @@
+.footer {border-top: solid 1px #a1a1a1; background-color: #e8e8e8; width: 1280px !important; margin-left: auto; margin-right: auto;}
+.footer-container {border-bottom: solid 1px #fff;}
+.footer-container:last-child {border: 0;}
+.footer-container > div {width: 1280px; margin: 0 auto; padding: 13px 0;}
+.ft-social > div ,.ft-payment > div, .ft-catgory > div, .ft-nav > div {width: 50%; font: 14px Tahoma; display: inline-block; zoom: 1; *display: inline;vertical-align: top;padding-left: 45px;}
+.footer-container .error-box {
+	padding: 10px;
+	font-size:18px;
+	color: red;
+}
+
+.footer-container .success-box {
+	padding: 10px;
+	font-size:18px;
+	color: green;
+}
+
+
+.ft-social > div:first-child { text-align: left;}
+.ft-social > div:first-child > span {display: inline-block; width: 215px; zoom: 1; *display: inline;}
+.ft-social > div:first-child input[type="text"] {vertical-align: top; height: 30px;  margin-right: 7px;display: inline-block;margin-left: 15px;width: 187px; border: solid 1px #a1a1a1; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; padding: 0 5px;}
+.ft-social > div + div { text-align: right;}
+.ft-social > div + div > span { display: inline-block; float: left; height: 35px; zoom: 1; *display: inline; /* vertical-align: middle; */ line-height: 35px;}
+.ft-social > div + div > ul {list-style: none; padding: 0; margin: 0; display: inline-block; zoom: 1; *display: inline;/* vertical-align: middle; */vertical-align: middle;}
+.ft-social > div + div > ul > li {float: left; margin-left: 10px;height: 35px;vertical-align: middle;}
+.social-link {background-image: url('../images/icn/social.png'); background-repeat: no-repeat; display: block;line-height: 0;font-size: 0;}
+.icn-truelife {background-position: 0 0; width: 31px; height: 31px;margin-top: 3px;}
+.icn-gplus {background-position: 0 -31px; width: 33px; height: 34px;margin-top: 2px;}
+.icn-twitter {background-position: -33px -30px; width: 35px; height: 35px;}
+.icn-facebook {background-position: -69px -30px; width: 34px; height: 35px;}
+.icn-youtube {background-position: -103px -31px; width: 35px; height: 35px;}
+.icn-appstore {background-position: -137px -30px; width: 105px;height: 37px;}
+
+.ft-payment > div > span {display: inline-block; zoom: 1; *display: inline;width: 200px; vertical-align: top;}
+.ft-payment > div > ul {list-style: none; margin: 0; padding: 0; display: inline-block; zoom: 1; *display: inline;width: 380px;}
+.ft-payment > div:first-child > ul > li {float: left;width: 50%; margin-bottom: 10px;}
+.ft-payment > div:last-child > ul {width: 355px; float: right;}
+.ft-payment > div:last-child > ul > li {float: left;height: 34px;width: auto;}
+.ft-payment > div:last-child > ul > li:first-child {margin-bottom: 24px;}
+.ft-payment > div:last-child > ul > li:first-child > span {display: inline-block; width: 230px;float: right;}
+.ft-payment > div:last-child > ul > li:last-child {display: none;}
+.btn-subscribe-news {background: url('../images/btn-subscribe-news.jpg') no-repeat center center; width: 134px; height: 30px; border: 0;vertical-align: top;}
+a.payment-channel {font-size: 11.75px; color: #000; text-decoration: none;display: block;position: relative;margin-left: 30px;}
+a.payment-channel:hover {color: #000;}
+.payment-channel:before {content: ''; /*background: url('../images/icn/payment-channel.png') no-repeat center center;*/ display: inline-block;position: absolute}
+/*.ch-creditcard:before {background-position: 0 0; width: 72px; height: 29px;;left: -88px;top: 3px;}
+.ch-paymentcounter:before {background-position: -80px 0; width: 64px; height: 29px; left: -86px; top: 3px;}
+.ch-atm:before {background-position: -152px 0; width: 56px; height: 29px; left: -84px; top: 3px;}
+.ch-ibanking:before {background-position: -216px 0; width: 40px; height: 29px; left: -60px; top: 3px;}
+.ch-counterservice:before {background-position: -264px 0; width: 40px; height: 29px; left: -60px; top: 3px;}*/
+.ch-creditcard:before {background: url('../images/icn/channel/icon-credit-card.png') no-repeat left center; width: 72px; height: 29px; left: -88px; top: 3px;}
+.ch-paymentcounter:before {background: url('../images/icn/channel/icon-payment-counter.png') no-repeat left center; width: 64px; height: 29px; left: -86px; top: 3px;}
+.ch-atm:before {background: url('../images/icn/channel/icon-bank-atm.png') no-repeat left center; width: 56px; height: 29px; left: -84px; top: 3px;}
+.ch-ibanking:before {background: url('../images/icn/channel/icon-ibanking.png') no-repeat left center; width: 40px; height: 29px; left: -60px; top: 3px;}
+.ch-counterservice:before {background: url('../images/icn/channel/icon-counter-service.png') no-repeat left center; width: 40px; height: 29px; left: -60px; top: 3px;}
+a.policy-link {color: #000; text-decoration: none; position: relative; font-size:0; line-height: 0;display: block;}
+a.policy-link:hover {color: #000;}
+.policy-link:before {background: url('../images/icn/policy.png') no-repeat center center; display: block; content:''; margin-right: 19px;}
+.ft-payment > div:last-child > ul > li:last-child > .policy-link:before {margin-right: 0;}
+.icn-return:before {background-position: 0 0; width: 69px; height: 34px;}
+.icn-moneyback:before {background-position: -69px 0; width: 66px; height: 33px;}
+.icn-free:before {background-position: -135px 0; width: 76px; height: 33px;margin-right: 0;}
+.icn-fast:before {background-position: -211px 0; width: 76px; height: 33px;}
+#ajaxDivReg {width: 123px; height: 58px; display: inline-block; zoom: 1; *display: inline}
+
+.ft-catgory > div:first-child > ul {width: 190px; float: left; zoom: 1; *display: inline; vertical-align: top;}
+.ft-catgory > div:first-child > ul:last-child {width: 214px;}
+.ft-catgory > div:first-child > ul > li:first-child {font: 14px Tahoma bold; margin-bottom: 20px;}
+.ft-catgory > div:first-child > ul a {font: 12px Tahoma; color: #000; text-decoration: none;}
+.ft-catgory > div:first-child > ul a:hover {text-decoration: none;}
+.seo-box {font: 12px Tahoma !important; line-height: 18px !important;}
+
+.footer-nav {background-color: #8b8b8b; overflow: auto; width: 1280px !important; margin-left: auto; margin-right: auto;}
+.footer-nav-container { padding: 10px 0; background-color: #606060; margin-bottom: 22px;}
+.footer-nav-container > div {width: 1280px; margin: 0 auto;}
+.footer-nav-container > div:after {content: ''; display: block; clear: both;}
+.footer-nav-container > div > div {width: 50%; float: left; zoom: 1; *display: inline; padding-left: 45px;vertical-align: middle;}
+.footer-nav-container > div > div:first-child > ul {list-style: none; margin: 0; padding: 0;overflow: auto;}
+.footer-nav-container > div > div:first-child > ul > li {float: left; padding: 0 5px; border-left: solid 1px #fff;}
+.footer-nav-container > div > div:first-child > ul > li:first-child {border-left: 0;}
+.footer-nav-container > div > div:first-child > ul > li > a {font: 12px Tahoma; color: #fff; text-decoration: none;}
+.footer-nav-container > div > div:first-child > ul > li > a:hover {text-decoration: none;}
+.footer-nav-container > div > div:last-child {font: 12px Tahoma; color: #fff;}
+.footer-nav-container > div > div:last-child a {text-decoration: underline; color: #fff;}
+.policy-link.icn-moneyback {margin: 0 50px 0 50px;}

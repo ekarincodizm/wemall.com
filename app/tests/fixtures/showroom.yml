@@ -1,0 +1,363 @@
+api_showroom:
+  1:
+    id: 999999999
+    name: "Showroom 01"
+    sort: 1
+    layout_id: ""
+    layout_pattern: ""
+    url: "showroom-01-url"
+    banner:
+      1:
+        id: 9999999998
+        showroom_id: 999999999
+        img_path: "api-banner-img-path"
+        position_name: "B1"
+        link_url: "api-banner-link-url"
+        created_at: "2015-01-20 11:00:00"
+      2:
+        id: 9999999998
+        showroom_id: 999999999
+        img_path: "api-banner-img-path"
+        position_name: "B2"
+        link_url: "api-banner-link-url"
+        created_at: "2015-01-20 11:00:00"
+      3:
+        id: 9999999998
+        showroom_id: 999999999
+        img_path: "api-banner-img-path"
+        position_name: "B3"
+        link_url: "api-banner-link-url"
+        created_at: "2015-01-20 11:00:00"
+    brand:
+      1:
+        pkey: "api-brand-pkey"
+        name: "api-brand-name"
+        slug: "api-brand-slug"
+        thumb: "api-brand-thumb"
+    products:
+      1:
+        position_name: "P1"
+        type: "banner"
+        banner_web_path: "api-product-banner-banner-web-path"
+        banner_mobile_path: "api-product-banner-banner-mobile-path"
+        banner_link: "api-product-banner-banner-link"
+      2:
+        position_name: "P2"
+        type: "banner"
+        banner_web_path: "api-product-banner-banner-web-path"
+        banner_mobile_path: "api-product-banner-banner-mobile-path"
+        banner_link: "api-product-banner-banner-link"
+      3:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P3"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "500"
+          max: "1000"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "500"
+          max: "1000"
+      4:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P4"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "min-price"
+          max: "max-price"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "min-price"
+          max: "max-price"
+      5:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P5"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "min-price"
+          max: "max-price"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "min-price"
+          max: "max-price"
+      6:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P6"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "min-price"
+          max: "max-price"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "min-price"
+          max: "max-price"
+      7:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P7"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "min-price"
+          max: "max-price"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "min-price"
+          max: "max-price"
+      8:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P8"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "min-price"
+          max: "max-price"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "min-price"
+          max: "max-price"
+      9:
+        id: 9999999997
+        pkey: "api-product-product-pkey"
+        title: "api-product-product-title"
+        slug: "api-product-product-slug"
+        position_name: "P9"
+        type: "product"
+        image_cover:
+          normal: "api-img-normal"
+          thumbnails:
+            small: "api-img-small"
+            medium: "api-imh-medium"
+            square: "api-img-square"
+            large: "api-img-large"
+            zoom: "api-img-zoom"
+        price_range:
+          min: "min-price"
+          max: "max-price"
+        net_price_range:
+          min: "min-price"
+          max: "max-price"
+        percent_discount:
+          min: "min-price"
+          max: "max-price"
+
+showroomrepository_getdata:
+  1:
+    code: 200
+    status: "success"
+    message: "success"
+    data:
+      total_page: 7
+      showroom:
+        1:
+          showroom_id: "33"
+          showroom_title: "SHOWROOM 01"
+          showroom_link: "http://m.itruemart-2014.loc/search?collection=0&q=SHOWROOM+01"
+          layout_id: "1"
+          layout_pattern:
+              B2: 1
+              B3: 2
+              B4: 3
+              P1: 4
+              P2: 5
+              P3: 6
+              P4: 7
+              P5: 8
+          banner:
+            1:
+              id: 104
+              thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/showroomsimages/2015/01/33-B1-31c8654f1fd905d01df1a833461ec9e5.png?q=1ec93945e39b20534968e5e5a561c9b2"
+                  mobile: FALSE
+              position: "B1"
+              box: NULL
+              type: "banner"
+              link: "http://test.dev.itruemart.com/#B1"
+          brand: []
+          product:
+            1:
+              id: "105"
+              thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/showroomsimages/2015/01/33-B2-78e36b21d4256a76261682aba1a8e89f.png?q=43b632f31e630e3f4db168e30f836a1c"
+                  mobile: FALSE
+              position: "B2"
+              box: 1
+              type: "banner"
+              link: "http://test.dev.itruemart.com/#B2"
+            2:
+              id: "106"
+              thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/showroomsimages/2015/01/33-B3-b547a46b2d4e6b9502cbf6294f403ad6.png?q=53dd3f5e2c8a5e8d3b0865fe99a94d01"
+                  mobile: FALSE
+              position: "B3"
+              box: 2
+              type: "banner"
+              link: "http://test.dev.itruemart.com/#B3"
+            3:
+              id: "107"
+              thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/showroomsimages/2015/01/33-B4-ee8c97e9709f9944f65ff840419a662e.png?q=601128a2d19736835a66db999e3e2916"
+                  mobile: FALSE
+              position: "B4"
+              box: 3
+              type: "banner"
+              link: "http://test.dev.itruemart.com/#B4"
+            4:
+              position: "P1"
+              box: 4
+              type: "product"
+              thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+                  mobile: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+              link: "http://m.itruemart-2014.loc/products/samsung-galaxy-s5-16gb-2653078495585.html"
+              pkey: "2653078495585"
+              id: "2653078495585"
+              title: "Samsung Galaxy S5 Power Bank 6200mAh"
+              price:
+                discount: []
+                special: []
+                normal: []
+                net: []
+            5:
+              position: "P2"
+              box: 5
+              type: "product"
+              thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+                  mobile: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+              link: "http://m.itruemart-2014.loc/products/samsung-galaxy-s5-16gb-2653078495585.html"
+              pkey: "2653078495585"
+              id: "2653078495585"
+              title: "Samsung Galaxy S5 Power Bank 6200mAh"
+              price:
+                discount: []
+                discount: []
+                special: []
+                normal: []
+                net: []
+            6:
+              position: "P3"
+              box: 6
+              type: "product"
+              thumbnail:
+                desktop: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+                mobile: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+              link: "http://m.itruemart-2014.loc/products/samsung-galaxy-s5-16gb-2653078495585.html"
+              pkey: "2653078495585"
+              id: "2653078495585"
+              title: "Samsung Galaxy S5 Power Bank 6200mAh"
+              price:
+                discount: []
+                discount: []
+                special: []
+                normal: []
+                net: []
+            7:
+              position: "P4"
+              box: 7
+              type: "product"
+              thumbnail:
+                desktop: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+                mobile: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+              link: "http://m.itruemart-2014.loc/products/samsung-galaxy-s5-16gb-2653078495585.html"
+              pkey: "2653078495585"
+              id: "2653078495585"
+              title: "Samsung Galaxy S5 Power Bank 6200mAh"
+              price:
+                discount: []
+                discount: []
+                special: []
+                normal: []
+                net: []
+              8:
+                position: "P5"
+                box: 8
+                type: "product"
+                thumbnail:
+                  desktop: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+                  mobile: "//cdn.dev.itruemart.com/pcms/14-08-18/d83aaf028a7a18992e25859da7896e48_square.jpg?q=ad08178fcddf1ae66a0a3ebaf56589b4"
+                link: "http://m.itruemart-2014.loc/products/samsung-galaxy-s5-16gb-2653078495585.html"
+                pkey: "2653078495585"
+                id: "2653078495585"
+                title: "Samsung Galaxy S5 Power Bank 6200mAh"
+                price:
+                  discount: []
+                  discount: []
+                  special: []
+                  normal: []
+                  net: []

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'true_lightregular';
+    src: url('../fonts/tlight-webfont.eot');
+    src: url('../fonts/tlight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tlight-webfont.woff2') format('woff2'),
+    url('../fonts/tlight-webfont.woff') format('woff'),
+    url('../fonts/tlight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'true_mediumregular';
+    src: url('../fonts/tmedium-webfont.eot');
+    src: url('../fonts/tmedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tmedium-webfont.woff2') format('woff2'),
+         url('../fonts/tmedium-webfont.woff') format('woff'),
+         url('../fonts/tmedium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'true_boldregular';
+    src: url('../fonts/tbold-webfont.eot');
+    src: url('../fonts/tbold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tbold-webfont.woff2') format('woff2'),
+    url('../fonts/tbold-webfont.woff') format('woff'),
+    url('../fonts/tbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'true_boldregular';
+    src: url('../fonts/tbold-webfont.eot');
+    src: url('../fonts/tbold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/tbold-webfont.woff2') format('woff2'),
+    url('../fonts/tbold-webfont.woff') format('woff'),
+    url('../fonts/tbold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

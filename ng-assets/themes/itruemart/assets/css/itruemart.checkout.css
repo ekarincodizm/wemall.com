@@ -1,0 +1,233 @@
+html, body { font-size: 95%; font-family: Tahoma; }
+.container { width: 990px; padding-left: 0; padding-right: 0; }
+.content-home.checkout { padding: 0;}
+div.container .row, .content-home.checkout .row { margin-right: 0; margin-left: 0; }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { padding-right: 0; padding-left: 0; }
+input[class^="btn"] { background-repeat: no-repeat; background-position: center center; }
+a:hover { text-decoration: none; }
+.form-horizontal .form-group .row { margin-left: 0; margin-right: 0; }
+.container .form-horizontal .form-group,.form-horizontal .form-group { margin-left: 0; margin-right: 0; }
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control { cursor: default; }
+.nav>li>a:hover, .nav>li>a:focus { background-color: transparent; }
+.panel { border: solid 1px #ddd; margin-bottom: 0; }
+.panel-body { padding: 8px 21px; } 
+a, a:hover { color: #000; }
+
+/*Login Bar*/
+.login-bar { background: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/index_01.jpg') no-repeat center center; height: 30px; }
+.link-login, .link-register { font-size: 0.8571em; }
+.true-site-container > .btn-group { margin-top: 5px; }
+.link-true-site { font-size: 0.7em; color: #000; background-color: Transparent; border: 0; }
+.link-true-site:hover { color: #000; background-color: Transparent; border: 0; }
+.true-site-container .dropdown-menu a { padding: 0; clear: none; }
+.true-site-img {max-height: 25px; height: 25px; }
+.true-site-name { font-size: 0.875em; height: 25px; line-height: 25px; color: #666; border-left: solid 1px #ddd; padding-left: 5px; }
+.panel-profile { height: 27px; line-height: 27px; }
+.panel-profile > div { margin-right: 10px; }
+
+/*Header*/
+.form-search { padding-top: 25px; }
+.btn-search { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/icon-search.jpg); width: 40px; height: 27px; }
+.btn-search:active, .btn-search:hover, .btn-search:focus { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/icon-search.jpg); }
+.input-search { height: 27px; }
+.cart-amount { background: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/cart_01.jpg'); width: 165px; height: 38px; position: relative; }
+.btn-payment { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/cart_03.jpg'); width: 136px; height: 29px; }
+.btn-payment:active, .btn-payment:hover, .btn-payment:focus { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/cart_03.jpg); }
+.border-left-img { background: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/logo_05.jpg') no-repeat center right; }
+/*.cart-amount-number { margin-left: 38px; }*/
+.cart-amount-number {
+	position: absolute;
+	left: 32px;
+	width: 20px;
+	text-align: center;
+}
+
+.map-area, .area { outline: none; }
+
+/*Navigate Bar*/
+.navbar-collapse.collapse.navbar-menu { background: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/index_03.jpg') no-repeat center center; height: 24px !important; color: #fff; }
+.navbar-menu .navbar-nav>.active>a, .navbar-menu .navbar-nav>.active>a:hover, .navbar-menu .navbar-nav>.active>a:focus { color: #fff; background-color: Transparent; }
+.navbar-menu .navbar-nav>li>a:hover, .navbar-menu .navbar-nav>li>a:focus { color: #fff; }
+.navbar-menu .navbar-nav>li>a { color: #fff; font-family: 'true_lightregular'; font-size: 1.35em; }
+.navbar-menu .navbar-nav>li:first-child>a { text-indent: -9999px; width: 45px; }
+.navbar-nav>li>a { line-height: 24px; }
+.navbar-nav>li>.dropdown-menu { margin-top: -1px; }
+ul.nav>li>a { padding: 5px 17px; margin-top: 10px;}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #fff; color: #000; }
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus { background-color: Transparent; }
+.well { padding: 10px; margin-bottom: 10px; }
+
+/*Breadcrumbs*/
+.breadcrumbs { height: 40px; line-height: 40px; font-family: 'true_boldregular'; font-size: 1.35em; background: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/index_04.jpg') no-repeat; }
+
+/*Mobile menu container*/
+.navbar-collapse { max-height: none; overflow-y: visible; }
+.search-container-xs { display: none; }
+
+/*Tab Navigation*/
+.tab-navi { background-size: cover; line-height: 29px; background-repeat: no-repeat; background-position: center center; border: solid 1px #24546c; border-left: 0; border-right: 0; }
+.tab-navi-01 { background-image: url('../images/bg_tab_01.jpg'); }
+.tab-navi-02 { background-image: url('../images/bg_tab_02.jpg'); }
+.tab-navi-03 { background-image: url('../images/bg_tab_03.jpg'); }
+.tab-navi-04 { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/bg_tab_04.jpg); }
+.chekout-info { font-size: 0.875em; padding: 10px 0; color: #24546c; }
+.chekout-info-complete { margin: 10px 0 0 0; font-family: 'true_boldregular'; line-height: 32px; margin: 10px 0; padding: 10px 0; height: 98px; background:url(http://www.itruemart.com/assets/itruemart_responsive/global/images/bg_thankyou.jpg) no-repeat center center; background-size: cover;}
+.active { color: #000; }
+.in-active { color: #aeaeae; }
+.main-text-info { font-size: 27px; }
+.sub-text-info { font-size: 21px; }
+
+/*Menu Right*/
+.dl-horizontal dt { width: 100px !important; }
+.dl-horizontal dd { margin-left: 100px !important; }
+.menu-right { background-color: #ebebeb; margin-left: 5px; padding: 8px; }
+.btn-continue, .btn-next, .btn-paid { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/btn_continue.jpg'); width: 179px; height: 33px; line-height: 33px; text-align: left; font-family: 'true_boldregular'; font-size: 17px; padding: 0; padding-left: 35px; border: solid 1px #637100; margin-bottom: 10px; font-weight: normal; }
+.btn-continue:active, .btn-continue.active, .btn-next:active, .btn-next.active, .btn-paid:active, .btn-paid.active, .btn-continue:hover, .btn-continue:focus, .btn-next:hover, .btn-next:focus, .btn-paid:hover, .btn-paid:focus { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/btn_continue-on.jpg'); }
+.btn-payment { padding-left: 50px; }
+.menu-right .well  { background-color: #fff; }
+.tag-price { padding: 5px 0; background-color: #f5122d; color: #fff; }
+.verify-itruemart, .status-container{ padding: 0; font-size: 0.875em; }
+.verify-itruemart img { float: left; margin: 10px 10px 0 0; }
+.verify-itruemart p { overflow: hidden; }
+.verify-itruemart a { text-decoration: underline; }
+.go-to-shopping { padding: 15px 0 0 5px; }
+.go-to-shopping a { text-decoration: underline; }
+.icon-true-card { width: 31px; height: 19px; background: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/icon-trueyou.png) no-repeat center center; display: inline-block; float: left; margin: 10px 10px 0 0; }
+.payment-header { margin: 0; }
+.payment-channel { font-weight: normal; font-size: 0.85em; }
+.payment-channel label { background: url('../images/icon-radio-off.png') no-repeat left center; padding-left: 20px; font-weight: normal; cursor: pointer; color: #3a3a3a; padding-top: 4px; padding-bottom: 4px; }
+.payment-channel input[type="radio"]:checked + label { background-image: url('../images/icon-radio-on.png') }
+.payment-channel input[type="radio"] { opacity: 0; filter:alpha(opacity: 0); float: left; margin: 15px -15px 0 10px; }
+.payment-channel .payment-name { overflow: hidden; display: inline-block; }
+.payment-channel > input { cursor: pointer; }
+.payment-channel input, .payment-channel label { cursor: pointer; }
+ .add-remark { display: none; }
+ .total-price-complete .divider { margin-top: 5px; }
+ .divider-menu { border-top: solid 1px #d1d7db; border-bottom: solid 1px #fff; }
+ .divider-menu-active { border-bottom: solid 1px #d1d7db; padding: 10px 0 0 0; }
+ .divider-menu-last { border-top: solid 1px #fff; }
+ .icon-payment { margin: 5px 5px 0 0; }
+ .icon-payment-no-text { margin: 10px 0 -10px 0; }
+ .total-price .dl-horizontal { margin: 0 0 10px 0 }
+ .total-price-complete .col-sm-7 { font-size: 0.9em; }
+ .voucher p { font-size: 0.85em; }
+ .voucher > .coupon-information { margin-bottom: 10px; font-size: 0.85em; position: relative; }
+ .type-discount { color: #676767;}
+ .voucher > .coupon-information > i {position: absolute; display: block; font-size: 11px; color: #a5a5a5;font-weight: bold;right: 1px;top: 0;width: 15px;height: 15px;line-height: 14px;cursor: pointer;}
+
+/*Title*/
+.payment-title { font-family: 'true_boldregular'; font-size: 17px; margin-top: 15px; }
+
+/*Product List*/
+.product-container { border: solid 1px #e0e7ea; padding: 2px; }
+.product-list { background-color: #ededed; padding: 10px;margin-top: 10px; }
+.product-list-first { margin-top: 0px; }
+.vender-name { font-family: 'true_boldregular'; font-size: 15px; }
+.box-refresh { text-align: right; }
+.vender-product-amount { font-size: 0.85em; }
+.btn-refresh { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-refresh.jpg'); width: 88px; height: 22px; line-height: 22px; border: solid 1px #7b797b; font-family: 'true_mediumregular'; font-size: 12px; padding: 0; padding-left: 15px; font-weight: normal; }
+.btn-refresh:active, .btn-refresh:hover, .btn-refresh:focus { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-refresh.jpg'); }
+.product-detail-head { font-family: 'true_boldregular'; font-size: 15px; }
+.divider { border-top: solid 1px #d1d7db; border-bottom: solid 1px #fff; }
+.product-image { margin-right: 30px; margin-top: 5px; margin-bottom: 5px; float: left; width: 200px; }
+.product-description { overflow: hidden; display: block; }
+.product-description, .product-unitprice, .product-amount, .product-total { padding-top: 15px; }
+.product-del { padding-top: 15px; }
+.product-unitprice, .product-amount, .product-total, .product-del { line-height: 30px; }
+.btn-delete { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-delete.jpg'); width: 18px; height: 18px; padding: 0; }
+.btn-delete:active, .btn-delete:hover, .btn-delete:focus { background-image: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-delete.jpg'); }
+.payment-method { padding: 10px 0; }
+.payment-method .panel-body { padding: 5px 8px;}
+.payment-method .panel-body dl { margin: 0; }
+.select-payment-method { padding: 2px; width: 300px; margin-left: 20px; }
+.coupon-container { padding: 0 15px; margin: 18px 0; }
+.btn-coupon { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-medium.jpg); width: 130px; height: 24px; border: solid 1px #637100; padding: 0; font-family: 'true_boldregular'; font-size: 15px; line-height: 24px; }
+.btn-coupon:active, .btn-coupon.active, .btn-coupon:hover, .btn-coupon:focus { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-medium-on.jpg); }
+.coupon-promotion { margin-top: 10px; }
+.coupon-information { background-color: #f7f7f7; border-top: solid 1px #ededed; padding: 7px 0; }
+.btn-previous { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-previous.jpg); width: 179px; height: 33px; line-height: 33px; padding: 0; border: solid 1px #637100; padding-right: 55px; text-align: right; font-family: 'true_boldregular'; font-size: 15px; color: #fff; }
+.btn-previous:active, .btn-previous.active, .btn-previous:hover, .btn-previous:focus { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-previous-on.jpg); color: #fff; }
+.btn-shopping { background-image: url(/themes/itruemart/assets/images/btn-shopping.jpg); width: 179px; height: 33px; line-height: 33px; padding: 0; border: solid 1px #1e1e1e; text-align: center; font-family: 'true_boldregular'; font-size: 15px; color: #555; }
+.btn-shopping:active, .btn-shopping.active, .btn-shopping:hover, .btn-shopping:focus { background-image: url(/themes/itruemart/assets/images/btn-shopping-on.jpg); color: #555; }
+.step-container { padding: 10px 0; }
+.policy { font-size: 0.875em; }
+.policy li { font-size: 0.875em; }
+.text-follow-us { height: 29px; line-height: 29px; font-size: 0.875em; }
+.delivery-addr { background-color: #fff; color: #4b4b4b;}
+.delivery-container { background-color: #ededed; padding: 10px 25px; padding-bottom: 0; }
+.delivery-container .control-label { text-align: center; }
+.delivery-container .form-group { margin-bottom: 10px; }
+.text-cancel { text-decoration: line-through; color: #948d8d; margin-bottom: -15px; }
+.delivery-text { float: left; }
+.delivery-cost { float: right; }
+.delivery-container { padding-left: 10px; padding-right: 10px; }
+.new-price { display: block; margin-top: -15px; }
+.payment-channel-selected { display: inline-block; line-height: 1.3; font-size: 0.85em; vertical-align: middle; margin: -10px 10 0 0; }
+.payment-channel-selected .icon-payment { margin: 0 5px; }
+.payment-channel-selected  > span { display: inline-block; vertical-align: top;}
+.payment-channel-selected  > span > .icon-payment { float: left; }
+.payment-channel-selected  > span > .payment-name { display: block; overflow: hidden; text-align: left; }
+.delivery-type-box, .discount-price-box, .total-price-box { color: #7d7d7d; margin: 3px 0; height: 20px !important;}
+.delivery-desc { min-height: 82px; }
+.delivery-desc dd { color: #676767; line-height: 1.35; font-size: 0.9em; text-indent: 20px; }
+
+/*Profile*/
+.profile-container { border: solid 1px #e0e7ea; padding: 2px; }
+.profile { background-color: #ededed; padding: 10px; margin-bottom: 10px; }
+.profile:after {content: ''; display: block; clear: both;}
+.profile form { overflow: auto; }
+.profile [class^="col"] { padding-left: 15px; padding-right: 15px; }
+.form-group [class^="col"] { padding-left: 0; padding-right: 0; }
+.form-group label[class^="col"] { padding-right: 15px; }
+.collect-addr { padding-top: 5px; }
+.radio label { background: url('../images/icon-radio-off.png') no-repeat left center; padding: 0 0 0 20px;  }
+.radio input[type="radio"]:checked + label { background-image: url('../images/icon-radio-on.png');}
+.radio input[type="radio"] { opacity: 0; filter: alpha(opacity=0) }
+
+/*Thank you*/
+.order-detail, .addr-detail { background-color: #ebebeb; padding: 5px; margin-right: 10px; min-height: 232px; }
+.order-detail .well, .addr-detail .well { background-color: #898989; color: #fff; font-size: 1.142em; }
+.order-detail .list-unstyled, .addr-detail .list-unstyled { color: #3a3a3a; margin-left: 30px; margin-right: 30px; }
+.status-text { font-size: 1.166em; margin-top: 5px; }
+.status-name { font-size: 1.469em; }
+.payment-remark { font-family: 'true_boldregular'; font-size: 17px; margin: 10px 0; display: block;}
+.payment-remark-desc { padding-left: 20px; padding-right: 30px; background-color: #fff; }
+.btn-print { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-print.jpg); width: 179px; height: 33px; color: #fff; text-align: left; padding: 0; padding-left: 70px; font-family: 'true_boldregular'; font-size: 15px; margin-top: 10px; margin-bottom: 10px;}
+.btn-print:active, .btn-print:hover, .btn-print:focus { background-image: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/btn-print.jpg); }
+.how-to > li > a { padding: 5px 15px; font-family: 'true_boldregular'; font-size: 17px; background-color: #eee; border-color: #eee #eee #ddd; text-decoration: none; }
+.how-to > li > a:hover {text-decoration: none;}
+.how-to-desc ol {list-style: decimal;}
+.how-to-desc ul {list-style: circle;}
+.panel-body-no-top { border-top: 0; border-top-left-radius: 0; border-top-right-radius: 0; margin-bottom: 10px;}
+.logo-bank { float: left }
+.how-to-desc { display: none; }
+.pm-rm-notice { color: #6F6F6F; list-style: initial;}
+.logo-dbd { padding-top: 20px; }
+#payment-counter .col-sm-3, #counter-service .col-sm-3 { min-height: 100px; }
+#payment-counter .col-sm-3 img { width: 100px; display: block; margin: 0 auto; }
+#payment-counter p { margin: 30px 0; }
+#counter-service .barcode { background: url(http://www.itruemart.com/assets/itruemart_responsive/global/images/bg_lineshadow.jpg) no-repeat top center; padding-top: 30px; }
+#counter-service .barcode img { margin: 0 5px; }
+#counter-service .barcode p { margin: 30px 0; }
+
+/*Footer*/
+.border-right-policy { background: url('http://www.itruemart.com/assets/itruemart_responsive/global/images/policybg.jpg') no-repeat center right; height: 91px; }
+.copyright { font-size: 0.875em; font-family: 'true_mediumregular'; text-align: center; height: 20px; line-height: 20px; margin: 20px; 	 }
+.copyright a { color: #0033f2; }
+
+/*Text*/
+.text-red-1 { color: #f5122d; }
+.text-red-2 { color: #b91919; }
+.text-black-1 { color: #000; }
+.mar-top-80 { margin-top: 80px; }
+.text-indent-30 { text-indent: 30px; }
+
+.newyear_msg { font-size: 14px; color: #ffffff; background-color : #ff9933; margin-bottom: 10px; padding: 6px; }
+#newyear_msg{ padding: 10px 5px; color: #ffffff; background-color : #ff9933; margin-bottom: 10px;}
+
+.header-device,.footer-device {display: none;}
+
+.content-home.checkout .clearfix {height: auto; line-height: normal;}
+.re-checkout {font-family: 'true_mediumregular', Tahoma; font-size: 15px;}

@@ -1,0 +1,669 @@
+input:focus {
+    outline: none;
+}
+
+#step-nav img {
+    width: 100px;
+}
+
+select option {
+    text-overflow: ellipsis;
+}
+
+/*Global*/
+.clr-7, .clr-7:hover, .clr-7:active {color: #FF7000;}
+.text-ani-1 {color: #FF7000; -webkit-animation: pulse 0.5s linear 2s normal both;-moz-animation: pulse 0.5s linear 2s normal both; -o-animation: pulse 0.5s linear 2s normal both; animation: pulse 0.5s linear 2s normal both;}
+@-webkit-keyframes pulse {0% { color: #FF7000; } 100% { color: #5a5a5a; }}
+@-moz-keyframes pulse {0% { color: #FF7000; } 100% { color: #5a5a5a; }}
+@-ms-keyframes pulse {0% { color: #FF7000; } 100% { color: #5a5a5a; }}
+@-o-keyframes pulse {0% { color: #FF7000; } 100% { color: #5a5a5a; }}
+@keyframes pulse {0% { color: #FF7000; } 100% { color: #5a5a5a; }}
+
+.form-control:focus {
+    border: 1px solid #95c126;
+}
+
+h2 {
+    color: #95c126;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.payment-channel {
+    margin-bottom: 30px;
+}
+
+.payment-channel label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.payment-channel input[type="radio"] {
+    margin-top: 0.8em;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.ico_payment_channel {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 55px;
+}
+
+.payment-channel .payment-name {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.payment-channel .divider-menu {
+    padding: 5px 15px;
+    margin-top: 1em;
+    background-color: #f5f5f5;
+    border: solid 1px #d1d7db;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.divider-menu {
+    position: relative;
+}
+
+.divider-menu:before {
+    content: '';
+    display: block;
+    border: solid 1em transparent;
+    border-bottom: solid 1em #d1d7db;
+    position: absolute;
+    top: -2em;
+    left: 1.4em;
+}
+
+.divider-menu:after {
+    content: '';
+    display: block;
+    border: solid 1em transparent;
+    border-bottom: solid 1em #f5f5f5;
+    position: absolute;
+    top: -1.955em;
+    left: 1.4em;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.add-remark {
+    color: #8f8f8f;
+}
+
+.add-remark h3 {
+    font-size: 17px;
+    color: #95c126;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.42;
+}
+
+.add-remark p {
+    text-align: justify;
+}
+
+.add-remark .select-group label {
+    width: 50%;
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: 300;
+    color: #606060;
+}
+
+.add-remark .form-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.add-remark .select-group {
+    line-height: 1.4;
+}
+
+.add-remark .select-control {
+    float: left;
+    width: 50%;
+}
+
+.select-group .select-control select {
+    float: right;
+    width: 48%;
+    padding: 6px;
+    text-overflow: ellipsis;
+}
+
+.select-group .select-control select:first-child {
+    float: left;
+}
+
+.warning-message-box {
+    border: 1px solid #e83a27;
+    color: #ff0000;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.warning-message-box img {
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* option Visa/mastercard */
+.cvv-control {
+    position: relative;
+}
+
+.cvv-control input {
+    padding-right: 2.7em !important;
+    width: 50%;
+}
+
+.cvv-control img {
+    height: 1.6em;
+    right: 7px;
+    top: 2px;
+    position: absolute;
+}
+
+.cybersource {
+    margin-top: 20px;
+    float: right;
+    font-style: italic;
+}
+
+.cybersource img {
+    margin-left: 10px;
+    width: 100px;
+}
+
+/*Option Instalment */
+.ddcommon {
+    width: 100% !important;
+}
+
+.dd:focus {
+    border: 1px solid #95c126;
+    outline: 0;
+}
+
+/*div#msdrpdd20_child.ddChild.ddchild_.border.shadow{*/
+div#installment_bank_child.ddChild.ddchild_.border.shadow {
+    height: auto !important;
+}
+
+/*iBanking*/
+.payment-channel .nav-tabs {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.payment-channel .nav-tabs li:nth-child(1) {
+    width: 32%;
+}
+
+.payment-channel .nav-tabs li:nth-child(2) {
+    width: 36%;
+}
+
+.payment-channel .nav-tabs li:nth-child(3) {
+    width: 32%;
+}
+
+.payment-channel .nav-tabs > li > a {
+    padding: 10px 2px;
+    margin-right: 0;
+}
+
+.payment-channel .nav-tabs img {
+    margin-bottom: 5px;
+}
+
+.payment-channel .tab-pane.active {
+    padding-top: 15px;
+    padding-right: 5px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+/*Addrees section*/
+.address-shipping-section {
+    border-top: 1px dashed #606060;
+    border-bottom: 1px dashed #606060;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.address-shipping-section p {
+    color: #959595;
+}
+
+.address-tax-field {
+    margin-top: 10px;
+    padding-top: 15px;
+    background-color: #f5f5f5;
+    border: solid 1px #d1d7db;
+}
+
+.address-tax-field > .col-xs-12, .address-field > .col-xs-12 {
+    margin-bottom: 20px;
+}
+
+.address-tax-field label, .address-field label, .login-section label {
+    font-weight: 300;
+    color: #444;
+}
+
+/* Summary Section*/
+.summary-section {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #606060;
+    font-size: 18px;
+}
+
+.summary-section h3 {
+    font-size: 16px;
+}
+
+.item-list {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.item-list img {
+    width: 100%;
+}
+
+.item-list h4 {
+    color: #555;
+    font-size: 16px;
+}
+
+.item-list .price {
+    color: #e83a27;
+}
+
+.item-list .quantity {
+    color: #959595;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.summary-text {
+    font-size: 18px;
+    padding: 20px 0;
+    border-bottom: 1px dashed #606060;
+    margin-bottom: 30px;
+}
+
+.summary-text .col-xs-12.tax-included {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.summary-text .coupon-box {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.summary-text .coupon-box input {
+    color: #cdcdcd;
+    background: transparent;
+    padding: 15px 0 12px 1em;
+    color: #333333;
+    outline: none;
+}
+
+.summary-text .coupon-box button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 29px;
+    width: 100px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    border-width: 0;
+    background-color: #95c126;
+    box-shadow: 0px 5px #79ab18;
+    padding-top: 5px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.summary-text .coupon-box.disable button {
+    background-color: #e2e2e2;
+    box-shadow: 0px 5px #e2e2e2;
+}
+
+.button-buy {
+    margin-bottom: 10px;
+}
+
+.button-buy .col-xs-12 .button {
+    text-align: center;
+    background-color: #95c126;
+    padding: 10px 0 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button-buy.disable .col-xs-12 .button {
+    background-color: #e2e2e2;
+}
+
+.button-processing-green {
+    position: relative;
+    left: 50%;
+    margin-left: -70px;
+}
+
+.button-buy a {
+    color: #ffffff;
+    font-size: 21px;
+}
+
+/*popup error message*/
+body.modal-open > .container-fluid {
+    overflow: hidden;
+    height: 100%;
+}
+
+.modal-header .close {
+    opacity: 1;
+    background: #adadad;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.modal-body .header {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #626262;
+}
+
+.modal-body .header.warning {
+    color: #e83a27;
+}
+
+.modal-body .header img {
+    margin-top: -4px;
+}
+
+.modal-body .item-list {
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+}
+
+.item-list.error {
+    border: 1px solid #e83a27;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.button-delete {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.button-delete .col-xs-12 {
+    text-align: center;
+    background-color: #da564e;
+    padding: 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button-delete a {
+    color: #ffffff;
+    font-size: 21px;
+}
+
+#confirm-message .modal-title {
+    color: #95c126;
+}
+
+#confirm-message .modal-body p {
+    text-align: center;
+    color: #959595;
+    font-size: 18px;
+}
+
+.button-confirm {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.button-confirm .col-xs-12 {
+    text-align: center;
+    background-color: #95c126;
+    padding: 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button-confirm a {
+    color: #ffffff;
+    font-size: 21px;
+}
+
+/*Address Step2*/
+.address-list, .add-new-address {
+    background: #f5f5f5;
+    border: solid 1px #d1d7db;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #959595;
+    position: relative;
+}
+
+.address-list.selected {
+    color: #444;
+    border: solid 1px #95c126;
+    background: #eff6df;
+}
+
+.address-list label {
+    display: inline-block;
+    margin-left: 30px;
+    width: 85%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.address-list input[type="radio"] {
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.address-list .address-name {
+    display: inline-block;
+    /*  text-overflow: ellipsis;
+        white-space: nowrap; */
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.address-list h3 {
+    font-size: 20px;
+}
+
+.address-field {
+    font-size: 18px;
+}
+
+.ad-dress {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ad-dress a, .address-option .add-new-address a {
+    color: #959595;
+}
+
+.address-delete {
+    padding-left: 25px;
+    background-image: url(../img/delete.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.address-edit {
+    padding-left: 25px;
+    background-image: url(../img/edit.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.add-new-address {
+    margin-bottom: 30px;
+}
+
+.add-new-address .button {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.delete-confirm-box .modal-dialog {
+    position: absolute;
+    top: 20%;
+}
+
+.modal-body p {
+    font-size: 18px;
+}
+
+/*Login Step1*/
+.login-section {
+    font-size: 18px;
+}
+
+.login-section h2 {
+    margin-bottom: 15px;
+}
+
+.login-section > .col-xs-12 {
+    margin-bottom: 5px;
+}
+
+.register-section {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-step-1-02 {
+    margin-top: 15px;
+}
+
+.header-step-1-02 a {
+    text-decoration: underline;
+    color: #808080;
+}
+
+#check-email-register {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.term-condition .col-xs-12 {
+    overflow: auto;
+    height: 478px;
+    margin-bottom: 15px;
+}
+
+#conditions_desc {
+    border: 1px solid #808080;
+    color: #808080;
+    font-size: 14px;
+    background: #e2e2e2;
+    padding: 10px;
+}
+
+.accept-term {
+    font-size: 16px;
+}
+
+/*Fix Modal Dialog center*/
+@media (max-width: 767px) {
+    .delete-confirm-box .modal-dialog {
+        width: 94%;
+    }
+}
+
+/*iPhone 5 Landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    .item-list {
+        font-size: 27px;
+    }
+
+    .item-list h4 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .item-list .quantity {
+
+     }
+
+    .modal-header .close {
+        padding: 0 6px 4px;
+    }
+
+    .payment-channel .nav-tabs > li > a {
+        /*Fix bug tab on the internet Banking option*/
+        margin-right: -1px;
+    }
+
+    .summary-text .coupon-box button {
+        right: 5px;
+    }
+
+    .item-list h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .address-field > .col-xs-12 {
+        margin-bottom: 10px;
+    }
+
+    .term-condition .col-xs-12 {
+        height: 350px;
+    }
+}
+
+.coupon-box #coupon_code_error {
+    background-color: #f2dede;
+    text-align: center;
+    color: #a94442;
+    margin: 5px 0;
+    padding: 2px;
+    display: none;
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="/">
+    <title>iTruemart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="app/07b104ef.vendor.css"/>
+    <link rel="stylesheet" href="app/a69649a8.app.css"/>
+    <script src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit&hl=th" async defer></script>
+  </head>
+  <body ng-app="itmApp" style="background-color: white;">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">เลือกดาวน์โหลดเบราว์เซอร์เวอร์ชั่นล่าสุด. กรุณา คลิ๊ก <a href="http://browsehappy.com/"><strong>อัพเกรดเบราว์เซอร์</strong></a> เพื่อการทำงานที่เต็มประสิทธิภาพจากทาง iTruemart.com</p>
+      <script type="text/javascript">
+      alert('ขออภัยค่ะ หน้านี้ไม่รองรับเบราว์เซอร์ที่ใช้อยู่ในขณะนี้ กรุณาใช้เบราว์เซอร์เวอร์ชั่นล่าสุดของ Chrome Safari Firefox หรือ Internet Explorer เวอร์ชั่น 10 ขึ้นไป ขอบคุณค่ะ');</script>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div ui-view=""></div>
+    <!-- Scroll to top icon -->
+    <a itm-scroll-top ng-click="scrollToTop()" ng-show="isShowScrollTop" class="productScrolltop" style="bottom: auto; top: 50%; margin-top: -32px; display: inline; right: 0; position: fixed; cursor: pointer; z-index:2;">
+      <img ng-src="//www.itruemart.com/themes/itruemart/assets/images/icn/top.png?ckey=856fcba">
+    </a>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <script src="bower_components/angular/angular-file-upload-shim.js"></script>
+    <script src="bower_components/angular/angular-file-upload.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="app/337b4711.vendor.js"></script>
+    <!-- <script type="text/javascript" src="//support.itruemart.com/application/js/uiFloatingAds_.js?"></script> -->
+
+        <script src="app/95c6e0ec.app.js"></script>
+  </body>
+</html>

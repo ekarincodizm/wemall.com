@@ -1,0 +1,5 @@
+.p-label {background-repeat: no-repeat; background-position: center center; width: 65px; height: 25px; display: block;  text-align: right; padding-top: 3px; padding-right: 4px;font: 13px Tahoma;}
+.p-label > i {font-size: 10px;}
+.p-label.home {margin-top: 30px;}
+.flash-sale {background-image: url('../images/label/flash-sale.png'); color: #be1510;font-weight: bold;}
+.on-sale {background-image: url('../images/label/on-sale.png'); color: #dc8a00;font-weight: bold;}

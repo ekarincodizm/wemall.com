@@ -1,0 +1,824 @@
+getcheckoutv2:
+    0:
+        status: "success"
+        code: 200
+        message: "200 OK"
+        data:
+            order_ref: NULL
+            app_id: 1
+            ref1: NULL
+            ref2: NULL
+            ref3: NULL
+            customer_ref_id: "f6d0cb12ce15ca16f5f2cbf62cf9d221"
+            customer_address_id: NULL
+            customer_name: NULL
+            customer_address: NULL
+            customer_district_id: NULL
+            customer_city_id: NULL
+            customer_province_id: NULL
+            customer_district: NULL
+            customer_city: NULL
+            customer_province: NULL
+            customer_postcode: NULL
+            customer_tel: NULL
+            customer_email: "inthra.onsap@gmail.com"
+            bill_name: NULL
+            bill_address: NULL
+            bill_province_id: NULL
+            bill_city_id: NULL
+            bill_dristrict_id: NULL
+            bill_district_id: NULL
+            bill_postcode: NULL
+            save_ccw: "N"
+            is_new_ccw: "N"
+            thai_id: NULL
+            booking_id: NULL
+            payment_channel: NULL
+            payment_method: NULL
+            payment_method_code: NULL
+            type: "normal"
+            installment: NULL
+            transaction_time: NULL
+            total_price: 349
+            total_discount: 0
+            total_shipping_fee: 0
+            discount: 0
+            discount_text: NULL
+            sub_total: 349
+            order_status: "draft"
+            payment_status: "waiting"
+            customer_status: NULL
+            items_count: 1
+            variants_count: 1
+            promotions: array()
+            discount_campaigns: []
+            checkPriceChange:
+            is_change: []
+            not_change:
+                0: "33209"
+            summary:
+                full_quota: []
+                price_change: []
+            cash_voucher: 0
+            confirm_checkout: 0
+            bill_same_shipping: "Y"
+            bank_id: NULL
+            bank_name: NULL
+            isTrueyouable: false
+            available_payment_methods: []
+            all_payment_methods:
+                155413837979192:
+                    name: "บัตรเครดิต"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                156113837979325:
+                    name: "Truemoney Ewallet"
+                    inventory_ids: []
+                    error: "0001"
+                156813837979402:
+                    name: "ผ่อนชำระ"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                156513837979495:
+                    name: "bank ATM"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                158913837979603:
+                    name: "IBANK"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                152313837979681:
+                    name: "BANKTRANS"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                155613837979771:
+                    name: "Cash on delivery"
+                    inventory_ids: []
+                    error: "0002"
+                153213837979857:
+                    name: "Counter service "
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                153213837976911:
+                    name: "0 PHP"
+                    inventory_ids: []
+                    error: "0001"
+            order_ccw:
+            save_ccw: "N"
+            is_new_ccw: "N"
+            card_token: NULL
+            card_label: NULL
+            billing:
+            name: NULL
+            province_id: NULL
+            province_name: NULL
+            city_id: NULL
+            city_name: NULL
+            district_id: NULL
+            district_name: NULL
+            address: NULL
+            postcode: NULL
+            tax_id: NULL
+            shipments:
+                0:
+                    order_id: NULL
+                    shipment_ref: 1432709355
+                    shipping_method: NULL
+                    shipping_fee: 0
+                    shipment_status: NULL
+                    total_price: 698
+                    total_discount: 0
+                    discount: 0
+                    sub_total: 698
+                    stock_type: "3"
+                    vendor_id: 1801
+                    vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                    shop_id: 322963
+                    shop_name: "iTrueMart Stock"
+                    shipment_weight: 0
+                    shipment_highest_dimension_max: 0
+                    shipment_highest_dimension_mid: 0
+                    shipment_highest_dimension_min: 0
+                    items:
+                        0:
+                            shipment_id: NULL
+                            order_id: NULL
+                            product_pkey: 2366844222527
+                            inventory_id: "33209"
+                            material_code: 3000021448
+                            thumbnail: "//cdn-a.itruemart.com/pcms/uploads/14-05-16/bcd5f27952fa829a713a3a15ee51322a.jpg"
+                            name: "คีย์บอร์ด Kakudos รุ่น Chocolate Mini (ดำ, ดำ)"
+                            collections: []
+                            brand: NULL
+                            quantity: 1
+                            price: 349.00
+                            margin: 0
+                            discount: 0
+                            total_price: 349
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: 499.00
+                            stock_type: 3
+                            vendor_id: 1801
+                            vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                            shop_id: 322963
+                            shop_name: "iTrueMart Stock"
+                            options: NULL
+                            item_status: NULL
+                            payment_methods: []
+                            bank_installments: []
+                        1:
+                            shipment_id: NULL
+                            order_id: NULL
+                            product_pkey: 2366844222527
+                            inventory_id: "33209"
+                            material_code: 3000021448
+                            thumbnail: "//cdn-a.itruemart.com/pcms/uploads/14-05-16/bcd5f27952fa829a713a3a15ee51322a.jpg"
+                            name: "COPY คีย์บอร์ด Kakudos รุ่น Chocolate Mini (ดำ, ดำ)"
+                            collections: []
+                            brand: NULL
+                            quantity: 1
+                            price: 349.00
+                            margin: 0
+                            discount: 0
+                            total_price: 349
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: 499.00
+                            stock_type: 3
+                            vendor_id: 1801
+                            vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                            shop_id: 322963
+                            shop_name: "iTrueMart Stock"
+                            options: NULL
+                            item_status: NULL
+                            payment_methods: []
+                            bank_installments: []
+                    items_count: 2
+                    variants_count: 2
+                    available_shipping_methods: []
+            bank_show:
+                0:
+                    id: 1
+                    name: "กสิกรไทย"
+                    comp_code: NULL
+                    abbreviation: "kbank"
+                    card_type: "creditcard"
+                    tmn_name: "kbank"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                1:
+                    id: 2
+                    name: "กรุงศรีอยุธยา"
+                    comp_code: NULL
+                    abbreviation: "bay"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                2:
+                    id: 3
+                    name: "เซ็นทรัลการ์ด"
+                    comp_code: NULL
+                    abbreviation: "centralcard"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                3:
+                    id: 4
+                    name: "เฟิร์สช้อยส์"
+                    comp_code: NULL
+                    abbreviation: "firstchoice"
+                    card_type: "loancard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                4:
+                    id: 5
+                    name: "เทสโก้โลตัส"
+                    comp_code: NULL
+                    abbreviation: "tescolotus"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                5:
+                    id: 6
+                    name: "เคทีซี"
+                    comp_code: NULL
+                    abbreviation: "ktc"
+                    card_type: "creditcard"
+                    tmn_name: "ktc"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+    1:
+        status: "success"
+        code: 200
+        message: "200 OK"
+        data:
+            order_ref: NULL
+            app_id: 1
+            ref1: NULL
+            ref2: NULL
+            ref3: NULL
+            customer_ref_id: "f6d0cb12ce15ca16f5f2cbf62cf9d221"
+            customer_address_id: NULL
+            customer_name: "test name"
+            customer_address: NULL
+            customer_district_id: 58
+            customer_city_id: 30
+            customer_province_id: 1
+            customer_district: "เขต58"
+            customer_city: "เมือง30"
+            customer_province: "จังหวัดหนึ่ง"
+            customer_postcode: 11111
+            customer_tel: NULL
+            customer_email: "inthra.onsap@gmail.com"
+            bill_name: NULL
+            bill_address: NULL
+            bill_province_id: NULL
+            bill_city_id: NULL
+            bill_dristrict_id: NULL
+            bill_district_id: NULL
+            bill_postcode: NULL
+            save_ccw: "N"
+            is_new_ccw: "N"
+            thai_id: NULL
+            booking_id: NULL
+            payment_channel: NULL
+            payment_method: NULL
+            payment_method_code: NULL
+            type: "normal"
+            installment: NULL
+            transaction_time: NULL
+            total_price: 349
+            total_discount: 0
+            total_shipping_fee: 0
+            discount: 0
+            discount_text: NULL
+            sub_total: 349
+            order_status: "draft"
+            payment_status: "waiting"
+            customer_status: NULL
+            items_count: 1
+            variants_count: 1
+            promotions: array()
+            discount_campaigns: []
+            checkPriceChange:
+            is_change: []
+            not_change:
+                0: "33209"
+            summary:
+                full_quota: []
+                price_change: []
+            cash_voucher: 0
+            confirm_checkout: 0
+            bill_same_shipping: "Y"
+            bank_id: NULL
+            bank_name: NULL
+            isTrueyouable: false
+            available_payment_methods: []
+            all_payment_methods:
+                155413837979192:
+                    name: "บัตรเครดิต"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                156113837979325:
+                    name: "Truemoney Ewallet"
+                    inventory_ids: []
+                    error: "0001"
+                156813837979402:
+                    name: "ผ่อนชำระ"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                156513837979495:
+                    name: "bank ATM"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                158913837979603:
+                    name: "IBANK"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                152313837979681:
+                    name: "BANKTRANS"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                155613837979771:
+                    name: "Cash on delivery"
+                    inventory_ids: []
+                    error: "0002"
+                153213837979857:
+                    name: "Counter service "
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                153213837976911:
+                    name: "0 PHP"
+                    inventory_ids: []
+                    error: "0001"
+            order_ccw:
+            save_ccw: "N"
+            is_new_ccw: "N"
+            card_token: NULL
+            card_label: NULL
+            billing:
+            name: NULL
+            province_id: NULL
+            province_name: NULL
+            city_id: NULL
+            city_name: NULL
+            district_id: NULL
+            district_name: NULL
+            address: NULL
+            postcode: NULL
+            tax_id: NULL
+            shipments:
+                0:
+                    order_id: NULL
+                    shipment_ref: 1432709355
+                    shipping_method: NULL
+                    shipping_fee: 0
+                    shipment_status: NULL
+                    total_price: 698
+                    total_discount: 0
+                    discount: 0
+                    sub_total: 698
+                    stock_type: "3"
+                    vendor_id: 1801
+                    vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                    shop_id: 322963
+                    shop_name: "iTrueMart Stock"
+                    shipment_weight: 0
+                    shipment_highest_dimension_max: 0
+                    shipment_highest_dimension_mid: 0
+                    shipment_highest_dimension_min: 0
+                    items:
+                        0:
+                            shipment_id: NULL
+                            order_id: NULL
+                            product_pkey: 2366844222527
+                            inventory_id: "33209"
+                            material_code: 3000021448
+                            thumbnail: "//cdn-a.itruemart.com/pcms/uploads/14-05-16/bcd5f27952fa829a713a3a15ee51322a.jpg"
+                            name: "คีย์บอร์ด Kakudos รุ่น Chocolate Mini (ดำ, ดำ)"
+                            collections: []
+                            brand: NULL
+                            quantity: 1
+                            price: 349.00
+                            margin: 0
+                            discount: 0
+                            total_price: 349
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: 499.00
+                            stock_type: 3
+                            vendor_id: 1801
+                            vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                            shop_id: 322963
+                            shop_name: "iTrueMart Stock"
+                            options: NULL
+                            item_status: NULL
+                            payment_methods: []
+                            bank_installments: []
+                        1:
+                            shipment_id: NULL
+                            order_id: NULL
+                            product_pkey: 23668442225272
+                            inventory_id: "33209"
+                            material_code: 3000021448
+                            thumbnail: "//cdn-a.itruemart.com/pcms/uploads/14-05-16/bcd5f27952fa829a713a3a15ee51322a.jpg"
+                            name: "COPY คีย์บอร์ด Kakudos รุ่น Chocolate Mini (ดำ, ดำ)"
+                            collections: []
+                            brand: NULL
+                            quantity: 1
+                            price: 349.00
+                            margin: 0
+                            discount: 0
+                            total_price: 349
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: 499.00
+                            stock_type: 3
+                            vendor_id: 1801
+                            vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                            shop_id: 322963
+                            shop_name: "iTrueMart Stock"
+                            options: NULL
+                            item_status: NULL
+                            payment_methods: []
+                            bank_installments: []
+                    items_count: 2
+                    variants_count: 2
+                    available_shipping_methods:
+                        0:
+                            14603191492758:
+                                name: "จัดส่งฟรี"
+                                fee: 0
+                                description: "0 บาท"
+                        1:
+                            14603191492750:
+                                name: "จัดส่งฟรี mock"
+                                fee: 0
+                                description: "0 บาท mock"
+            bank_show:
+                0:
+                    id: 1
+                    name: "กสิกรไทย"
+                    comp_code: NULL
+                    abbreviation: "kbank"
+                    card_type: "creditcard"
+                    tmn_name: "kbank"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                1:
+                    id: 2
+                    name: "กรุงศรีอยุธยา"
+                    comp_code: NULL
+                    abbreviation: "bay"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                2:
+                    id: 3
+                    name: "เซ็นทรัลการ์ด"
+                    comp_code: NULL
+                    abbreviation: "centralcard"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                3:
+                    id: 4
+                    name: "เฟิร์สช้อยส์"
+                    comp_code: NULL
+                    abbreviation: "firstchoice"
+                    card_type: "loancard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                4:
+                    id: 5
+                    name: "เทสโก้โลตัส"
+                    comp_code: NULL
+                    abbreviation: "tescolotus"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                5:
+                    id: 6
+                    name: "เคทีซี"
+                    comp_code: NULL
+                    abbreviation: "ktc"
+                    card_type: "creditcard"
+                    tmn_name: "ktc"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+    2:
+        status: "success"
+        code: 200
+        message: "200 OK"
+        data:
+            order_ref: NULL
+            app_id: 1
+            ref1: NULL
+            ref2: NULL
+            ref3: NULL
+            customer_ref_id: "f6d0cb12ce15ca16f5f2cbf62cf9d221"
+            customer_address_id: NULL
+            customer_name: NULL
+            customer_address: NULL
+            customer_district_id: NULL
+            customer_city_id: NULL
+            customer_province_id: NULL
+            customer_district: NULL
+            customer_city: NULL
+            customer_province: NULL
+            customer_postcode: NULL
+            customer_tel: NULL
+            customer_email: ""
+            bill_name: NULL
+            bill_address: NULL
+            bill_province_id: NULL
+            bill_city_id: NULL
+            bill_dristrict_id: NULL
+            bill_district_id: NULL
+            bill_postcode: NULL
+            save_ccw: "N"
+            is_new_ccw: "N"
+            thai_id: NULL
+            booking_id: NULL
+            payment_channel: NULL
+            payment_method: NULL
+            payment_method_code: NULL
+            type: "normal"
+            installment: NULL
+            transaction_time: NULL
+            total_price: 349
+            total_discount: 0
+            total_shipping_fee: 0
+            discount: 0
+            discount_text: NULL
+            sub_total: 349
+            order_status: "draft"
+            payment_status: "waiting"
+            customer_status: NULL
+            items_count: 1
+            variants_count: 1
+            promotions: array()
+            discount_campaigns: []
+            checkPriceChange:
+            is_change: []
+            not_change:
+                0: "33209"
+            summary:
+                full_quota: []
+                price_change: []
+            cash_voucher: 0
+            confirm_checkout: 0
+            bill_same_shipping: "Y"
+            bank_id: NULL
+            bank_name: NULL
+            isTrueyouable: false
+            available_payment_methods: []
+            all_payment_methods:
+                155413837979192:
+                    name: "บัตรเครดิต"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                156113837979325:
+                    name: "Truemoney Ewallet"
+                    inventory_ids: []
+                    error: "0001"
+                156813837979402:
+                    name: "ผ่อนชำระ"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                156513837979495:
+                    name: "bank ATM"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                158913837979603:
+                    name: "IBANK"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                152313837979681:
+                    name: "BANKTRANS"
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                155613837979771:
+                    name: "Cash on delivery"
+                    inventory_ids: []
+                    error: "0002"
+                153213837979857:
+                    name: "Counter service "
+                    inventory_ids:
+                        0: "33209"
+                    error: NULL
+                153213837976911:
+                    name: "0 PHP"
+                    inventory_ids: []
+                    error: "0001"
+            order_ccw:
+            save_ccw: "N"
+            is_new_ccw: "N"
+            card_token: NULL
+            card_label: NULL
+            billing:
+            name: NULL
+            province_id: NULL
+            province_name: NULL
+            city_id: NULL
+            city_name: NULL
+            district_id: NULL
+            district_name: NULL
+            address: NULL
+            postcode: NULL
+            tax_id: NULL
+            shipments:
+                0:
+                    order_id: NULL
+                    shipment_ref: 1432709355
+                    shipping_method: NULL
+                    shipping_fee: 0
+                    shipment_status: NULL
+                    total_price: 698
+                    total_discount: 0
+                    discount: 0
+                    sub_total: 698
+                    stock_type: "3"
+                    vendor_id: 1801
+                    vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                    shop_id: 322963
+                    shop_name: "iTrueMart Stock"
+                    shipment_weight: 0
+                    shipment_highest_dimension_max: 0
+                    shipment_highest_dimension_mid: 0
+                    shipment_highest_dimension_min: 0
+                    items:
+                        0:
+                            shipment_id: NULL
+                            order_id: NULL
+                            product_pkey: 2366844222527
+                            inventory_id: "33209"
+                            material_code: 3000021448
+                            thumbnail: "//cdn-a.itruemart.com/pcms/uploads/14-05-16/bcd5f27952fa829a713a3a15ee51322a.jpg"
+                            name: "คีย์บอร์ด Kakudos รุ่น Chocolate Mini (ดำ, ดำ)"
+                            collections: []
+                            brand: NULL
+                            quantity: 1
+                            price: 349.00
+                            margin: 0
+                            discount: 0
+                            total_price: 349
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: 499.00
+                            stock_type: 3
+                            vendor_id: 1801
+                            vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                            shop_id: 322963
+                            shop_name: "iTrueMart Stock"
+                            options: NULL
+                            item_status: NULL
+                            payment_methods: []
+                            bank_installments: []
+                        1:
+                            shipment_id: NULL
+                            order_id: NULL
+                            product_pkey: 2366844222527
+                            inventory_id: "33209"
+                            material_code: 3000021448
+                            thumbnail: "//cdn-a.itruemart.com/pcms/uploads/14-05-16/bcd5f27952fa829a713a3a15ee51322a.jpg"
+                            name: "COPY คีย์บอร์ด Kakudos รุ่น Chocolate Mini (ดำ, ดำ)"
+                            collections: []
+                            brand: NULL
+                            quantity: 1
+                            price: 349.00
+                            margin: 0
+                            discount: 0
+                            total_price: 349
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: 499.00
+                            stock_type: 3
+                            vendor_id: 1801
+                            vendor_name: "PACIFIC GLOBAL TRADING CO.,LTD."
+                            shop_id: 322963
+                            shop_name: "iTrueMart Stock"
+                            options: NULL
+                            item_status: NULL
+                            payment_methods: []
+                            bank_installments: []
+                    items_count: 2
+                    variants_count: 2
+                    available_shipping_methods: []
+            bank_show:
+                0:
+                    id: 1
+                    name: "กสิกรไทย"
+                    comp_code: NULL
+                    abbreviation: "kbank"
+                    card_type: "creditcard"
+                    tmn_name: "kbank"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                1:
+                    id: 2
+                    name: "กรุงศรีอยุธยา"
+                    comp_code: NULL
+                    abbreviation: "bay"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                2:
+                    id: 3
+                    name: "เซ็นทรัลการ์ด"
+                    comp_code: NULL
+                    abbreviation: "centralcard"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                3:
+                    id: 4
+                    name: "เฟิร์สช้อยส์"
+                    comp_code: NULL
+                    abbreviation: "firstchoice"
+                    card_type: "loancard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                4:
+                    id: 5
+                    name: "เทสโก้โลตัส"
+                    comp_code: NULL
+                    abbreviation: "tescolotus"
+                    card_type: "creditcard"
+                    tmn_name: "bay"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9
+                5:
+                    id: 6
+                    name: "เคทีซี"
+                    comp_code: NULL
+                    abbreviation: "ktc"
+                    card_type: "creditcard"
+                    tmn_name: "ktc"
+                    periods:
+                        3: 116.33
+                        6: 58.17
+                        10: 34.9

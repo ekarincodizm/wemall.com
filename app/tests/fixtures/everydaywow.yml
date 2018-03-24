@@ -1,0 +1,49 @@
+everydaywow:
+  0:
+    code: 200
+    message: "success"
+    ref_id: "f4302377e2c7f120b5467f7e3a1d44fc"
+    data:
+      category_data:
+        436:
+          id: "436"
+          name: "ความงาม"
+          slug: "beauty"
+      product_data:
+        -
+          product_id: "3708"
+          product_pkey: "2292546446610"
+          product_title: "Samsung Galaxy S4 เครื่องเปล่า ศูนย์ซัมซุงไทยแลนด์"
+          product_slug: null
+          product_line: "Samsung Galaxy S4 (Qool)"
+          attachment_id: "f96cbce27bf64056e368a49d96cbb16e"
+          collection_name: "Everyday WOW"
+          collection_slug: "everyday-wow"
+          collection_parent_id: "0"
+          collection_id: "385"
+          is_category: "1"
+          app_id: "1"
+          product_publish_status: "publish"
+          product_active_status: "1"
+          product_published_at: "2015-06-04 17:37:29"
+          product_deleted_at: null
+          discount_campaign_id: "1127"
+          created_at: "2015-06-16 13:37:52"
+          normal_price: "14900.00"
+          special_price: "8690.00"
+          percent_discount: 41
+          discount_type: "line"
+          discount_icon: "tmvh"
+          discount_title: ""
+          started_at: "2015-06-17 11:55:00"
+          ended_at: "2015-06-24 11:00:00"
+          default_image:
+            s: "//cdn.itruemart.com/pcms/uploads/14-10-9/f96cbce27bf64056e368a49d96cbb16e_s.jpg"
+            l: "//cdn.itruemart.com/pcms/uploads/14-10-9/f96cbce27bf64056e368a49d96cbb16e_l.jpg"
+            m: "//cdn.itruemart.com/pcms/uploads/14-10-9/f96cbce27bf64056e368a49d96cbb16e_m.jpg"
+            xl: "//cdn.itruemart.com/pcms/uploads/14-10-9/f96cbce27bf64056e368a49d96cbb16e_xl.jpg"
+            square: "//cdn.itruemart.com/pcms/uploads/14-10-9/f96cbce27bf64056e368a49d96cbb16e_square.jpg"
+      page_data:
+        total_page: 1
+        total_item: 1
+        current_page: 1

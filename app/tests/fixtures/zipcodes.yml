@@ -1,0 +1,9 @@
+zipcodes:
+    0:
+        status: "success"
+        code: 200
+        message: "200 OK"
+        data:
+            0:
+                id: 58
+                zipcode: "10400"

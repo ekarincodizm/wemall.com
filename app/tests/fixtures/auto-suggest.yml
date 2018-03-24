@@ -1,0 +1,65 @@
+suggest:
+  0:
+    code: 200
+    message: 'success'
+    ref_id: 'e94ed4bfbeb41dae9ea31ba6a24bce32'
+    status: 'ok'
+    data:
+      product_name_th:
+        iphone: 284
+        ipad: 67
+        ip: 14
+        iplug: 6
+      product_name_en:
+        iphone: 168
+        ipad: 65
+        iphone6: 53
+        iphone5: 42
+        ip: 8
+        ip5: 4
+        ip300: 2
+        ipad2,3,5: 2
+        iphone4: 2
+      all:
+        iphone: 284
+        ipad: 67
+        ip: 14
+        iplug: 6
+        iphone6: 53
+        iphone5: 42
+        ip5: 4
+        ip300: 2
+        ipad2,3,5: 2
+        iphone4: 2
+  1:
+    code: 200
+    message: 'success'
+    ref_id: 'e94ed4bfbeb41dae9ea31ba6a24bce32'
+    status: 'ok'
+    data:
+      product_name_th:
+        iphone: 284
+        ipad: 67
+        ip: 14
+        iplug: 6
+      product_name_en:
+        iphone: 168
+        ipad: 65
+        iphone6: 53
+        iphone5: 42
+        ip: 8
+        ip5: 4
+        ip300: 2
+        ipad2,3,5: 2
+        iphone4: 2
+      all:
+        iphone: 284
+        ipad: 67
+        ip: 14
+        iplug: 6
+        iphone6: 53
+        iphone5: 42
+        ip5: 4
+        ip300: 2
+        ipad2,3,5: 2
+        iphone4: 2

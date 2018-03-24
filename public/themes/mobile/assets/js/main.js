@@ -1,0 +1,1 @@
+"use strict";$(".imgCheckboxReal").on("change",function(){var e=$(".imgCheckboxFake");console.log($(this).is(":checked")),e.attr("src",e.attr("src").replace(/(default)|(checked)/i,$(this).is(":checked")?"checked":"default"))});

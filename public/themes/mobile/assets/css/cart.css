@@ -1,0 +1,122 @@
+body{
+	color: #444444;
+}
+.form-control:focus{
+border: 1px solid #95c126;
+}
+.header-section{
+	padding-bottom: 20px;
+}
+.box-padding{
+	padding: 25px 0;
+	border-bottom: 1px solid #dddddd;
+}
+#cart-shop-name{
+	color: #000000;
+	font-weight: bold;
+}
+.shipping{
+	padding-top: 20px;
+}
+.product-list{
+	font-size: 21px;
+}
+.product-list .header img{
+	width: 100%;
+	max-width: 250px;
+	max-height: 250px;
+}
+.product-price, .quantity, .header{
+	padding-bottom: 20px;
+}
+.product-price h2{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #e83a27;
+}
+.product-price span{
+	text-decoration:line-through;
+	color: #b3b3b3;
+}
+.quantity a{
+	color: #b3b3b3;
+}
+.summary .col-xs-12.tax-included{
+	font-size: 12px;
+	margin-top: -10px;
+}
+.button-continue .col-xs-12 .button{
+	text-align: center;
+	background-color: #95c126;
+	padding: 20px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#button-processing-green{
+	position: relative;
+	left: 50%;
+	margin-left: -60px;
+}
+.button-continue a{
+	color: #ffffff;
+}
+.no-cart{
+	color: #e83a27;
+	text-align: center;
+	padding: 60px 0 60px 0;
+}
+
+@media screen and (max-width: 320px) {
+body{
+	font-size: 16px;
+}
+.box-padding{
+	padding: 20px 0;
+}
+.shipping{
+	padding-top: 10px;
+}
+.product-list{
+	font-size: 12px;
+}
+.product-price .col-xs-4, .quantity .col-xs-4, .quantity .col-xs-5, .shipping .col-xs-4{
+	margin-top: 10px;
+}
+.summary{
+	font-size: 14px;
+}
+.button-continue .col-xs-12 .button{
+	font-size: 18px;
+}
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+body{
+	font-size: 16px;
+}
+.form-control{
+	font-size: 12px;
+}
+.product-list{
+	font-size: 12px;
+}
+.shipping{
+	padding-top: 15px;
+}
+#button-processing-green{
+	margin-left: -50px;
+}
+.quantity .col-xs-4, .quantity .col-xs-5, .shipping .col-xs-4{
+	margin-top: 10px;
+}
+.product-price .col-xs-4{
+	font-size: 11px;
+	margin-top: 8px;
+}
+.product-price h2{
+	font-size: 24px;
+}
+.summary{
+	font-size: 14px;
+}
+}

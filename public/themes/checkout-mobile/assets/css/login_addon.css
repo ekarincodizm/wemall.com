@@ -1,0 +1,117 @@
+
+
+#btn_login{
+	cursor : pointer;
+}
+.error_msg {
+	height: auto;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: #ff0000;
+	text-align: center;
+	word-wrap: break-word;
+}
+#accept_conditions {
+	margin: 25px 0 10px 0;
+}
+div#profile_detail p input[type=password] {
+	color: #BCBBBB;
+	width: 520px;
+	background-color: #F2F2F2;
+	border: solid 1px #A5A5A5;
+	padding: 0 40px;
+	line-height: 48px;
+	height: 48px;
+}
+div#register p input[type=password] {
+	color: #BCBBBB;
+	width: 518px;
+	background-color: #F2F2F2;
+	border: solid 1px #A5A5A5;
+	padding: 0 40px;
+	line-height: 48px;
+	height: 48px;
+}
+#checkemail a{
+	margin: 28px;
+	color: #808080;
+}
+#btn_submit {
+	cursor : pointer;
+}
+div#confirmation {
+	color: #3A3A3A;
+	width: auto;
+	margin: 20px 30px 30px 30px;
+}
+.bottom_line {
+	margin: 10px 0;
+	background: url('../images/bg_lineshadow.jpg');
+	height: 3px;
+}
+.confirm_head{
+	font-family: TrueBold;
+	font-size: 1.333em;
+	font-weight: bold;
+}
+.confirm_text{
+	text-align: center;
+}
+.confirm_text span, .confirm_text span font{
+	font-size: 0.7em;
+}
+.line_head{
+	margin-bottom: -10px;
+}
+.line_bottom{
+	margin-top: -20px;
+}
+div#forgetpassword_helper p a{
+	margin-bottom: 34px;
+	text-decoration: underline;
+	color: #646464;
+}
+#btn_requestpwd{
+	cursor: pointer;
+}
+/* #confirm_otp {
+	margin: 30px 0;
+	background: url('../images/bg_greentab.jpg') no-repeat center center;
+	height: 54px;
+	line-height: 54px;
+	width: 600px;
+	text-align: center;
+	cursor: pointer;
+	font-family: TrueBold;
+	font-size: 1.111em;
+} */
+.regis_err{
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#checkemail {
+	margin: 0 auto;
+	margin-top: 30px;
+	background: url('../images/bg_btn_grey.jpg') no-repeat center center;
+	height: 54px;
+	line-height: 54px;
+	width: 540px;
+	text-align: center;
+	cursor: pointer;
+}
+#btn_guest {
+	margin: 30px 0;
+	background: url('/assets/mobile_itruemart_new/images/bg_greentab.jpg') no-repeat center center;
+	height: 54px;
+	line-height: 54px;
+	width: 600px;
+	text-align: center;
+	cursor: pointer;
+}
+#btn_guest {
+	font-family: TrueBold;
+	font-size: 1.333em;
+}

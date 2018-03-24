@@ -1,0 +1,297 @@
+brands:
+    0:
+        pkey: "6228816211171"
+        name: "AIKO"
+        slug: "aiko"
+        description: ""
+        translate: null
+        metas: []
+        thumbnail: ""
+    1:
+        pkey: "6745405756310"
+        name: "All Merry"
+        slug: "all-merry"
+        description: "All Merry "
+        translate: null
+        metas:
+            video: "http://www.youtube.com/embed/cX7Y04eVIPE"
+            banner-icon: "http://cdn.itruemart.com/files/brand/857/857_150x75_1381236509.jpg"
+            banner-flashsale: "http://cdn.itruemart.com/files/brand/857/857_170x170_1365675789.jpg"
+        thumbnail: "//cdn.alpha.itruemart.com/pcms/uploads/14-06-13/617d7f3b568084116a3af8f4d664723c.jpg"
+
+get_brand_by_pkey:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            'pkey': 6952847165628
+            'name': "1-2-Wink"
+            'slug': "1-2-wink"
+            'description': ""
+            'translate': []
+            'metas': []
+            'thumbnail': ""
+
+get_all_brands:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            0:
+                'pkey': 6343817194817
+                'name': "360 Ongsa"
+                'slug': "360-ongsa"
+                'description': "ศูนย์รวมเครื่องออกกำลังกาย และอุปกรณ์เพื่อสุขภาพ รวมถึงเครื่องใช้ภายในบ้าน และอุปกรณ์เสริมสำหรับมือถือ"
+                'translate': []
+                'metas':
+                    'video': "http://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/14-12-8/15321a4ba754a44208b97ad0ccbdf724.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/14-12-8/64d64538167a5fa76e378004222da3ff.jpg"
+                    'banner': "//cdn.itruemart.com/pcms/uploads/14-12-24/b2df3e89e473e19b42fd21d6a13c9429.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/14-12-8/9414f16ca574a734eb59b75c544df6d7.jpg"
+            1:
+                'pkey': 6356165199420
+                'name': "@home"
+                'slug': "home"
+                'description': "เครื่องรีดถนอมผ้าไอน้ำ แอทโฮม ช่วยถนอมเนื้อผ้าให้สีสันสดใส ใหม่อยู่เสมอ รีดผ้าได้ทุกชนิด (ยกเว้นผ้าจากใยธรรมชาติ) รีดเร็วกว่าเดิมถึง 5 เท่า และยังฆ่าเชื้อโรค กำจัดกลิ่นอับ ประหยัดเงิน ประหยัดเวลาและพื้นที่"
+                'translate': []
+                'metas':
+                    'video': "http://www.youtube.com/embed/Y62NQiiW2W4?rel=0"
+                    'banner-logo': "http://cdn.itruemart.com/files/brand/777/777_857x290_1389269665.jpg"
+                    'banner-icon': "http://cdn.itruemart.com/files/brand/777/777_150x75_1381289003.jpg"
+                    'banner-flashsale': "http://cdn.itruemart.com/files/brand/777/777_170x170_1365563442.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/14-05-16/fc7d402b7dc8593a3a29c2974225c91b.jpg"
+            2:
+                'pkey': 6284203564908
+                'name': "Accessorize"
+                'slug': "accessorize"
+                'description': "Accessorize แบรนด์ที่สร้างความแปลกใหม่และสีสันให้กับอุปกรณ์พกพาโดยถ่ายทอดออกมาผ่านเป็นความงดงามของสีสันบนชิ้นงานซึ่งเป็นเอกลักษณ์เฉพาะตัวที่โดดเด่นและไม่มีใครเหมือน"
+                'translate': []
+                'metas':
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/14-09-18/b76eedbb2c0350c6628ca05d2dae4ba2.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/14-09-18/65e5a0cdc76217b28ba4d501a8815d49.jpg"
+                    'video': "http://www.youtube.com/embed/0TurGbcfDXg?rel=0"
+                    'banner': "//cdn.itruemart.com/pcms/uploads/14-09-30/3dd81cd002a298a42a833b206ebf619a.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/14-09-18/2291fff4512baebecc05292d2ee2c508.jpg"
+            3:
+                'pkey': 6606543110558
+                'name': "Accord"
+                'slug': "accord"
+                'description': "บริษัท แอคคอร์ด พรีเวล อีเล็คทริค 1999 จำกัดก่อตั้งขึ้นเมื่อ พ.ศ. 2531 โดยผลิตเครื่องใช้ไฟฟ้าภายในครัวเรือนมานานหลายปี เริ่มจากพัดลมขนาด 12” และ 16” ตั้งโต๊ะ ตั้งพื้น กึ่งตั้งโต๊ะ และพัดลมเพดาน ซึ่งเรามียอดขายมากที่สุดอยู่ในลำดับต้นๆ ของประเทศ และส่งจำหน่ายทั้งในประเทศเพื่อนบ้าน อาทิ พม่า ลาว กัมพูชา และเวียดนามผลิตภัณฑ์ของเราที่มีอยู่ทั้งหมดได้รับ ISO 9001 (2000) และ มอก. (TISI) ซึ่งมีมากกว่า 30 ประเภทพัดลม พิจารณาจากยอดขาย เราเป็นผู้ถูกเลือก และยอมรับในผลิตภัณฑ์ ขณะเดียวกันเรายังได้นำเข้า ผลิตภัณฑ์เครื่องใช้ไฟฟ้าในครัวเรือน อาทิ เครื่องทำแซนวิช เครื่องปิ้งขนมปัง เตาย่างบาร์บีคิว/ฟองดูร์ ไดร์เป่าผม เครื่องคั้นน้ำผลไม้ เครื่องดูดฝุ่น และ อื่นๆ"
+                'translate': []
+                'metas':
+                    'video': "https://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/15-02-4/1e9f050412eab1653fd8e6ec8ba79b04.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/15-02-4/e578aff6fea4b21312f462d739f59306.jpg"
+                    'banner': "//cdn.itruemart.com/pcms/uploads/15-03-2/25c1adb96feea72ba387ba0d598d7825.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/15-02-4/611250833125a1fe942ff9cfe9377f69.jpg"
+            4:
+                'pkey': 6132153219896
+                'name': "Accutone"
+                'slug': "accutone"
+                'description': "Accutone หนึ่งในบริษัทผู้ผลิตหูฟังที่ดีที่สุดในโลก โดยมุ่งเน้นไปที่ความคงทนและคุณภาพเสียงระดับสูง เพื่อให้ผู้ใช้งานได้รับประสบการณ์ที่ดีที่สุดในการรับฟัง"
+                'translate': []
+                'metas':
+                    'banner': "//cdn.itruemart.com/pcms/uploads/14-09-2/f0a6aaeb15aa5aa602e2cfd151cb7d8b.jpg"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/14-09-5/f7e4c00e41beba340c4dbce53e42a787.png"
+                    'video': "http://www.youtube.com/embed/CHP40BiQFDE?rel=0"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/14-09-8/7b56ae3fdc29d7778c38bcf4206df1a6.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/14-09-8/b3205712b4541b0418632425bd4e9518.jpg"
+            5:
+                'pkey': 6958792566834
+                'name': "Acer"
+                'slug': "acer"
+                'description': "Acer มุ่งมั่นที่จะพัฒนา คิดค้น และค้นคว้า เทคโนโลยีใหม่ๆเพื่อตอบสนองความต้องการในการใช้งานของผู้บริโภค ด้วยแนวคิดที่ว่ายิ่งเทคโนโลยีเข้าถึงผู้คนมากขึ้น ชีวิตความเป็นอยู่ของบุคคลเหล่านั้นก็จะดียิ่งขึ้น"
+                'translate': []
+                'metas':
+                    'video': "https://www.youtube.com/embed/kdQ3pRmWnho?rel=0"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/14-11-14/07231e46276a96cbe5847437251d354b.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/14-11-14/9c15d18a75d8a58013a54a92aa9f6593.jpg"
+                    'banner': "//cdn.itruemart.com/pcms/uploads/14-11-17/f2e1bbc9c12afc3258bfa38a22741613.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/14-11-14/7aa6b4dea01d3f80aa2b38b59ec5fa02.jpg"
+            6:
+                'pkey': 6906919388164
+                'name': "ACME"
+                'slug': "acme"
+                'description': "หมอนสุขภาพ ACME ผลิตจากเมมโมรี่โฟมเกรดพรีเมี่ยม ที่ช่วยปรับโครงสร้างของกระดูกสันหลังและรูปแบบการนอนของท่าน ให้ท่านหลับสบายทั้งคืน ตื่นรับวันใหม่อย่างสดชื่นให้คุณพร้อมรับมือกับสิ่งท้าทายใหม่ๆ ในชีวิตประจำวัน ผ่านการทดสอบโดย สถาบัน Intertek Testing Service (ITS) ว่าไม่มีสารพิษหรือสารที่ก่อให้เกิดการแพ้หรือระคายเคือง (Non Allergenic) จึงสามารถใช้ได้กับทุกคนในครอบครัว ไม่มีสาร CFC เป็นมิตรต่อสิ่งแวดล้อม เพื่อสุขภาพของผู้ใช้อย่างแท้จริง"
+                'translate': []
+                'metas':
+                    'video': "http://www.youtube.com/embed/xIgN90HkPAM?rel=0"
+                    'banner-icon': "http://cdn.itruemart.com/files/brand/691/691_150x75_1381233763.jpg"
+                    'banner-flashsale': "http://cdn.itruemart.com/files/brand/691/691_170x170_1365675148.jpg"
+                    'banner': "//cdn.itruemart.com/pcms/uploads/14-08-1/a3a1e0dc981397a48e24e746a1ca53aa.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/14-05-16/dcf09ce90d3acb6b900cefa0a181e8d0.jpg"
+            7:
+                'pkey': 6288669735167
+                'name': "AGENT18"
+                'slug':  "agent18"
+                'description': ""
+                'translate': []
+                'metas':
+                    'banner': "//cdn.itruemart.com/pcms/uploads/15-01-28/76f00c9a1a761c131dd65252f130aa95.jpg"
+                    'video': "https://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/15-01-28/fd3b388bd33bb7d814a9f26f15f51a11.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/15-01-28/12bff02c572b4f19b432bc51e3308d2e.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/15-01-28/5ad978543cece49e4027fcd205ef1044.jpg"
+            8:
+                'pkey': 6158699057219
+                'name': "AIKO"
+                'slug': "aiko"
+                'description': "บริษัท แกรนด์ไลท์ ดีเวลลอปเม้นท์ จำกัด ปัจจุบัน บริษัทฯ มีชื่อเรียกสั้นๆ ซึ่งเป็นที่รู้จักกันอย่างแพร่หลาย คือ GSports ผู้นำเข้าเครื่องใช้ไฟฟ้า แบรนด์ AIKO และ ALTA โดยบริหารงานมายาวนานกว่า 20 ปี"
+                'translate': []
+                'metas':
+                    'banner': "//cdn.itruemart.com/pcms/uploads/15-02-12/d93d29a5972c6dccef4bde3130457ad0.jpg"
+                    'video': "https://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/15-02-12/b8a1bbdcd0ebb468cbf5ed621290f19e.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/15-02-12/d95bcc8800270419470a513438f4cd51.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/15-02-12/fcd35dfb5b15fadaa6ab4b2b9f43f504.jpg"
+            9:
+                'pkey': 6779376435952
+                'name':  "Air Picnic"
+                'slug':  "air-picnic"
+                'description':  'บริษัท แอร์ ปิคนิค จำกัด เป็นผู้ผลิตและจำหน่ายผลิตภัณฑ์เพื่อสิ่งแวดล้อมทางด้านอากาศ อาทิเช่น แอร์เคลื่อนที่ เครื่องฟอกอากาศในรถยนต์ เครื่องฟอกอากาศสำหรับที่พักอาศัย ภายใต้แบรนด์ "Air Pinnic" นอกจากนี้ยังมีสินค้าประเภทอุปกรณ์เสริมแบบครบวงจรในระดับแนวหน้า และยังเป็นตัวแทนจำหน่ายเพียงผู้เดียวในประเทศไทย อย่างเช่น ยี่ห้อ Nano Bio®,Owner และ Air Nasa เป็นต้น เนื่องจากกระแสการตื่นตัวในสภาวะอากาศร้อนและด้านสุขภาพของผู้บริโภค ทางบริษัทฯ ได้เล็งเห็นถึงความสำคัญจึงได้มีการจัดตั้งบริษัทฯ โดยมีวัตถุประสงค์ในการทำการตลาดสินค้าภายใต้เครื่องหมายการค้าของบริษัทฯ ที่ได้มาตรฐานตามสโลแกนของบริษัทฯที่ว่า "Smart Innovation For Smart Life" เน้นผลิตสินค้าที่มีคุณภาพและตรงตามความต้องการของลูกค้า ด้วยประสบการณ์ด้านระบบปรับอากาศ ประกอบกับบริษัทฯ มีทีมงานช่างติดตั้งและบริการที่มีประสบการณ์ สามารถให้บริการด้านระบบแอร์เคลื่อนที่ได้ตั้งแต่เริ่มต้นจนสามารถใช้งานได้อย่างสมบูรณ์ ทำให้ลูกค้าสามารถไว้วางใจได้ว่าสินค้าจากบริษัทฯ เป็นสินค้าที่มีมาตรฐานสูงคุณภาพดี ต้นทุนในการบำรุงรักษาต่ำ และมีดีไซน์ที่โดดเด่น เหมาะกับผู้บริโภคทุกเพศ ทุกวัย ทั้งนี้ยังได้รับการรับรองจาก ISO 14001 : 2004 ,ISO 9001 : 2008, AHAM, EMC CE มาตรฐานรับรองสินค้าที่มีคุณสมบัติตามข้อกำหนดด้านสุขภาพ ความปลอดภัย และการคุ้มครองสิ่งแวดล้อม ตามกฎหมายและกฎระเบียบที่เกี่ยวข้องของสหภาพยุโรป'
+                'translate': NULL
+                'metas':
+                    'small-logo':  "//cdn.itruemart.com/pcms/uploads/14-07-28/33089b122f9dae08d47bf63cb901898c.jpg"
+                    'banner':  "//cdn.itruemart.com/pcms/uploads/14-08-1/f8000ceb3812d5836e815d2b0531508e.jpg"
+                    'video':  "http://www.youtube.com/embed/qwXle3M_rI8?rel=0"
+                    'banner-icon':  "//cdn.itruemart.com/pcms/uploads/14-09-8/6a2930b1a7044ba4558c28a62b4825f0.jpg"
+                'thumbnail':  "//cdn-a.itruemart.com/pcms/uploads/14-07-28/408dd397f1a5377c97b6d657d9003ceb.jpg"
+            10:
+                'pkey': 6751744546215
+                'name':  "AJ"
+                'slug':  "aj"
+                'description':  "AJ บริษัทผู้ผลิตสินค้าอิเล็คทรอนิกส์เพื่อมอบประสบการณ์ความบันเทิงรูปแบบใหม่ให้กับลูกค้าชาวไทยอย่างต่อเนื่อง... "
+                'translate': []
+                'metas':
+                    'video':  "http://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo':  "//cdn.itruemart.com/pcms/uploads/14-11-27/e69dd7fdc4caf9eb042fb3c751b2125b.jpg"
+                    'banner-icon':  "//cdn.itruemart.com/pcms/uploads/14-11-27/0cb933b9a02fb8cfed7ddee8939ee8fc.jpg"
+                    'banner':  "//cdn.itruemart.com/pcms/uploads/14-12-1/dd29dc4d104efd0d9c90e6712b0fda9b.jpg"
+                'thumbnail':  "//cdn-a.itruemart.com/pcms/uploads/14-11-27/19032f974a8057065640ffb0e9e9f1be.jpg"
+            11:
+                'pkey': 6821753946363
+                'name':  "Alcatel"
+                'slug':  "alcatel"
+                'description': "Alcatel บริษัทผู้ผลิตอุปกรณ์สื่อสารชื่อดัง"
+                'translate': []
+                'metas':
+                    'video': "http://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'banner-icon':  "//cdn.itruemart.com/pcms/uploads/14-12-1/699d32102087ade94fe572a9bf208cc8.jpg"
+                    'small-logo':  "//cdn.itruemart.com/pcms/uploads/14-12-1/02a7935048cc659e702b67f3195aec58.jpg"
+                    'banner':  "//cdn.itruemart.com/pcms/uploads/15-02-17/d7576027087d1695443c3a8fe831b76c.jpg"
+                'thumbnail':  "//cdn-a.itruemart.com/pcms/uploads/14-12-1/93fd89a02892451e98e40b5d36e09185.jpg"
+            12:
+                'pkey': 6862117453388
+                'name':  "All Mate"
+                'slug':  "all-mate"
+                'description':  ""
+                'translate': []
+                'metas':
+                    'banner':  "//cdn.itruemart.com/pcms/uploads/14-12-17/a25a29cd16d9d36e274a42e40946f49d.jpg"
+                    'video':  "https://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo':  "//cdn.itruemart.com/pcms/uploads/14-12-17/7f547ebe5858a6ca3ce96bf9a6cfa31c.jpg"
+                    'banner-icon':  "//cdn.itruemart.com/pcms/uploads/14-12-17/72de1f32359650733c3e2f5416bdfbe7.jpg"
+                'thumbnail':  "//cdn-a.itruemart.com/pcms/uploads/14-12-17/2e0ca1506125e1d6bafa73f79b9fb80a.jpg"
+            13:
+                'pkey': 6745405756310
+                'name':  "All Merry"
+                'slug':  "all-merry"
+                'description':  "All Merry ผ้าพันคอสุดมหัศจรรย์ผลิตด้วยไลคราที่ให้ความยืดหยุ่น ยืดหยุ่นทั้งเนื้อผ้า และยืดหยุ่นทั้งการใช้งานอย่างเหนือจินตนาการ สามารถแปลงร่างเป็นหมวก กระโปรง แซ็ก ผ้าพันคอ ผ้าคลุมไหล่ เสื้อกั๊ก ฮู้ดคลุมศีรษะ ตะเบงมาน และอื่นๆ อีกมากมายพันผูกได้หลากหลายรูปแบบตามสไตล์และใจคุณมีให้คุณเลือกใช้สวมใส่ได้หลากหลาย เรียกได้ว่าสามารถเลือกใช้งานเพิ่มความเก๋ไก๋ได้ทุกโอกาส"
+                'translate': NULL
+                'metas':
+                    'video':  "http://www.youtube.com/embed/cX7Y04eVIPE"
+                    'banner-icon':  "http://cdn.itruemart.com/files/brand/857/857_150x75_1381236509.jpg"
+                    'banner-flashsale':  "http://cdn.itruemart.com/files/brand/857/857_170x170_1365675789.jpg"
+                    'banner':  "//cdn.itruemart.com/pcms/uploads/14-08-1/12ed468528dcb995865cde873d564db3.jpg"
+                'thumbnail':  "//cdn-a.itruemart.com/pcms/uploads/14-06-13/617d7f3b568084116a3af8f4d664723c.jpg"
+            14:
+                'pkey': 6754807117647
+                'name': "ALTA"
+                'slug': "alta"
+                'description': "บริษัท แกรนด์ไลท์ ดีเวลลอปเม้นท์ จำกัด ปัจจุบัน บริษัทฯ มีชื่อเรียกสั้นๆ ซึ่งเป็นที่รู้จักกันอย่างแพร่หลาย คือ GSports ผู้นำเข้าเครื่องใช้ไฟฟ้า แบรนด์ AIKO และ ALTA โดยบริหารงานมายาวนานกว่า 20 ปี"
+                'translate': []
+                'metas':
+                    'banner': "//cdn.itruemart.com/pcms/uploads/15-02-25/7014db3181194a78f88a3a2d399ff934.jpg"
+                    'video': "https://www.youtube.com/embed/OtCMUH6FRSM?rel=0"
+                    'small-logo': "//cdn.itruemart.com/pcms/uploads/15-02-25/60892795664d2a850a60056e3fbf48c0.jpg"
+                    'banner-icon': "//cdn.itruemart.com/pcms/uploads/15-02-25/9a340fea57f08c567e2e0d98906a5990.jpg"
+                'thumbnail': "//cdn-a.itruemart.com/pcms/uploads/15-02-25/25a74b742b3cd911d99af59fa43a1456.jpg"
+
+flash_sale_brand:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            0:
+                'name': 'การ์ต้า'
+                'pkey': 16676543456765
+                'slug': ''
+            1:
+                'name': 'AB Fashion '
+                'pkey': 16676543456766
+                'slug': ''
+            2:
+                'name': '!&'
+                'pkey': 166765434567199
+                'slug': ''
+
+itruemart_tv_brand:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            0:
+                'name': 'การ์ต้า'
+                'pkey': 16676543456765
+                'slug': ''
+            1:
+                'name': 'AB Fashion '
+                'pkey': 16676543456766
+                'slug': ''
+            2:
+                'name': '!&'
+                'pkey': 166765434567199
+                'slug': ''
+
+discount_brand:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            0:
+                'name': 'การ์ต้า'
+                'pkey': 16676543456765
+                'slug': ''
+            1:
+                'name': 'AB Fashion '
+                'pkey': 16676543456766
+                'slug': ''
+            2:
+                'name': '!&'
+                'pkey': 166765434567199
+                'slug': ''
+
+trueyou_brand:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            0:
+                'name': 'การ์ต้า'
+                'pkey': 16676543456765
+                'slug': ''
+            1:
+                'name': 'AB Fashion '
+                'pkey': 16676543456766
+                'slug': ''
+            2:
+                'name': '!&'
+                'pkey': 166765434567199
+                'slug': ''

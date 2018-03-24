@@ -1,0 +1,1 @@
+<div class="ajax-widget" data-method="get" data-url="<?php echo URL::toLang('products/content/'.$pkey); ?>" data-done_trigger="doneLevelDContent"></div>

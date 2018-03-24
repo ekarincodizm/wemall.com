@@ -1,0 +1,264 @@
+cart:
+    0:
+        data:
+            order_ref: ""
+            app_id: "1"
+            ref1: ""
+            ref2: ""
+            ref3: ""
+            customer_ref_id: "2727f9f7c0b32812cae2d204e445cb9d"
+            customer_address_id: ""
+            customer_name: "Teerasak"
+            customer_address: "address-data"
+            customer_district_id: "74"
+            customer_city_id: "18"
+            customer_province_id: "1"
+            customer_district: "คลองต้นไทร"
+            customer_city: "คลองสาน"
+            customer_province: "กรุงเทพมหานคร"
+            customer_postcode: "10600"
+            customer_tel: "0989898989"
+            customer_email: "test@test.com"
+            bill_name: ""
+            bill_address: ""
+            bill_province_id: ""
+            bill_city_id: ""
+            bill_dristrict_id: ""
+            bill_district_id: ""
+            bill_postcode: ""
+            save_ccw: "N"
+            is_new_ccw: "N"
+            thai_id: ""
+            booking_id: ""
+            payment_channel: "online"
+            payment_method: "155413837979192"
+            payment_method_code: "CCW"
+            type: "normal"
+            installment: []
+            transaction_time: ""
+            total_price: 12500
+            total_discount: 0
+            total_shipping_fee: 0
+            discount: 0
+            discount_text: ""
+            sub_total: 12500
+            order_status: "draft"
+            payment_status: "waiting"
+            customer_status: ""
+            items_count: 1
+            variants_count: 1
+            promotions: ""
+            discount_campaigns: ""
+            checkPriceChange: 
+                is_change: ""
+                not_change: 
+                    "28968"
+                summary: 
+                    full_quota: ""
+                    price_change: ""
+            cash_voucher: 0
+            confirm_checkout: "0"
+            bill_same_shipping: "Y"
+            bank_id: ""
+            bank_name: ""
+            isTrueyouable: bool FALSE
+            available_payment_methods: 
+                155413837979192: 
+                    name: "บัตรเครดิต"
+                156513837979495: 
+                    name: "bank ATM"
+                158913837979603: 
+                    name: "IBANK"
+                152313837979681: 
+                    name: "BANKTRANS"
+                153213837979857: 
+                    name: "Counter service "
+                153213837976911: 
+                    name: "0 PHP"
+            all_payment_methods: 
+                155413837979192: 
+                    name: "บัตรเครดิต"
+                    inventory_ids:
+                        - "28968"
+                    error: ""
+                156113837979325: 
+                    name: "Truemoney Ewallet"
+                    inventory_ids: []
+                    error: "0001"
+                156813837979402: 
+                    name: "ผ่อนชำระ"
+                    inventory_ids: []
+                    error: "0003"
+                156513837979495: 
+                    name: "bank ATM"
+                    inventory_ids: 
+                        - "28968"
+                    error: ""
+                158913837979603: 
+                    name: "IBANK"
+                    inventory_ids: 
+                        - "28968"
+                    error: ""
+                152313837979681: 
+                    name: "BANKTRANS"
+                    inventory_ids: 
+                        - "28968"
+                    error: ""
+                155613837979771: 
+                    name: "Cash on delivery"
+                    inventory_ids: []
+                    error: "0002"
+                153213837979857: 
+                    name: "Counter service "
+                    inventory_ids: 
+                        - "28968"
+                    error: ""
+                153213837976911: 
+                    name: "0 PHP"
+                    inventory_ids: 
+                        - "28968"
+                    error: ""
+            order_ccw: 
+                save_ccw: "N"
+                is_new_ccw: "N"
+                card_token: ""
+                card_label: ""
+            billing: 
+                name: ""
+                province_id: ""
+                province_name: ""
+                city_id: ""
+                city_name: ""
+                district_id: ""
+                district_name: ""
+                address: ""
+                postcode: ""
+                tax_id: ""
+            shipments: 
+                26: 
+                    order_id: ""
+                    shipment_ref: 1422946605
+                    shipping_method: "141013832031620"
+                    shipping_fee: 0
+                    shipment_status: ""
+                    total_price: 12500
+                    total_discount: 0
+                    discount: 0
+                    sub_total: 12500
+                    stock_type: "4"
+                    vendor_id: "26"
+                    vendor_name: "TRUE DISTRIBUTION & SALES CO.,LTD."
+                    shop_id: "285731"
+                    shop_name: "iTrueMart Stock"
+                    shipment_weight: 0
+                    shipment_highest_dimension_max: 0
+                    shipment_highest_dimension_mid: 0
+                    shipment_highest_dimension_min: 0
+                    items: 
+                        0:
+                            shipment_id: ""
+                            order_id: ""
+                            product_pkey: "2511237188472"
+                            inventory_id: "28968"
+                            material_code: "3000015997"
+                            thumbnail: "//cdn.dev.itruemart.com/pcms/14-08-27/ac7a919941e3909b036f19cba473a6ab.jpg"
+                            name: "Samsung Galaxy Mega 6.3 (ขาว, 001)"
+                            collections: 
+                                1:
+                                    pkey: "3981568432609"
+                                    name: "ซัมซุง"
+                                2:
+                                    pkey: "3351183660298"
+                                    name: "สมาร์ทโฟน"
+                                3:
+                                    pkey: "3839925265519"
+                                    name: "เครื่องใช้ไฟฟ้า"
+                                4:
+                                    pkey: "3635465880120"
+                                    name: "สมาร์ทโฟน และ แท็ปเล็ต"
+                                5:
+                                    pkey: "3193015175820"
+                                    name: "มือถือ และ แท็บเล็ต"
+                                6:
+                                    pkey: "3788272176468"
+                                    name: "ซัมซุง"
+                                7:
+                                    pkey: "3153226347149"
+                                    name: "สมาร์ทโฟน"
+                                8:
+                                    pkey: "3866837367520"
+                                    name: "แก็ดเจ็ต"
+                                9:
+                                    pkey: "3235499870308"
+                                    name: "สมาร์ทแก็ตเจ็ต"
+                                10:
+                                    pkey: "3102735244987"
+                                    name: "มือถือ"
+                                11:
+                                    pkey: "3519347880144"
+                                    name: "Best Seller"
+                            brand: ""
+                            quantity: "1"
+                            price: "12500.00"
+                            margin: 0
+                            discount: 0
+                            total_price: 12500
+                            total_discount: 0
+                            total_margin: 0
+                            net_price: "14900.00"
+                            stock_type: "4"
+                            vendor_id: "26"
+                            vendor_name: "TRUE DISTRIBUTION & SALES CO.,LTD."
+                            shop_id: "285731"
+                            shop_name: "iTrueMart Stock"
+                            options: ""
+                            item_status: ""
+                            payment_methods: 
+                                1:
+                                    pkey: "155413837979192"
+                                    name: "บัตรเครดิต"
+                                    code: "CCW"
+                                    channel: "online"
+                                    transaction_fee: "3.75"
+                                2:
+                                    pkey: "156513837979495"
+                                    name: "bank ATM"
+                                    code: "ATM"
+                                    channel: "offline"
+                                    transaction_fee: "15"
+                                3:
+                                    pkey: "158913837979603"
+                                    name: "IBANK"
+                                    code: "IBANK"
+                                    channel: "offline"
+                                    transaction_fee: "15"
+                                4:
+                                    pkey: "152313837979681"
+                                    name: "BANKTRANS"
+                                    code: "BANKTRANS"
+                                    channel: "offline"
+                                    transaction_fee: "15"
+                                5:
+                                    pkey: "153213837979857"
+                                    name: "Counter service "
+                                    code: "CS"
+                                    channel: "offline"
+                                    transaction_fee: "15"
+                                6:
+                                    pkey: "153213837976911"
+                                    name: "0 PHP"
+                                    code: "ZERO"
+                                    channel: "online"
+                                    transaction_fee: "0"
+                            bank_installments: ""
+                    items_count: 1
+                    variants_count: 1
+                    available_shipping_methods: 
+                        141013832031620: 
+                            name: "EMS"
+                            fee: 0
+                            description: "ไปรษณีย์ด่วนพิเศษ"
+                        14603191492758: 
+                            name: "จัดส่งฟรี"
+                            fee: 0
+                            description: "0 บาท"

@@ -1,0 +1,1 @@
+Sync authentication to central.

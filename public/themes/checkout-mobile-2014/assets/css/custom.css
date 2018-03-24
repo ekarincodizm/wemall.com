@@ -1,0 +1,95 @@
+.active-alert-text {
+    font-size: 12px;
+    color: #ff3535;
+    padding: 5px 5px 0 5px;
+    clear: both;
+}
+.cvv-control input{
+    width: 100%;
+}
+
+.ccv-container{
+    float: left;
+    width: 50%;
+}
+
+.confirm-payment-close-btn{
+    text-decoration: underline;
+    color: #959595;
+    font-size: 20px;
+}
+
+a.confirm-payment-close-btn:hover {
+    color: #87c80a;
+}
+
+.button-confirm a{
+    width: 100%;
+    display: block;
+}
+
+#ccw-info-name{
+    text-transform: uppercase;
+}
+
+.btn-global {
+    background-color: #87c80a;
+    padding: .5em;
+    font-size: 24px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.button-delete a{
+    width: 100%;
+    display: block;
+}
+
+.text--fail {color: #ff0000 !important; text-decoration: none !important;}
+
+.text--waiting {color: #959595 !important;}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+.force-text-decoration-none{
+    text-decoration: none !important;
+}
+
+#add-address-frm .col-xs-12 {
+    margin-bottom: 20px;
+}
+
+.minicart-noti-shipping-fee.isnot-link,
+.minicart-noti-shipping-fee.isnot-link:active,
+.minicart-noti-shipping-fee.isnot-link:hover,
+.minicart-noti-shipping-fee.isnot-link:focus {
+    cursor: default;
+    text-decoration: none;
+    color: inherit;
+}
+
+.minicart-noti-shipping-fee.is-link,
+.minicart-noti-shipping-fee.is-link:active,
+.minicart-noti-shipping-fee.is-link:hover,
+.minicart-noti-shipping-fee.is-link:focus{
+    color: #1155cc;
+    text-decoration: none;
+}
+
+.text-green{
+    color: #95c126;
+}
+
+.text-blink-animation{
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.text-blink-active{
+    color: #FF7000 !important;
+}

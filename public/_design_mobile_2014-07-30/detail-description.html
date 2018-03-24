@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>iTruemart</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper touch -->
+    <link rel="stylesheet" href="css/idangerous.swiper.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/detail.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="backtotop-arrow"><a href="#logo"><img src="img/backtotop.png"></a></div>
+    <div class="container-fluid">
+      <!-- logo -->
+      <div class="row header-section">
+        <div class="col-xs-6 ui-logo" id="logo"><a href="index.html"><img src="img/itruemart_logo.png"></a></div>
+        <div class="ui-cart"><a href="#" class="shop-cart-link"><span>2</span></a></div>
+      </div>
+      <!-- Header -->
+      <div class="row">
+        <div class="col-xs-12"><h1 style="color:#95c126;">รายละเอียดสินค้า</h1></div>
+      </div>
+      <!-- Content -->
+      <!-- ใช้ grid ของ bootstrap ในการวาง -->
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="img/dummy_product_img_05.jpg" width="100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>ข้อมูลจำเพาะโดยละเอียดสำหรับ HTC One</h3>
+          <p style="color:#959595;">ขนาดเซ็นเซอร์มาตรฐาน: 20 ล้านพิกเซล PureViewขนาดหน้าจอ: 6นิ้วความละเอียดจอแสดงผล: Full HD (1920 x 1080)ชื่อหน่วยประมวลผล: Qualcomm Snapdragon™ 800ระยะเวลาสนทนา(สูงสุด)3G: 25.1ชม.ความจุแบตเตอรี่: 3400mAhการชาร์จแบบไร้สาย: ในตัว</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="img/dummy_product_img_03.jpg" width="100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>หน้าจอ ที่สวยงาม ทุกมุมมอง</h3>
+          <p style="color:#959595;">ขนาดเซ็นเซอร์มาตรฐาน: 20 ล้านพิกเซล PureViewขนาดหน้าจอ: 6นิ้วความละเอียดจอแสดงผล: Full HD (1920 x 1080)ชื่อหน่วยประมวลผล: Qualcomm Snapdragon™ 800ระยะเวลาสนทนา(สูงสุด)3G: 25.1ชม.ความจุแบตเตอรี่: 3400mAhการชาร์จแบบไร้สาย: ในตัว</p>
+        </div>
+      </div>
+      <div class="row back-to-detail">
+        <div class="col-xs-12">
+          <a href="detail.html" class="blue-link">กลับไปหน้าสินค้า</a>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row margin-top-20 footer">
+        <div class="col-xs-12 bottom">
+          <div class="row">
+            <div class="col-xs-12"><h1>บริการของเรา</h1></div>
+            <div class="col-xs-6">
+              <ul>
+                <li><a href="#">ข้อมูลส่วนตัว</a></li>
+                <li><a href="#">คุยสดกับเรา</a></li>
+                <li><a href="#">คำถามที่พบบ่อย</a></li>
+                <li><a href="#">ติดต่อเรา</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6">
+              <ul>
+                <li><a href="#">ตรวจสอบสถานการชำระเงินและการจัดส่ง</a></li>
+                <li><a href="#">นโยบายการรับประกันสินค้า</a></li>
+                <li><a href="#">นโยบายการจัดส่งสินค้า</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 text-center margin-top-20"><a href="#">View PC Site</a> | <a href="#">APP</a></div>
+            <div class="col-xs-12 text-center margin-top-20 link-grey"><a href="#">Privacy Policy</a> - <a href="#">Terms of Use</a> - <a href="#">Feedback</a></div>
+            <div class="col-xs-12 text-center link-grey">Copyright Notice 2014 - itruemart.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- JS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/idangerous.swiper-2.1.min.js"></script>
+    <script>
+    //product slider
+    var mySwiper1 = new Swiper('.swiper-product-container',{
+      pagination: '.pagination',
+      loop:true,
+      grabCursor: true,
+      paginationClickable: true
+    })
+    //related slider
+    var mySwiper = new Swiper('.swiper-related-container',{
+      paginationClickable: true,
+      slidesPerView: 'auto'
+    });
+    $(document).ready(function() {
+
+    //countdown : more information http://hilios.github.io/jQuery.countdown/
+    $("#countdown-discount").countdown("2015/01/01", function(event) {
+      $(this).html(event.strftime('%H:%M:%S'));
+    });
+
+    // show/hide BackToTop
+    $(window).scroll(function () {
+    if ($(window).scrollTop() + $(window).height() > 1500) {
+        //show arrow back to top
+        $('#backtotop-arrow').show();
+    } else {
+      //hide arrow back to top
+      $('#backtotop-arrow').hide();
+    }
+    });
+
+
+
+      //script for animate processing button ดำเนินการ
+      var terms = ["กำลังดำเนินการ...", "กำลังดำเนินการ.. .", "กำลังดำเนินการ. ..", "กำลังดำเนินการ ..."];
+      function loopProcess() {
+        var processButton = $('.button-buy .button span');
+        var ct = processButton.data("term") || 0;
+        processButton.data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).show()
+              .delay(250).show(200, loopProcess);
+      }
+      $('.button-buy a').click(function(){
+        $('.button-buy .button').html('<span id="button-processing-green"></span>');
+        $('.button-buy .button').css({"text-align": "left"});
+        loopProcess();
+      });
+    });
+    </script>
+  </body>
+</html>

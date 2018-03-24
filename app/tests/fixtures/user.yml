@@ -1,0 +1,21 @@
+user:
+    guest:
+        group: "guest"
+        display_name: ""
+        user_id: "2727f9f7c0b32812cae2d204e445cb9d"
+        ssoId: "2727f9f7c0b32812cae2d204e445cb9d"
+        email: "test@test.com"
+        phone: "0890000000"
+        thai_id: ""
+        subscribe: 0
+        trueyou: ""
+    user:
+        group: "user"
+        display_name: "inthraonsap"
+        user_id: "17760171"
+        ssoId: "17760171"
+        email: "inthra.onsap@gmail.com"
+        phone: "0890000000"
+        thai_id: ""
+        subscribe: 0
+        trueyou: ""

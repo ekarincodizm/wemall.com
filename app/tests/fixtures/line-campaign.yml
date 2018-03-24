@@ -1,0 +1,9 @@
+line_campaign:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            'campaign_name': "test"
+            'content':  "<p>asdfasdfasdf</p>"
+            'status': "Y"

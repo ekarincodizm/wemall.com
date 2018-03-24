@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>iTruemart</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper touch -->
+    <link rel="stylesheet" href="css/idangerous.swiper.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/detail.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="modal fade" id="popup-choose">
+      <div class="modal-dialog modal-dialog-center">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title">กรุณาเลือกรูปแบบการชำระ</h4>
+          </div>
+          <div class="modal-body">
+            <p>รูปแบบการผ่อนชำระ</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                ผ่อนชำระรายเดือน
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                ผ่อนชำระเต็มจำนวน
+              </label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">ดำเนินการต่อ</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div id="share-button">
+      <a href="#" id="facebook-share"><img src="img/s_facebook.png"></a>
+      <a href="#" id="twitter-share"><img src="img/s_twitter.png"></a>
+      <a href="#" id="gplus-share"><img src="img/s_googleplus.png"></a>
+      <a href="#" id="email-share"><img src="img/s_email.png"></a>
+      <div href="#" id="button-share">Share</div>
+    </div>
+    <div id="backtotop-arrow"><a href="#logo"><img src="img/backtotop.png"></a></div>
+    <div class="container-fluid">
+      <!-- logo -->
+      <div class="row header-section">
+        <div class="col-xs-6 ui-logo" id="logo"><a href="index.html"><img src="img/itruemart_logo.png"></a></div>
+        <div class="ui-cart"><a href="#" class="shop-cart-link"><span>2</span></a></div>
+      </div>
+      <!-- Search -->
+      <div id='search-box'>
+        <form action='/search' id='search-form' method='get' target='_top'>
+          <input id='search-text' name='q' placeholder='ค้นหาสินค้าหรือแบรนด์สินค้า' type='text'/>
+          <button id='search-button' type='submit'><span class="glyphicon glyphicon-search"></span></button>
+        </form>
+      </div>
+      <!-- Category -->
+      <div class="row margin-top-20">
+        <div class="col-xs-12">
+          <a href="category-list.html"><div id="cate_menu">เลือกหมวดหมู่ <img src="img/arrow_more.png"></div></a>
+        </div>
+      </div>
+      <!-- Banner Everyday wow : มีหรือไม่มีก็ได้-->
+      <div class="row margin-top-20">
+        <div class="img-align-center"><img src="img/dummy_banner_640.png"></div>
+      </div>
+      <!-- Product Name -->
+      <div class="row product-name">
+        <div class="col-xs-12">
+          <h1>HTC One - Silver</h1>
+          <p>สนุกกับแอพ Android ที่ใช่ สไลด์เดียวเข้าถึงทุกแอพที่ชอบ</p>
+        </div>
+      </div>
+      <!-- Caption -->
+      <div class="row box-caption">
+        <img src="img/icon_caption.png"><span>สินค้าเคลียร์แลนเซล</span>
+      </div>
+      <!-- time-remain : มีหรือไม่มีก็ได้ -->
+      <div class="row">
+        <div class="col-xs-12 time-remaining">
+          <span class="glyphicon glyphicon-time"></span> เหลือเวลาซื้ออีก <span style="color:#444444;" id="countdown-discount"></span>
+        </div>
+      </div>
+      <!-- Porudct image -->
+      <div class="row product-image">
+        <div class="price-tag"><span class="price-red">70</span><img src="img/dummy_sale_tag_03.png"></div>
+        <div class="swiper-product-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="img/dummy_product_img_05.jpg"> </div>
+            <div class="swiper-slide"> <img src="img/dummy_product_img_04.jpg"> </div>
+            <div class="swiper-slide"> <img src="img/dummy_product_img_02.jpg"> </div>
+          </div>
+        </div>
+        <div class="pagination"></div>
+      </div>
+      <!-- Price -->
+      <div class="row normal-price">
+        <div class="col-xs-5">ราคาปกติ</div>
+        <div class="col-xs-7">23,990 - 39,990 บาท <span class="each">/ชิ้น</span></div>
+      </div>
+      <div class="row special-price box-padding">
+        <div class="col-xs-5">ราคาพิเศษ</div>
+        <div class="col-xs-7">15,990 - 25,990 บาท <span class="each">/ชิ้น</span></div>
+      </div>
+      <!-- Product option -->
+      <div class="row product-option">
+        <!-- รุ่น -->
+        <div class="col-xs-12"><h2>เลือกรุ่น</h2></div>
+        <div class="col-xs-12">
+          <a href="#"><div class="capacity-option">16 GB</div></a>
+          <a href="#"><div class="capacity-option active">32 GB</div></a>
+          <a href="#"><div class="capacity-option disable"><img src="img/cross.png">64 GB</div></a>
+        </div>
+        <!-- เลือกสี -->
+        <div class="col-xs-12"><h2>เลือกสี</h2></div>
+        <div class="col-xs-12">
+          <!-- change color by using background color css -->
+          <a href="#"><div class="color-option"><span style="background:#49a430;"></span></div></a>
+          <a href="#"><div class="color-option active"><span style="background:#4390ee;"></span></div></a>
+          <a href="#"><div class="color-option disable"><img src="img/cross.png"><span style="background:#ff8604;"></span></div></a>
+        </div>
+        <!-- Warning -->
+        <div class="col-xs-12">
+            <div class="warning-message-box">* กรุณาเลือก สี ของสินค้า</div>
+        </div>
+        <!-- เลือกจำนวน -->
+        <div class="col-xs-12">
+          <div class="row quantity">
+            <div class="col-xs-4">เลือกจำนวน</div>
+            <div class="col-xs-3">
+              <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>  
+            </div>
+          </div>
+        </div>
+        <!-- สถานะ -->
+        <div class="col-xs-12">
+          <div class="row status">
+            <div class="col-xs-4">สถานะ</div>
+            <div class="col-xs-8" style="color:#95c126;"><img src="img/icon_check_green.png"> มีสินค้า</div>
+            <!-- <div class="col-xs-8" style="color:#959595;"><img src="img/icon_out_of_stock.png"> สินค้าหมด</div> -->
+          </div>
+        </div>
+      </div>
+      <!-- Buy Button || กรณีถ้าจะมี popup ให้ใส่ data-toggle="modal" data-target="#popup-choose" ใน <a> ด้วยครับ -->
+      <div class="row button-buy">
+        <div class="col-xs-12"><a href="#" data-toggle="modal" data-target="#popup-choose"><div class="button"><span>สั่งซื้อ</span></div></a></div>
+      </div>
+      <!-- pay channel -->
+      <div class="row pay-channel">
+        <div class="col-xs-12"><h2>ช่องทางการชำระเงิน</h2></div>
+        <div class="col-xs-12"><img src="img/icon_pay_channel.png"></div>
+      </div>
+      <!-- Promotion -->
+      <div class="row">
+        <div class="col-xs-12"><h1 style="color:#95c126;">โปรโมชั่นที่ร่วมรายการ</h1></div>
+        <!-- Pro1 -->
+        <div class="col-xs-12">
+          <div class="row row-promotion">
+            <div class="pro-header">ผ่อน 0% 10 เดือน</div>
+            <div class="col-xs-4">
+              <img src="img/bank_01.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+            <div class="col-xs-4">
+              <img src="img/bank_02.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+            <div class="col-xs-4">
+              <img src="img/bank_03.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+            <div class="col-xs-4">
+              <img src="img/bank_03.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+            <div class="col-xs-4">
+              <img src="img/bank_01.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- Pro2 -->
+        <div class="col-xs-12">
+          <div class="row row-promotion">
+            <div class="pro-header">ผ่อน 0% 5 เดือน</div>
+            <div class="col-xs-4">
+              <img src="img/bank_03.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+            <div class="col-xs-4">
+              <img src="img/bank_03.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+            <div class="col-xs-4">
+              <img src="img/bank_01.jpg">
+              <p>ส่วนลดอีก</p>
+              <p class="percent">8%</p>
+              <p>ผ่อน</p>
+              <p class="amount">3,000 บาท <span>/เดือน</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ของแถม -->
+      <div class="row box-padding">
+        <div class="col-xs-12 img-align-center"><img src="img/dummy_banner.jpg"></div>
+      </div>
+      <!-- คุณสมบัติ -->
+      <div class="row row-feature box-padding">
+        <div class="col-xs-12">
+          <h1>คุณสมบัติ</h1>
+          <!-- recommend use <table></table> -->
+          <table class="table">
+            <tr>
+              <td>ขนาด (ยาวXกว้างXสูง)</td>
+              <td>137.4 x 68.2 x 9.3 มม.</td>
+            </tr>
+            <tr>
+              <td>น้ำหนัก</td>
+              <td>143 ก.</td>
+            </tr>
+            <tr>
+              <td>หน้าจอแสดงผล</td>
+              <td>4.7 นิ้ว, Full HD 1080p, 468 PPI</td>
+            </tr>
+            <tr>
+              <td>ความเร็วซีพียู</td>
+              <td>Qualcomm® Snapdragon™ 600, quad-core, 1.7GHz</td>
+            </tr>
+            <tr>
+              <td>แพลตฟอร์ม-ANDROID</td>
+              <td>Android™ พร้อม HTC Sense™ HTC BlinkFeed™</td>
+            </tr>
+            <tr>
+              <td>หน่วยความจำ</td>
+              <td>พื้นที่เก็บข้อมูลทั้งหมด : 32GB/64GBขนาดพื้นที่เก็บข้อมูลแตกต่างกัน RAM : 2 GB DDR2</td>
+            </tr>
+            <tr>
+              <td>ประเภทซิมการ์ด</td>
+              <td>micro SIM</td>
+            </tr>
+            <tr>
+              <td>เครือข่าย</td>
+              <td>HSPA/WCDMA: ยุโรป/เอเชีย: 850/900/1900/2100 MHz GSM/GPRS/ EDGE: 850/900/1800/1900 MHz</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- สรุปข้อดี -->
+      <div class="row summary box-padding">
+        <div class="col-xs-12">
+          <h1>สรุปข้อดี</h1>
+          <ul>
+            <li>มือถือบาง น้ำหนักเบา</li>
+            <li>วัสดุธรรมชาติ</li>
+            <li>เปลี่ยน Battery ได้</li>
+            <li>ขนาดจอใหญ่</li>
+            <li>ราคาไม่แพง</li>
+          </ul>
+        </div>
+      </div>
+      <!-- รายละเอียด -->
+      <div class="row box-padding">
+        <div class="col-xs-12">
+          <a href="detail-description.html"><div class="box_more">รายละเอียดสินค้า <img src="img/arrow_more.png"></div></a>
+        </div>
+      </div>
+      <!-- Policy 3 tab -->
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs margin-top-20">
+        <li class="active take-all-space-you-can"><a href="#home" role="tab" data-toggle="tab"><img src="img/policy_01.png"> </a></li>
+        <li class="take-all-space-you-can"><a href="#profile" role="tab" data-toggle="tab"><img src="img/policy_02.png"> </a></li>
+        <li class="take-all-space-you-can"><a href="#messages" role="tab" data-toggle="tab"><img src="img/policy_03.png"> </a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+          <p>ร้านค้าส่งสินค้าผิดรุ่น, สี หรือขนาด ให้กับลูกค้า</p>
+          <p>ร้านค้าจัดส่งสินค้าที่มีลักษณะแตกต่าง หรือไม่มีส่วนคล้ายคลึงกับรูปภาพ
+          สินค้าที่ได้แสดงไว้</p>
+          <p>ร้านค้าจัดส่งสินค้าที่มีสภาพชำรุด เสียหาย และไม่สามารถใช้งานได้ ให้
+          กับลูกค้า (ลูกค้าต้องเก็บกล่อง พร้อมแสดงหลักฐานการซื้อสินค้า)</p>
+          <p>ร้านค้าจะรับเปลี่ยนสินค้าหลังจากลูกค้าได้รับสินค้าแล้ว ภายใน 30 วัน 
+          หากเกินวันดังกล่าว ร้านค้าขอสงวนสิทธิ์ ในการรับคืนสินค้า</p>
+          <div class="warning-message-box">* สำหรับสินค้าในหมวด แก็ตเจ็ต & เครื่องใช้ไฟฟ้า ร้านค้าจะรับ
+  เปลี่ยนสินค้าหลังจากลูกค้าได้รับสินค้าแล้ว ภายใน 7 วัน หากเกิน
+  วันดังกล่าว ร้านค้าขอสงวนสิทธิ์ ในการรับคืนสินค้า</div><br>
+          <p>ค่าใช้จ่ายในการเปลี่ยนและส่งคืนสินค้าลูกค้าจำเป็นต้องแสดงหลักฐาน
+          การชำระเงิน (ใบเสร็จ)ให้ร้านค้า</p>
+          <p>ค่าใช้จ่ายในการเปลี่ยนสินค้า ร้านค้าเป็นผู้รับผิดชอบทั้งหมด</p>
+        </div>
+        <div class="tab-pane fade" id="profile">
+          <p>ร้านค้าส่งสินค้าผิดรุ่น, สี หรือขนาด ให้กับลูกค้า</p>
+          <p>ร้านค้าจัดส่งสินค้าที่มีลักษณะแตกต่าง หรือไม่มีส่วนคล้ายคลึงกับรูปภาพ
+          สินค้าที่ได้แสดงไว้</p>
+          <p>ร้านค้าจัดส่งสินค้าที่มีสภาพชำรุด เสียหาย และไม่สามารถใช้งานได้ ให้
+          กับลูกค้า (ลูกค้าต้องเก็บกล่อง พร้อมแสดงหลักฐานการซื้อสินค้า)</p>
+          <p>ร้านค้าจะรับเปลี่ยนสินค้าหลังจากลูกค้าได้รับสินค้าแล้ว ภายใน 30 วัน 
+          หากเกินวันดังกล่าว ร้านค้าขอสงวนสิทธิ์ ในการรับคืนสินค้า</p>
+          <p>ค่าใช้จ่ายในการเปลี่ยนและส่งคืนสินค้าลูกค้าจำเป็นต้องแสดงหลักฐาน
+          การชำระเงิน (ใบเสร็จ)ให้ร้านค้า</p>
+          <p>ค่าใช้จ่ายในการเปลี่ยนสินค้า ร้านค้าเป็นผู้รับผิดชอบทั้งหมด</p>
+        </div>
+        <div class="tab-pane fade" id="messages">
+          <p>ร้านค้าจัดส่งสินค้าที่มีลักษณะแตกต่าง หรือไม่มีส่วนคล้ายคลึงกับรูปภาพ
+          สินค้าที่ได้แสดงไว้</p>
+          <p>ค่าใช้จ่ายในการเปลี่ยนและส่งคืนสินค้าลูกค้าจำเป็นต้องแสดงหลักฐาน
+          การชำระเงิน (ใบเสร็จ)ให้ร้านค้า</p>
+          <p>ค่าใช้จ่ายในการเปลี่ยนสินค้า ร้านค้าเป็นผู้รับผิดชอบทั้งหมด</p></div>
+      </div>
+      <!-- reivew -->
+      <div class="row product-review margin-top-20">
+        <div class="col-xs-12"><h1 style="color:#95c126;">รีวิว</h1></div>
+        <div class="col-xs-12">
+          <!-- profile -->
+          <div class="row profile">
+            <div class="col-xs-3"><img src="img/profile.jpg"></div>
+            <div class="col-xs-9">
+              <h3>Alongkorn Deepuke</h3>
+              <img class="star" src="img/star_active.png">
+              <img class="star" src="img/star_active.png">
+              <img class="star" src="img/star_active.png">
+              <img class="star" src="img/star_normal.png">
+              <img class="star" src="img/star_normal.png">
+            </div>
+          </div>
+          <!-- comment -->
+          <div class="row comment">
+            <div class="col-xs-12">ปลุกมันจะตั้งเป็นช่วงเวลา เช่น 6:30 - 7:00 มันจะปลุกในเวลาที่เหมาะสมที่สุดตาม sleep cycle ระหว่าง 6:30 - 7:00 ส่วนงีบผมไม่เห็นนะ ทำไมอ่านๆ ไปก็นึกขึ้นว่าอุปกรณ์พวกนี้มันคล้ายๆ กับอุปกรณ์ที่เค้าเอาไว้ track พวกสัตว์ป่าเลยแฮะ</div>
+          </div>
+          <!-- read all review -->
+          <div class="row">
+            <div class="col-xs-12"><a class="blue-link" href="detail-review.html">อ่านรีวิวทั้งหมดจากผู้ซื้อ (<span>12</span>)</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- related Product -->
+      <div class="row">
+        <div class="col-xs-12"><h1 style="color:#95c126;">สินค้าที่เกี่ยวข้อง</h1></div>
+      </div>
+      <div class="row margin-top-20">
+        <div class="swiper-related-container">
+          <div class="swiper-wrapper">
+            <!-- item1 -->
+            <div class="swiper-slide">
+              <div class="col-medium">
+              <div class="col-xs-12"><div class="product-img"><a href="#"><img src="img/dummy_product_img_01.jpg"></a></div></div>
+              <div class="col-xs-12 product-name margin-top-20">original Lenovo S960+ MTK6592 Octa Core 1.9Ghz 2GB RAM 5.0'' 1920x1080px 13MP dual SIM Android 4.4 mobile phon</div>
+              <div class="col-xs-12 product-price">
+                <div class="row">
+                <div class="col-xs-8">
+                  <h2>4,000.-</h2>
+                </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- item2 -->
+            <div class="swiper-slide">
+              <div class="col-medium">
+              <div class="col-xs-12"><div class="product-img"><a href="#"><img src="img/dummy_product_img_02.jpg"></a></div></div>
+              <div class="col-xs-12 product-name margin-top-20">Aztec Silicone Case for Iphone5 5s Soft Black Hybrid TPU Back Cover for Apple iphone iphone5s 5 Capa Free screen protector stand</div>
+              <div class="col-xs-12 product-price">
+                <div class="row">
+                <div class="col-xs-8">
+                  <h2>4,000.-</h2>
+                  <span>9,900.-</span>
+                </div>
+                <div class="col-xs-4"><span class="price-discount">33</span><img src="img/dummy_sale_tag_03.png"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- item3 -->
+            <div class="swiper-slide">
+              <div class="col-medium">
+              <div class="col-xs-12"><div class="product-img"><a href="#"><img src="img/dummy_product_img_02.jpg"></a></div></div>
+              <div class="col-xs-12 product-name margin-top-20">Aztec Silicone Case for Iphone5 5s Soft Black Hybrid TPU Back Cover for Apple iphone iphone5s 5 Capa Free screen protector stand</div>
+              <div class="col-xs-12 product-price">
+                <div class="row">
+                <div class="col-xs-8">
+                  <h2>4,000.-</h2>
+                  <span>9,900.-</span>
+                </div>
+                <div class="col-xs-4"><span class="price-discount">33</span><img src="img/dummy_sale_tag_03.png"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- item4 -->
+            <div class="swiper-slide">
+              <div class="col-medium">
+              <div class="col-xs-12"><div class="product-img"><a href="#"><img src="img/dummy_product_img_01.jpg"></a></div></div>
+              <div class="col-xs-12 product-name margin-top-20">original Lenovo S960+ MTK6592 Octa Core 1.9Ghz 2GB RAM 5.0'' 1920x1080px 13MP dual SIM Android 4.4 mobile phon</div>
+              <div class="col-xs-12 product-price">
+                <div class="row">
+                <div class="col-xs-8">
+                  <h2>4,000.-</h2>
+                </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- item5 -->
+            <div class="swiper-slide">
+              <div class="col-medium">
+              <div class="col-xs-12"><div class="product-img"><a href="#"><img src="img/dummy_product_img_01.jpg"></a></div></div>
+              <div class="col-xs-12 product-name margin-top-20">original Lenovo S960+ MTK6592 Octa Core 1.9Ghz 2GB RAM 5.0'' 1920x1080px 13MP dual SIM Android 4.4 mobile phon</div>
+              <div class="col-xs-12 product-price">
+                <div class="row">
+                <div class="col-xs-8">
+                  <h2>4,000.-</h2>
+                </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row footer">
+        <div class="col-xs-12"><h1>ประเภทสินค้า</h1></div>
+        <div class="col-xs-6">
+          <ul>
+            <li><a href="#">มือถือ</a></li>
+            <li><a href="#">แฟชั่นผู้ชาย</a></li>
+            <li><a href="#">แฟชั่นผู้หญิง</a></li>
+            <li><a href="#">นาฬิกา</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6">
+          <ul>
+            <li><a href="#">กระเป๋า</a></li>
+            <li><a href="#">รองเท้า</a></li>
+            <li><a href="#">สมาร์ทโฟน</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 bottom">
+          <div class="row">
+            <div class="col-xs-12"><h1>บริการของเรา</h1></div>
+            <div class="col-xs-6">
+              <ul>
+                <li><a href="http://www.itruemart.com/member/profile">ข้อมูลส่วนตัว</a></li>
+                <li><a href="#">คุยสดกับเรา</a></li>
+                <li><a href="http://www.itruemart.com/contact_us">ติดต่อเรา</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6">
+              <ul>
+                <li><a href="http://www.itruemart.com/order_tracking">ตรวจสอบสถานการชำระเงินและการจัดส่ง</a></li>
+                <li><a href="http://www.itruemart.com/policy/returnpolicy">นโยบายการรับประกันสินค้า</a></li>
+                <li><a href="http://www.itruemart.com/policy/freedelivery">นโยบายการจัดส่งสินค้า</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 text-center margin-top-20"><a href="http://www.itruemart.com/"><img src="img/flag_us.png"></a>&nbsp;&nbsp; <a href="#"><img src="img/flag_th.png"></a></div>
+            <div class="col-xs-12 text-center margin-top-20"><a href="http://www.itruemart.com/">View PC Site</a></div>
+            <div class="col-xs-12 text-center margin-top-20 link-grey"><a href="#">Privacy Policy</a> - <a href="#">Terms of Use</a> - <a href="#">Feedback</a></div>
+            <div class="col-xs-12 text-center link-grey">Copyright Notice 2014 - itruemart.com</div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <!-- JS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/idangerous.swiper-2.1.min.js"></script>
+    <script>
+    //product slider
+    var mySwiper1 = new Swiper('.swiper-product-container',{
+      pagination: '.pagination',
+      loop:true,
+      grabCursor: true,
+      paginationClickable: true
+    })
+    //related slider
+    var mySwiper = new Swiper('.swiper-related-container',{
+      paginationClickable: true,
+      slidesPerView: 'auto'
+    });
+
+    $(document).ready(function() {
+      //share button
+      $('#button-share').click(function() {
+        if($('#share-button').hasClass("active")){
+          $('#share-button').removeClass( "active" );
+          $('#button-share').html("Share");
+        }else{
+          $('#share-button').addClass( "active" );
+          $('#button-share').html("Close");
+        }
+      });
+
+      //calculate Policy Tab
+      var numTabs = $('.nav-tabs').find('li').length;
+      var tabWidth = 100 / numTabs;
+      var tabPercent = tabWidth + "%";
+      $('.nav-tabs li').width(tabPercent);
+
+      //วางกากบาทบนช่อง disable
+      var w_capacity = $('.capacity-option.disable').width();
+      var w_color = $('.color-option.disable').width();
+      var h_capacity = $('.capacity-option.disable').height();
+      var h_color = $('.color-option.disable').height();
+      var padding_capacity_top = $('.capacity-option.disable').css('padding-top');
+      var padding_capacity_left = $('.capacity-option.disable').css('padding-left');
+      var padding_color_top = $('.color-option.disable').css('padding-top');
+      var padding_color_left = $('.color-option.disable').css('padding-left');
+      //convert to int
+      var p_capacity_top = parseInt(padding_capacity_top);
+      var p_capacity_left = parseInt(padding_capacity_left);
+      var p_color_top = parseInt(padding_color_top);
+      var p_color_left = parseInt(padding_color_left);
+      //set margin กากบาท
+      $('.capacity-option.disable img').css("margin-top", "-" + (p_capacity_top-2) + "px");
+      $('.capacity-option.disable img').css("margin-left", "-" + padding_capacity_left);
+      $('.color-option.disable img').css("margin-top", "-" + padding_color_top);
+      $('.color-option.disable img').css("margin-left", "-" + padding_color_left);
+      //set width กากบาท
+      $('.capacity-option.disable img').width(w_capacity + (p_capacity_left*2));
+      $('.color-option.disable img').width(w_color + (p_color_left*2));
+      $('.capacity-option.disable img').height(h_capacity + (p_capacity_top*2));
+      $('.color-option.disable img').height(h_color + (p_color_top*2));
+
+      //countdown : more information http://hilios.github.io/jQuery.countdown/
+      $("#countdown-discount").countdown("2015/01/01", function(event) {
+        $(this).html(event.strftime('%H:%M:%S'));
+      });
+
+      // show/hide BackToTop
+      $(window).scroll(function () {
+      if ($(window).scrollTop() + $(window).height() > 1500) {
+          //show arrow back to top
+          $('#backtotop-arrow').show();
+      } else {
+        //hide arrow back to top
+        $('#backtotop-arrow').hide();
+      }
+      });
+
+    });
+    </script>
+  </body>
+</html>

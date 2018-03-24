@@ -1,0 +1,216 @@
+{
+  "mall":{
+    "beauty": "BEAUTY&WATCH MALL",
+    "electronic": "ELECTRONIC MALL"
+  },
+  "topNavbar": {
+    "registerTrueId": "Register",
+    "loginTrueId": "Login",
+    "myProfile": "My Profile",
+    "checkingMyOrder": "Check my order",
+    "logoutTrueId": "Logout",
+    "language": "Language"
+  },
+  "menu": {
+    "mega-menu": {
+      "electronics": "Electronics",
+      "beauty": "Beauty"
+    }
+  },
+  "mainPage": "Main Page",
+  "promotions": {
+    "name": "Special Offers & Promotions",
+    "link1": {
+      "html": "Everyday WOW",
+      "title": "Everyday WOW",
+      "href": "/everyday-wow"
+    },
+    "link2": {
+      "html": "% Discount",
+      "title": "% Discount",
+      "href": "/discount-products"
+    }
+  },
+  "service": {
+    "name": "Our Service",
+    "link1": {
+      "html": "Profile",
+      "title": "Profile",
+      "href": "/member/profile"
+    },
+    "link2": {
+      "html": "Product in cart",
+      "title": "Product in cart",
+      "href": "/checkout/step1"
+    },
+    "link3": {
+      "html": "My cart",
+      "title": "My cart",
+      "href": "/checkout/step1"
+    },
+    "link4": {
+      "html": "Check my order",
+      "title": "Check my order",
+      "href": "/order_tracking"
+    },
+    "link5": {
+      "html": "Return Policy",
+      "title": "Return Policy",
+      "href": "/policy/returnpolicy"
+    },
+    "link6": {
+      "html": "Delivery Policy",
+      "title": "Delivery Policy",
+      "href": "/policy/freedelivery"
+    },
+    "link7": {
+      "html": "Refund Policy",
+      "title": "Refund Policy",
+      "href": "/policy/moneyback"
+    },
+    "link8": {
+      "html": "Guide to Pay",
+      "title": "Guide to Pay",
+      "href": "/payment-manual"
+    },
+    "link9": {
+      "html": "Manual vouchers",
+      "title": "Manual vouchers",
+      "href": "/checkout/manual#fill"
+    }
+  },
+  "payments": {
+    "name": "Payment Channel",
+    "link1": {
+      "html": "Installment",
+      "icn": "ch-installment",
+      "href": "",
+      "image": "/ng-assets/images/icon/channel_07.png"
+    },
+    "link2": {
+      "html": "Credit Card",
+      "icn": "Profile",
+      "href": "http://www.itruemart.com/payment-manual",
+      "image": "/ng-assets/images/icon/channel_01.png"
+    },
+    "link3": {
+      "html": "Internet Banking<br/>(iBanking)",
+      "icn": "ch-ibanking",
+      "href": "http://www.itruemart.com/payment-manual#ibanking",
+      "image": "/ng-assets/images/icon/channel_05.png"
+    },
+    "link4": {
+      "html": "Payment Counter",
+      "icn": "ch-paymentcounter",
+      "href": "http://www.itruemart.com/payment-manual",
+      "image": "/ng-assets/images/icon/channel_06.png"
+    },
+    "link5": {
+      "html": "Counter Service",
+      "icn": "ch-counterservice",
+      "href": "http://www.itruemart.com/payment-manual#counter-service",
+      "image": "/ng-assets/images/icon/channel_02.png"
+    },
+    "link6": {
+      "html": "Bank ATM",
+      "icn": "ch-atm",
+      "href": "http://www.itruemart.com/payment-manual#atm",
+      "image": "/ng-assets/images/icon/channel_03.png"
+    },
+    "link7": {
+      "html": "Cash on Delivery",
+      "icn": "",
+      "href": "",
+      "image": "/ng-assets/images/icon/channel_04.png"
+    }
+  },
+  "page":{
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "footer": {
+    "Follow": "Follow us",
+    "AboutItruemart": "About iTrueMart",
+    "Subscribe": "Subscribe",
+    "FollowVia": "Follow us via"
+  },
+  "searchBox": {
+    "placeholder": "Search Product or Brand",
+    "category": {
+      "0": "All Category ",
+      "1": "Best Selfie Smartphone&Camera ",
+      "2": "Chinese New Year ",
+      "3": "Everyday WOW ",
+      "4": "Valentine Special ",
+      "5": "Cameras ",
+      "6": "Gadget ",
+      "7": "Beauty ",
+      "8": "Home Appliances ",
+      "9": "Electronics ",
+      "10": "All Mobile & Tablet ",
+      "11": "Electronics ",
+      "12": "Mobile & Tablet Accessories "
+    }
+  },
+  "siderbarCategory": {
+    "allProduct": "All Products",
+    "category": "Releated Categories",
+    "brand": "Brand",
+    "price": "Price",
+    "size": "Size",
+    "color": "Color",
+    "paymentMethod": "Payment Channel",
+    "more": "View More",
+    "moreMobile": "Show more",
+    "less": "Less More",
+    "searchResults": "Search Results",
+    "cancel" : "Cancel",
+    "filter" : "Filter",
+    "reset" : "Reset",
+    "min": "Min",
+    "max": "Max"
+  },
+  "showroom":{
+    "seeAll": "See All"
+  },
+  "menubarSort":{
+    "searchKey": "Search keyword",
+    "sortBy": "Sort By",
+    "recommend": "Recommend",
+    "newest": "Newest",
+    "price": "Price",
+    "discount": "Discount",
+    "itemsPerPage": "Items Per Page",
+    "results": "Results",
+    "priceLowToHigh": "Price : Low to High",
+    "priceHighToHigh": "Price : High to Low",
+    "discountLowToHigh": "Discount : Low to High",
+    "discountHighToLow": "Discount : High to Low",
+    "resultsFound": "Results Found",
+    "searchResult": "Search"
+  },
+  "productList":{
+    "installment": "installment",
+    "instl" : "INSTL",
+    "trueMemberDiscount": "TRUE member discount off",
+    "saving": "Saving"
+  },
+  "searchResult":{
+    "failed": "Sorry, the product page dose not exist. Plase try using diffenrent Keywords."
+  },
+  "paymentMethod": {
+    "payment_ccw": "Credit Card",
+    "payment_installment": "Installment",
+    "payment_bank_transfer": "Other payment channels",
+    "payment_atm": "Bank Payments",
+    "payment_cs": "Counter Service",
+    "payment_cod": "Cash on Delivery",
+    "payment_internet_banking": "Online Banking",
+    "payment_over_the_counter": "Over The Counter"
+  },
+  "filter": "Show All",
+  "clear": "Clear",
+  "filterBy": "Filter",
+  "baht": "PHP",
+  "apply": "Apply"
+}

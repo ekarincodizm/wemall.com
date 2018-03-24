@@ -1,0 +1,75 @@
+.xmas-container { width: 990px; margin: 0 auto; background-color: #ffffff; color: #000000; padding-bottom: 1px; }
+.xmas-container * { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+.xmas-controller { position: relative; }
+.xmas-controller .xmas-link { position: absolute; }
+
+.xmas-content { font: 35px/1.4 'true_mediumregular'; padding: 0 46px; }
+.xmas-content p { margin: 0; }
+.xmas-content p:after { clear: both; display: block; content: ''; }
+.xmas-content span { font-size: 27px; }
+.xmas-content a { margin-top: 30px; float: right; }
+
+.xmas-modal-dialog { position: absolute; left: 50%; margin-left: -424px; display: none; }
+.xmas-modal-dialog * { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.xmas-modal-dialog.open { display: block; }
+.xmas-modal-dialog .bg { position: relative; z-index: -1; top: 0; left: 0; }
+.xmas-modal-dialog .modal-msg { width: 100%; position: absolute; top: 0; left: 0; text-align: center; padding: 220px 105px 0; }
+.xmas-modal-dialog .modal-msg p { font: 25px/1.3 'true_lightregular'; margin: 0; min-height: 230px; text-align: left; padding: 0 0 15px; }
+.xmas-modal-dialog .modal-msg .msg-bold { font-family: 'true_boldregular'; }
+.xmas-modal-dialog .modal-msg .send-sms-email { display: block; margin-top: 15px; }
+.xmas-modal-dialog .modal-action { width: 100%; bottom: 150px; }
+.xmas-modal-dialog .modal-action .column { width: 50%; float: left; text-align: center; }
+.xmas-modal-dialog .modal-action .column.left { text-align: left; }
+.xmas-modal-dialog .modal-action .column.right { text-align: right; }
+.xmas-modal-dialog .modal-action .coupon-conditions { color: #000000; font: 20px/4 'true_boldregular'; }
+
+.products-title-name { padding: 0 46px; font: 35px/1.3 'true_boldregular'; margin: 30px 0 30px; }
+.products-title-name:after { content: ''; display: block; clear: both; }
+
+.products-list { margin: 0 auto; padding: 0; list-style: none; width: 907px; }
+.products-list:after { clear: both; display: block; content: ''; }
+.products-list .item { float: left; width: 299px; margin-bottom: 15px; }
+.products-list .item > a { display: block; position: relative; }
+.products-list .item > a > img { display: block; }
+
+.bg-price { width: 100%; position: absolute; left: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.5); font-family: 'true_lightregular'; font-size: 20px; color: #000000; text-align: right; padding: 0 18px; }
+.bg-price .price { display: inline-block; vertical-align: middle; line-height: normal; letter-spacing: -1px; width: auto; text-align: right; padding: 0; }
+
+.bg-text-codePromotion { height: 26px; text-align: right; display: block; padding-right: 18px; font: 17px/1.8 'true_mediumregular'; color: #ffffff; width: 100%; }
+.bg-text-codePromotion.bg-1 { background: url(../img/products/bg-code-discount-1.jpg) no-repeat left top; }
+.bg-text-codePromotion.bg-2 { background: url(../img/products/bg-code-discount-2.jpg) no-repeat left top; }
+
+.text-welcome { display: block; margin-bottom: 10px; }
+
+.title-left { float: left; letter-spacing: -1px; }
+
+.title-right { float: right; font-family: 'true_lightregular'; }
+
+.more-products { text-align: center; margin: 50px 0 80px; }
+
+.price-discount { text-decoration: line-through; }
+
+.price-special { font: 28px/1.3 'true_boldregular'; }
+
+.tag-discount { position: absolute; left: 0; top: 0; }
+
+.link-pos-1 { left: 398px; top: 370px; }
+
+.link-pos-2 { left: 537px; top: 453px; }
+
+.link-pos-3 { left: 307px; top: 528px; }
+
+.link-pos-4 { left: 459px; top: 570px; }
+
+.link-pos-5 { left: 562px; top: 656px; }
+
+.link-pos-6 { left: 386px; top: 686px; }
+
+.link-pos-7 { left: 259px; top: 773px; }
+
+.link-pos-8 { left: 454px; top: 854px; }
+
+.link-pos-9 { left: 635px; top: 814px; }
+
+.link-pos-10 { left: 304px; top: 930px; }

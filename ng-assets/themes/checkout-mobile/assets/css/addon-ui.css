@@ -1,0 +1,43 @@
+#inc-action-box {margin-top: 2em !important;}
+#accept_conditions {margin-bottom: 0;}
+input[disabled="disabled"] {color: #000000 !important;}
+/*checkout 2*/
+.content-home.checkout {width: 640px; padding: 0;}
+.inc-payment-title {padding: 0 1.5em !important;}
+.profile {padding: 0 1.6em;}
+.inc-contact {margin-top: 0 !important;}
+.address-title {color: #959595; font-weight: normal !important; margin-top: 1em !important;}
+.inc-contact .address-title {padding-left: 0;}
+.btn-delete {background-color: #ffffff !important; color: transparent !important;}
+.product-description {padding-right: 0.5em;width: auto !important;}
+.product-amount input[type="number"] {text-align: right !important;}
+.product-del {width: auto !important; padding-right: 0.85em !important;}
+.product-del > span {width: 1.5em; height: 1.5em; overflow: hidden;}
+.product-total {margin-bottom: 1em;}
+.active-alert-text {padding: 1em 0 0 0;}
+.inc-collect-addr {display: none;}
+.product-box-info {min-height: 180px;}
+/*checkout 3*/
+.profile-container {padding: 0 !important;}
+.inc-title {padding: 0 1.6em;}
+.address-title {color: #000000; font-weight: bold !important;}
+.product-description {width: 66% !important;}
+input[disabled="disabled"] {font-weight: bold;}
+#ccv {padding-right: 100px} 
+.cvv-control {position: absolute; left: 180px;}
+/*thankyou*/
+.chekout-info-complete {padding: 0 1.5em;}
+.main-text-info {color: #87c80a !important;}
+.sub-text-info > span {color: #959595 !important;}
+a.requery-btn {color: #0000ff !important; text-decoration: underline;}
+img.thank-logo {margin: 1em auto 0;}
+.text-complete {color: #87c80a !important;}
+.text-cancel {color: #ff0000 !important; text-decoration: none !important;}
+.text-fail {color: #ff0000 !important; text-decoration: none !important;}
+.text-waiting {color: #959595 !important;}
+/*btn*/
+.form-msg-control {padding: 1.5em 0; text-align: center;}
+.form-btn-control {text-align: center; margin-top: 1em;}
+.btn-global {background-color:#87c80a; padding: .5em; border-radius: 5px; color: #fff;}
+/*select*/
+.select-new {appearance: normal; -webkit-appearance: normal; -moz-appearance: normal;background-image: none;}

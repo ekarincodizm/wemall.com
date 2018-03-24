@@ -1,0 +1,14 @@
+#header, 
+.thank-icon, 
+.print-box, 
+#footer, 
+.success-box-footer, 
+.box-footer{
+    display:none;
+}
+.success-thank{
+    margin: 0px 40px;
+}
+.box-done{
+    border:none;
+}

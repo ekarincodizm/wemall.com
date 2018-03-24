@@ -1,0 +1,54 @@
+#voucher-manual{font-size:1.150em;line-height:24px;margin-bottom:30px;/* border-bottom:solid 1px #cfcbcb */}
+#title{font-size:1.875em;padding:5px 10px;border-bottom:solid 1px #cfcbcb;color:#3a3a3a}
+#title{font-size:1.875em;padding:5px 10px;border-bottom:solid 1px #cfcbcb;color:#3a3a3a;margin-bottom:15px}
+#voucher-content{width:759px;border-left:solid 1px #cfcbcb;overflow:hidden;padding-left:30px;margin-bottom:20px}
+#voucher-content img{max-width:100%}#menu{font-size:1.250em;line-height:1.2;padding:10px;padding-top:0}
+#menu>ul{padding:10px 20px 10px 0;margin-top:5px;background-color:#CBDB5E;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px}
+#menu li{text-align:right;cursor:pointer;line-height:1;position:relative}
+#menu li span{display:none;position:absolute;top:0;right:0;margin:0 -13px 0 10px}
+span.step-no{font-weight: normal;float:left;margin:0 10px 0 0}
+.step-desc{overflow:hidden}
+ul.step-desc-bullet{clear:both}
+#menu li:hover span{display:block}
+#menu li.selected{color:#000}
+#menu li.selected span{display:block}
+#menu li a{color:#b2b2b2}
+#menu li:hover a{color:#000}
+#menu li.selected a{color:#000}
+.tab-pane{display:none}
+#notice{background-color:#E5E5E5;margin:35px 0 15px 0;padding:20px;text-align:center;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px}
+.red{color:#C30000}
+.manual-container{margin:5px;display:none;font-size:1.500em}
+.how-to>li>a{padding:5px 10px;font-family:'true_boldregular';font-size:1.714em;background-color:#eee;border-color:#eee #eee #ddd}
+.panel{border:solid 1px #ddd;border-top:0;border-radius:0}
+.panel-body{font-size:0.85em}
+.active{display:block}
+.in-active{display:none}
+#title{font-family:'true_boldregular',Tahoma}
+
+#checkout-manual{font-size: 15px;}
+#title{font-size: 21px;border-bottom:solid 1px #cfcbcb;color:#3a3a3a;font-family:'true_boldregular', Tahoma;padding:5px 10px}
+#menu{font-size:1.25em;line-height:1.2}
+#menu > ul{margin-top:5px;background-color:#CBDB5E;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;padding:10px 20px 10px 0}
+#menu li{text-align:right;cursor:pointer;line-height: 1.5;position:relative;font-size: 15px;}
+#menu li span{display:none;position:absolute;top:0;right:0;margin:0 -13px 0 10px}
+#menu li a{color:#b2b2b2}
+.manual-container{display:none;margin:5px;}
+.how-to-checkout > li > a{font-family:'true_boldregular';font-size: 21px;background-color:#eee;border-color:#eee #eee #ddd;padding:5px 10px;text-decoration: none;}
+.panel{border:solid 1px #ddd;border-top:0;border-radius:0}
+.panel-body{font-size:.85em}
+#menu,#remark,#notice{font-family:'true_mediumregular', Tahoma;font-size: 15px;}
+.tab-pane,.in-active{display:none}
+#menu li:hover span,#menu li.selected span,.active{display:block}
+#menu li.selected,#menu li:hover a,#menu li.selected a{color:#000;text-decoration: none;}
+.tab-pane {font-size: 14px;}
+.tab-pane ul {list-style: disc; margin-left: 20px;}
+.tab-pane ol {list-style: decimal; margin-left: 20px;}
+li.active > a, li:hover > a:hover {text-decoration: none;}
+#checkout-manual .row, #voucher-manual .row {margin-left: 0; margin-right: 0;}
+#checkout-manual .col-sm-2 {width: 16.666666666666664%; float: left;}
+#voucher-manual .col-sm-3 {width: 25%; float: left;}
+#checkout-manual .col-sm-10 {width: 83.33333333333334%; float: left;}
+#voucher-manual .col-sm-9 {width: 75%; float: left;}
+#voucher-manual div.manual-container {font-family: tahoma !important; font-size: 14px;}
+#voucher-manual .manual-container ul {list-style: disc; margin-left: 20px;}

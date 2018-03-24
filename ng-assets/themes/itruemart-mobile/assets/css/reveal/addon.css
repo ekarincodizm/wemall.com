@@ -1,0 +1,13 @@
+.reveal-modal {width: 400px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; top: 100px !important;}
+#popup_desc {height: 400px; overflow: auto;}
+#popup_message p {font-weight: normal !important;}
+.popup_ok {padding: 4px 10px; color: #ffffff; font-size: 17px; cursor: pointer; background: -webkit-linear-gradient(#AACF44, #95BF35); background: -o-linear-gradient(#AACF44, #95BF35);background: -moz-linear-gradient(#AACF44, #95BF35);  background: linear-gradient(#AACF44, #95BF35); border: solid 1px #79AB17; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+
+.msg-header{
+	background-color:#C00C00;color:#fff; padding: 3px;
+}
+.btn-success {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}

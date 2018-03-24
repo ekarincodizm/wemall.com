@@ -1,0 +1,56 @@
+<html>
+<head>
+
+</head>
+<body>
+<script type="text/javascript">
+    var transactionId = "65000" // unique transaction ID
+    var cartProducts = [];
+    var affil = 'itruemart.ph';	 // affiliation or store name
+
+    // items
+    // start loop
+
+    cartProducts.push({
+        'id': transactionId,
+        'sku': '000000009',        	 // product ID
+        'name': 'Test GA Product Name', // product name
+        'category': 'Test GA Category', // category name
+        'price': '1000.00',       // unit product price without tax and shipping
+        'quantity': '3'         // item count
+    });
+
+    // end loop
+
+    dataLayer.push({
+        'transactionId': transactionId,
+        'transactionAffiliation': affil,
+        'transactionTotal': '3000.00',             // total renevue
+        'transactionTax': '0',               // tax
+        'transactionShipping': '0',        	 // shipping
+        'transactionProducts': cartProducts,
+        'country': 'Test GA Country',	 // Custom Dimension 1
+        'province': 'Test GA Province',	 // Custom Dimension 2
+        'city': 'Test GA City', // Custom Dimension 3
+        'total_revenue': '3000.00', // Custom Dimension 4
+        'total_quantity': '3',	 // Custom Dimension 5
+        'event': 'trackTrans'});
+
+</script>
+
+<!-- [S] Analytic -->
+<!-- Google Tag Manager -->
+          <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PNLTZQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <script>
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+                  new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+                  "//www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,"script","dataLayer","GTM-PNLTZQ");
+          </script>
+<!-- End Google Tag Manager -->
+<!-- [E] Analytic -->
+
+<span>Test GA</span>
+</body>
+</html>

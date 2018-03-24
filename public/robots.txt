@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /_design
+Disallow: /_design_mobile_2014-07-16
+Disallow: /_design_mobile_2014-07-30
+Disallow: /packages
+Disallow: /healthcheck
+Disallow: /ossytool
+Disallow: /th$
+Disallow: /th/

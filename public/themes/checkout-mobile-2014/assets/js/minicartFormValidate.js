@@ -1,0 +1,1 @@
+//do something with validate minicart here.

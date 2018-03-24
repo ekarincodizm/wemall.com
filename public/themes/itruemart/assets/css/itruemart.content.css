@@ -1,0 +1,23 @@
+div.product_img_big{border:solid #efefef 1px;float:left;height:340px;margin:0;width:340px;text-align: center;}
+div.product_preview_next{float:left;height:19px;margin-right:10px;margin-top:23px;width:19px}
+div.product_preview_prv{float:left;height:19px;margin-left:10px;margin-top:23px;width:19px}
+div.product_preview_img{border:0;float:left;height:66px;margin:0;width:66px}
+div.product_preview_small{float:left;height:66px;margin-left:38px;margin-top:20px}
+div.img_preview_wrapper{margin-left:23px;margin-top:20px}
+div.img_preview_next{float:left;margin-right:10px;margin-top:20px}
+div.img_preview_prev{float:left;margin-left:10px;margin-top:20px}
+ul.img_preview_content li{float:left;height:68px;width:68px}
+ul.img_preview_content li img{border:1px solid #EEE;height:66px;width:66px}
+.product_img_big .flashsale{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/con2.png);bottom:0;height:49px;position:absolute;right:0;width:49px}
+.product_img_big .today{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/con3.png);bottom:0;height:49px;position:absolute;right:0;width:49px}
+.product_img_big .onsale{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/con1.png);bottom:0;height:49px;position:absolute;right:0;width:49px}
+.img_preview_wrapper .bx-wrapper{margin-top:0;max-width:220px}
+div.right_ad_product,.product_img_big,.list_product_upcoming{position:relative}
+.product-control > li img,.truecard-msg img{vertical-align:middle}
+.box-review,.overflow{overflow:auto}
+.middle{margin:-3px 5px 0 0;vertical-align:middle}
+.product_preview h3{margin:5px 0 10px;padding:0}
+.product-control li{float:left;font-family:true_mediumregular;font-size:1em;height:35px;line-height:35px;text-align:center;width:33%}
+.product_360degree{height:338px;width:338px}
+.product_360degree-container,.vdo-container{border:solid 1px #efefef;display:none;float:left;height:338px;width:338px}
+.box-sizing,.box-sizing div{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}

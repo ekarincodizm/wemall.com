@@ -1,0 +1,215 @@
+{
+  "mall":{
+    "beauty": "BEAUTY&WATCH MALL",
+    "electronic": "ELECTRONIC MALL"
+  },
+  "topNavbar": {
+    "registerTrueId": "สมัครทรูไอดี",
+    "loginTrueId": "เข้าสู่ระบบ",
+    "myProfile": "ข้อมูลส่วนตัว",
+    "checkingMyOrder": "ตรวจสอบสถานะการชำระเงิน และการจัดส่ง",
+    "logoutTrueId": "ออกจากระบบ",
+    "language": "ภาษา"
+  },
+  "menu": {
+    "mega-menu": {
+      "electronics": "อิเล็กโทรนิกส์",
+      "beauty": "ความงาม"
+    }
+  },
+  "mainPage": "หน้าหลัก",
+  "promotions": {
+    "name": "โปรโมชั่น",
+    "link1": {
+      "html": "Everyday WOW",
+      "title": "Everyday WOW",
+      "href": "/everyday-wow"
+    },
+    "link2": {
+      "html": "สินค้าลดราคา",
+      "title": "สินค้าลดราคา",
+      "href": "/discount-products"
+    }
+  },
+  "service": {
+    "name": "บริการของเรา",
+    "link1": {
+      "html": "ข้อมูลส่วนตัว",
+      "title": "ข้อมูลส่วนตัว",
+      "href": "/member/profile"
+    },
+    "link2": {
+      "html": "สินค้าในตะกร้า",
+      "title": "สินค้าในตะกร้า",
+      "href": "/checkout/step1"
+    },
+    "link3": {
+      "html": "ข้อมูลสินค้าในตะกร้า",
+      "title": "ข้อมูลสินค้าในตะกร้า",
+      "href": "/checkout/step1"
+    },
+    "link4": {
+      "html": "ตรวจสอบสถานะการชำระเงิน และการจัดส่ง",
+      "title": "ตรวจสอบสถานะการชำระเงิน และการจัดส่ง",
+      "href": "/order_tracking"
+    },
+    "link5": {
+      "html": "นโยบายการรับประกันสินค้า",
+      "title": "นโยบายการรับประกันสินค้า",
+      "href": "/policy/returnpolicy"
+    },
+    "link6": {
+      "html": "นโยบายการจัดส่งสินค้า",
+      "title": "นโยบายการจัดส่งสินค้า",
+      "href": "/policy/freedelivery"
+    },
+    "link7": {
+      "html": "นโยบายการคืนเงิน",
+      "title": "นโยบายการคืนเงิน",
+      "href": "/policy/moneyback"
+    },
+    "link8": {
+      "html": "คู่มือการชำระเงิน",
+      "title": "คู่มือการชำระเงิน",
+      "href": "/payment-manual"
+    },
+    "link9": {
+      "html": "คู่มือการใช้คูปองเงินสด",
+      "title": "คู่มือการใช้คูปองเงินสด",
+      "href": "/checkout/manual#fill"
+    }
+  },
+  "payments": {
+    "name": "ช่องทางการชำระเงิน",
+    "link1": {
+      "html": "ผ่อนชำระ<br/>(Installment)",
+      "icn": "ch-installment",
+      "href": "",
+      "image": "/ng-assets/images/icon/channel_07.png"
+    },
+    "link2": {
+      "html": "บัตรเครดิต<br/>(Credit Card)",
+      "icn": "Profile",
+      "href": "/payment-manual",
+      "image": "/ng-assets/images/icon/channel_01.png"
+    },
+    "link3": {
+      "html": "iBanking<br/>(Internet Banking)",
+      "icn": "ch-ibanking",
+      "href": "/payment-manual#ibanking",
+      "image": "/ng-assets/images/icon/channel_05.png"
+    },
+    "link4": {
+      "html": "เคาท์เตอร์ธนาคาร<br/>(Payment Counter)",
+      "icn": "ch-paymentcounter",
+      "href": "/payment-manual#payment-counter",
+      "image": "/ng-assets/images/icon/channel_06.png"
+    },
+    "link5": {
+      "html": "เคาท์เตอร์เซอร์วิส<br/>(Counter Service)",
+      "icn": "ch-counterservice",
+      "href": "/payment-manual#counter-service",
+      "image": "/ng-assets/images/icon/channel_02.png"
+    },
+    "link6": {
+      "html": "ตู้ ATM<br/>(Bank ATM)",
+      "icn": "ch-atm",
+      "href": "/payment-manual#atm",
+      "image": "/ng-assets/images/icon/channel_03.png"
+    },
+    "link7": {
+      "html": "เก็บเงินปลายทาง<br/>(Cash on Delivery)",
+      "icn": "",
+      "href": "",
+      "image": "/ng-assets/images/icon/channel_04.png"
+    }
+  },
+  "page":{
+    "previous": "ก่อนหน้า",
+    "next": "ถัดไป"
+  },
+  "footer": {
+    "Follow": "ติดต่อเรา",
+    "AboutItruemart": "รู้จักเรามากขึ้น ",
+    "Subscribe": "สมัคร",
+    "FollowVia": "ติดตามเราบน"
+  },
+  "searchBox": {
+    "placeholder": "ค้นหาสินค้าหรือแบรนด์สินค้า",
+    "category": {
+      "0": "ทุกหมวดหมู่สินค้า ",
+      "1": "เซลฟี่ สมาร์ทโฟนและกล้อง ",
+      "2": "ตรุษจีน",
+      "3": "Everyday WOW ",
+      "4": "Valentine Special ",
+      "5": "กล้อง",
+      "6": "แก็ดเจ็ต ",
+      "7": "ความงาม ",
+      "8": "เครื่องใช้ไฟฟ้าภายในบ้าน ",
+      "9": "เครื่องใช้ไฟฟ้า ",
+      "10": "มือถือ และ แท็บเล็ต ",
+      "11": "อิเล็กทรอนิกส์ ",
+      "12": "อุปกรณ์มือถือ และ แท็บเล็ต "
+    }
+  },
+  "siderbarCategory": {
+    "allProduct": "สินค้าทั้งหมด",
+    "category": "หมวดหมู่ที่เกี่ยวข้อง",
+    "brand": "แบรนด์",
+    "price": "ราคา",
+    "size": "ขนาด",
+    "color": "สี",
+    "paymentMethod": "ช่องทางการชำระเงิน",
+    "more": "แสดงทั้งหมด",
+    "moreMobile": "แสดงทั้งหมด",
+    "less": "แสดงบางส่วน",
+    "searchResults": "ดูผลค้นหาตาม",
+    "cancel" : "ยกเลิก",
+    "filter" : "เลือกรายการที่แสดง",
+    "reset" : "รีเซต",
+    "min": "น้อย",
+    "max": "มาก"
+  },
+  "showroom":{
+    "seeAll": "ดูเพิ่ม"
+  },
+  "menubarSort":{
+    "searchKey": "คำค้นหา",
+    "sortBy": "จัดเรียงตาม",
+    "recommend": "สินค้าแนะนำ",
+    "newest": "สินค้าล่าสุด",
+    "price": "ราคา",
+    "discount": "ส่วนลด",
+    "itemsPerPage": "จำนวนสินค้าต่อหน้า",
+    "results": "รายการ",
+    "priceLowToHigh": "ราคา : น้อย-มาก",
+    "priceHighToHigh": "ราคา : มาก-น้อย",
+    "discountLowToHigh": "ส่วนลด : น้อย-มาก",
+    "discountHighToLow": "ส่วนลด : มาก-น้อย",
+    "resultsFound": "พบสินค้า",
+    "searchResult": "ผลการค้นหา"
+  },
+  "productList":{
+    "installment": "ผ่อน",
+    "instl" : "ผ่อน",
+    "trueMemberDiscount": "สมาชิกบัตร TRUE ลดอีก",
+    "saving": "ประหยัด"
+  },
+  "searchResult":{
+    "failed": "ไม่พบสินค้าจากคำที่คุณใช้ในการค้นหา โปรดตรวจสอบคำที่ต้องการค้นหาอีกครั้ง"
+  },
+  "paymentMethod": {
+    "payment_ccw": "บัตรเครดิต",
+    "payment_installment": "ผ่อน 0%",
+    "payment_bank_transfer": "เคาท์เตอร์ธนาคาร",
+    "payment_atm": "ตู้ ATM",
+    "payment_cs": "เคาท์เตอร์เซอร์วิส",
+    "payment_cod": "เก็บเงินปลายทาง",
+    "payment_internet_banking": "iBanking"
+  },
+  "filter": "แสดงทั้งหมด",
+  "clear": "Clear",
+  "filterBy": "เลือกรายการที่แสดง",
+  "baht": "บาท",
+  "apply": "เลือก"
+}

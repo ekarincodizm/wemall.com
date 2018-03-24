@@ -1,0 +1,1 @@
+<div class="ajax-widget" data-method="get" data-url="<?php echo URL::toLang('cart/content?ref='.URL::previous().'&continue='.Input::get('continue')); ?>"></div>

@@ -1,0 +1,28 @@
+<?php
+return array(
+	'thankyou' => array(
+		'Your transaction is ' => 'Your transaction is ',
+		'completed' => 'completed.',
+		'Thank you' => 'Thank you',
+		'Your payment is ' => 'Your payment is ',
+		'Total Amount' => 'Total Amount',
+		'order-detail' => 'Order Detail',
+		'date' => 'Day/Mouth/Year',
+		'name' => 'Name',
+		'Shipping address' => 'Shipping Address',
+		'tel' => 'Tel',
+		'backhome' => 'Back home',
+		'Jan' => 'Jan',
+		'Feb' => 'Feb',
+		'Mar' => 'Mar',
+		'Apr' => 'Apr',
+		'May' => 'May',
+		'Jun' => 'Jun',
+		'July' => 'Jul',
+		'Aug' => 'Aug',
+		'Sep' => 'Sep',
+		'Oct' => 'Oct',
+		'Nov' => 'Nov',
+		'Dec' => 'Dec',
+	),
+);

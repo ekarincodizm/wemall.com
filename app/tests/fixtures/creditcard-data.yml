@@ -1,0 +1,6 @@
+creditcard-data:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data': ["data"]

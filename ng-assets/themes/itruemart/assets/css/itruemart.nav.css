@@ -1,0 +1,77 @@
+/*navbar*/
+.navbar {width: 1280px; margin-left: auto; margin-right: auto; background: url('../images/nav-bar.png') repeat-x left top; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; min-height: 38px; /* height: 38px; */border: 0; margin-bottom: 0;/*opacity: 0.7;*/z-index: 60;background-color: transparent;}
+.navbar-container {width: 1200px; margin: 0 auto; padding: 0 5px; /* line-height: inherit; *//* position: relative; */}
+.navbar-container > div {zoom: 1;*display: inline;/* position: relative; */position: absolute;float: left;}
+.navbar-container > div > a {text-align: left;width: 180px;line-height: 38px;font-size: 23px; padding: 0;display: inline-block;color: #fff;font-family: 'oswaldbook','true_mediumregular';}
+.navbar .menu {list-style: none; margin: 0; padding: 0;display: inline-block; zoom: 1; *display: inline;vertical-align: top;margin-left: 202px;/* opacity: 1; */}
+.navbar .menu>li {display: inline-block;position: relative;zoom: 1;*display: inline;height: 38px;line-height: 38px; float: left;}
+.navbar .menu>li >a {color: #fff; font-family: 'oswaldbook','true_mediumregular'; font-size: 15px;/* display: inline-block; */padding: 0 20px;/* height: 38px; *//* line-height: 38px; */border-right: solid 1px #be1510;border-left: solid 1px #f9b9b8;opacity: 1 !important;}
+.navbar .menu>li>a:hover{text-decoration: none;}
+
+.navbar .menu>li:first-child >a {border-left: 0;}
+.navbar .menu>li:last-child >a {border-right: 0;}
+.navbar .menu>li.active,
+.navbar .menu>li:hover {background: url('../images/bg-nav-on.jpg') no-repeat center top; background-size: cover; text-decoration: none;}
+.navbar .menu>li.active>a,
+.navbar .menu>li:hover>a {text-decoration: none; border-color: transparent;}
+.navbar .menu>li >a > i {font-family: Verdana; font-style: normal; font-size: 14px;}
+.pipe {display: inline-block; zoom: 1; *display: inline; height: 10px; width: 1px}
+/*category*/
+#sidemenu > a {width: 202px; background: url('../images/bg-header-cate.jpg') no-repeat left top; padding-left: 10px;}
+#sidemenu > a:hover {text-decoration: none;}
+.category-menu {list-style: none; position: absolute; padding: 0; margin: 0; z-index: 10; border: solid 1px #b6b6b6; border-top: 0px; left: 0; top: 38px;display: none;}
+.category-menu > li {width: 196px;background-color: #fff; /*position: relative;*/ vertical-align: bottom;/* padding: 6px 0; */}
+.category-menu > li:hover > a {text-decoration: underline;}
+.category-menu > li:hover > ul {display: block;}
+.category-menu > li > a {display: block; font-family: 'oswaldbook','true_mediumregular'; font-size: 13px; color: #000; text-decoration: underline; padding: 6px 0; text-decoration: none;/* border-bottom: solid 1px #000; */}
+.category-menu > li > a:hover {text-decoration: underline;}
+.category-menu > li > a > img {padding: 0 10px 0 6px;background-color: #fff;}
+/*.category-menu > li > a:before {content: ''; display: inline-block; width: 23px; height: 23px; background-image: url('../images/icn/category.png'); background-repeat: no-repeat; position: absolute;top: 23px;margin-top: -12px;left: 6px;}
+.icn-shop-by-brand:before {background-position: 0 0;}
+.icn-special:before {background-position: -23px 0;}
+.icn-fashion-male:before {background-position: -46px 0;}
+.icn-fashion-female:before {background-position: -69px 0;}
+.icn-gadget:before {background-position: 0 -23px;}
+.icn-electronic:before {background-position: -23px -23px;}
+.icn-beauty:before {background-position: -46px -23px;}
+.icn-book:before {background-position: -69px -23px;}
+.icn-living:before {background-position: 0 -46px;}
+.icn-sport:before {background-position: -23px -46px;}
+.icn-child:before {background-position: -46px -46px;}
+.icn-beverage:before {background-position: -69px -46px;}*/
+
+.sub-category-menu {list-style: none; margin: 0; padding: 0 5px; display: none; min-height: 60px;}
+.sub-category-menu > li {display: inline;}
+.sub-category-menu > li > a {font-size: 12px; font-family: 'Arial'; color: #6b6b6b;}
+div.fix-menu {position: fixed; top: 0; left: inherit;z-index: 10;}
+li.active > ul {display: block;}
+li.active > a, li:hover > a:hover {text-decoration: underline;}
+.sub-category-menu > li.active > a,.sub-category-menu > li > a:hover {text-decoration: none; border-bottom: solid 1px #6b6b6b;}
+
+.category-menu > li:hover .sub-categories-view {display: block;}
+.sub-categories-view {position: absolute;left: 100%;top: 0;background-color: #fff;width: 780px; /* min-height: 430px; */ display: none; padding: 10px;border: solid 1px #B6B6B6;}
+.sub-categories-view > li {display: inline-block; display: -moz-inline-block; *display: inline; min-height: 204px;width: 148px;vertical-align: top;}
+.sub-categories-view .header-view {font-size: 15px; font-family: 'true_mediumregular'; float: left; border-bottom: solid 2px #000;padding-bottom: 3px;max-width: 148px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.sub-categories-view .header-view:after {display: inline-block; content: ''; background: url('../images/icn/arrow-collapse.png') no-repeat center center; width: 14px; height: 14px;margin-left: 5px;margin-bottom: -2px;}
+.sub-categories-view .header-view a {text-overflow: ellipsis; overflow: hidden; white-space: nowrap; max-width: 128px; float: left;}
+.sub-categories-view > li:hover .header-view {border-color: transparent;}
+.sub-categories-view > li > ul {float: left;clear: both; margin-top: 5px;list-style: none;margin-left: 0;padding-left: 0;}
+.sub-categories-view > li > ul > li {color: #6c6c6c; font-size: 12px; font-family: Tahoma; line-height: 1.7;}
+.sub-categories-view > li > ul > li > a:hover {text-decoration: none; padding-bottom: 1px;border-bottom: solid 1px #000;}
+.modeling {position: absolute; /* top: 150px; */ left: 675px;/* right: -35px; */top: 0;}
+/*News*/
+#sidemenu a > em {font-size: 10px; display: inline-block; margin-right: 10px;}
+.category-menu > li > a {display: table-cell; vertical-align: middle;}
+.checkout-info{width:130px;}
+
+
+@media all\0 { 
+    .navbar-container > div > a,
+    .navbar .menu>li >a,
+    .category-menu > li > a,
+    .content-home .header-text-container {
+        font-family: 'true_mediumregular';
+    }
+    .content-home .header-text-container {font-weight:bold;}
+    #sidemenu .category-menu > li > a{font-family: 'arial';}
+}

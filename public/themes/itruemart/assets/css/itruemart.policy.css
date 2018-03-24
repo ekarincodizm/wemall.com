@@ -1,0 +1,30 @@
+.policycontent {
+font-family:Arial,Helvetica,sans-serif;
+color:#666;
+font-size:12px;
+border:1px solid #ccc;
+border-radius:7px;
+margin:10px auto;
+padding:10px;
+}
+
+.policycontent
+p {
+margin:0 0 10px;
+}
+
+.policycontent
+ul {
+list-style:disc;
+float:none;
+margin:0;
+padding:0;
+}
+
+.policycontent
+li {
+pading:0;
+list-style:disc;
+float:none;
+margin:0 0 5px 10px;
+}

@@ -1,0 +1,164 @@
+.msg-header {
+    background-color: #298512;
+    color: #fff;
+    padding: 3px;
+}
+.msg-header-danger{
+    background-color: #C00C00;
+    color: #fff;
+    padding: 3px;
+}
+.font2 {
+    font-family: '';
+    font-size: 10pt;
+}
+.img-cart {float: left;}
+#popup_message {
+    margin: 10px;
+    text-align: left;
+}
+.reveal-modal {
+    width: 370px;
+}
+#popup_panel {
+    text-align: right;
+}
+.detail-cart dt {
+    width: 100px;
+    float: left;
+}
+.detail-cart {
+    margin-left: 80px;
+}
+.detail-cart dd {
+    margin-bottom: 5px;
+    display: block;
+    overflow: hidden;
+}
+.header__sidebar {
+    display: none;
+}
+.error-box{
+    color: red;
+}
+.success-box{
+    color: #95c126;
+}
+#ajaxDivReg {
+    width: 123px;
+    height: 58px;
+}
+.loading-icon{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.next-product-container, #infscr-loading{
+    width: 100%;
+    text-align: center;
+}
+
+#infscr-loading {
+    margin-top: 50px;
+}
+
+#superdeal .daily-deal .countdown {
+	font-size: 17px;
+}
+
+#superdeal .daily-deal .today .box-price .price-discount,
+#superdeal .daily-deal .today .box-price .price-normal
+{
+	font-size: 20px;
+}
+
+#superdeal .sd-product-info .sd-prop-info .box-price .box-price-normal{
+	padding-left: 20px;
+}
+#superdeal .btn-disabled{
+    width: 185px;
+}
+
+/**
+* [S]Custom css for TNT Lightbox Order Tracking Page
+*/
+.sub-content-n{
+    width: 950px !important;
+    margin-left: -475px !important;
+    text-align: left;
+    background-color: #FFF;
+    padding: 0 !important;
+}
+.sub-content-n .trk-status-row{
+    font-size: 13px;
+    color: #959595;
+    font-family: Thonburi, Tahoma, Geneva, sans-serif;
+    font-weight: normal;
+}
+.sub-content-n .print_n a:hover{
+    color: #fff;
+}
+.sub-content-n .print_n a{
+    font-weight: normal !important;
+} 
+.sub-content-n .success-box-footer,
+.sub-content-n .box-footer{
+    font-weight: normal !important;
+    color: #959595;
+}
+.sub-content-n .linedottop {
+    border-top: none;
+}
+/**
+* [E]Custom css for TNT Lightbox Order Tracking Page
+*/
+.home__showroom_container .showroom_brand .brand_item:hover { position: relative; z-index: 100; }
+.home__showroom_container .showroom_brand .brand_item .brand_link img { height: 43px; }
+
+.showroom-container{
+    margin-top: 20px;
+    min-height: 450px;
+    text-align: center;
+}
+
+/**
+ * Suggestion
+ */
+.search-suggestion { position: absolute; z-index: 10; padding-left: 7px; padding-right: 7px; width: 100%; left: 0px; top: 40px; }
+.search-suggestion__list { margin: 0px; list-style: outside none none; padding: 0px; border: 2px solid #dddddd; border-width: 0px 2px 2px; border-style: none solid solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: white; border-color: -moz-use-text-color #dddddd #dddddd; }
+.search-suggestion__item { color: #959595; padding: 0; font-weight: normal; cursor: pointer; overflow: hidden; white-space: nowrap; }
+.search-suggestion__item .result-text{ float:left; }
+.search-suggestion__item b,
+.search-suggestion__item strong { color: #333; }
+.search-suggestion__item.active { background-color: #efefef; }
+.search-suggestion__item.active .search-suggestion__result { background-color: #efefef; }
+.search-suggestion__result { float: right; color: #959595; width: 33%; position: relative; z-index: 1; background-color: #fff; padding-left: 10px; padding-right: 7px; text-align: right; }
+.fill-auto-suggest { display: block; padding: 5px 0 5px 10px; overflow: hidden; }
+#search-box .search-suggestion { top: 55px; }
+@media screen and (min-width: 481px) { #search-box .search-suggestion { top: 70px; padding-left: 3px; padding-right: 3px; } }
+.header__bar_search .header__box_search .btn_dropdown_category:hover{
+    height: 40px !important;
+}
+.header__bar_search .header__box_search .form-control{
+    border-color: #ccc;
+}
+
+/**
+* Jira Story 1420
+*/
+.ng-scope .home__container {overflow: visible;}
+
+/*
+* Text Blink
+*/
+.text-blink-animation{
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.text-blink-active{
+    color: #FF7000 !important;
+}

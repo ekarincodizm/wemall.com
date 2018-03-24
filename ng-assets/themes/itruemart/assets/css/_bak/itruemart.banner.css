@@ -1,0 +1,8 @@
+.hilightbanner {min-width: 1280px;}
+.hilightbanner-container {width: 100%; height: 410px; margin: 0 auto; overflow: hidden;}
+.hilightbanner-wrapper, .subbanner {list-style: none; margin: 0; padding: 0;}
+.hilightbanner-wrapper:after {content: ''; display: block; clear: both;}
+.hilightbanner-wrapper > li {float: left;text-align: center;}
+.hilightbanner-wrapper > li img {}
+.subbanner {position: absolute; right: 0;top: 0; margin-top: 10px; margin-right: 40px;}
+

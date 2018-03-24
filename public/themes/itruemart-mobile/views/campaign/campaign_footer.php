@@ -1,0 +1,1 @@
+<div style="max-width:480px;margin: 0px auto;"><img src="<?php echo Theme::asset()->url('images/footer.jpg'); ?>"></div>

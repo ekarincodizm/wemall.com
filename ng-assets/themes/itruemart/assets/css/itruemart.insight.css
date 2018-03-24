@@ -1,0 +1,174 @@
+/*Old design*/
+#news{width:990px;margin-bottom:15px;margin:0 auto;}
+#news:after {content: '';display: block; clear: both;}
+#news #update{overflow:auto;margin:15px 0 0}
+#news #hotnews{border:solid 1px #afafaf;border-left:0;border-right:0;overflow:auto;width:845px;float:left}
+#news #ht-head{width:92px;height:31px;background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/update-news.jpg) no-repeat center left;text-align:left;line-height:31px;font-size:1.5em;float:left}
+#news #ht-content{float:left;height:31px;line-height:31px;width:753px;text-align:left;overflow:hidden}
+#news #ht-content ul{list-style:none;position:relative;margin:0;padding:0}
+#news #ht-content ul li{position:absolute}
+#news #ht-content span{font-size:14px;padding:0 0 0 15px}
+#news #ico-social{float:left;margin:0 0 0 5px}
+#news #ico-social a{display:inline-block;width:32px;height:32px;overflow:hidden;text-indent:40px;background-position:center center;background-repeat:no-repeat}
+#ico-social a#fb{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-fb-off.jpg)}
+#ico-social a#tw{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-tw-off.jpg)}
+#ico-social a#ig{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-ig-off.jpg)}
+#ico-social a#pt{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-pt-off.jpg)}
+#ico-social a#fb:hover{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-fb-on.jpg)}
+#ico-social a#tw:hover{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-tw-on.jpg)}
+#ico-social a#ig:hover{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-ig-on.jpg)}
+#ico-social a#pt:hover{background-image:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/icon-news-pt-on.jpg)}
+#news #main-content{float:left;width:770px}
+#news #main-content .header{font-size: 21px;color:#000;margin:23px 0 10px}
+#news #live{float:right;width:200px}
+#news #live h2{font-size: 21px;color:#000;font-weight:normal;margin:23px 0 10px}
+#news #live .news-container{border:solid 1px #b2b2b2;border-radius:5px;padding:0 10px}
+#news #live .news-container .news-box{border-bottom:dotted 1px #b2b2b2;margin:0 0 5px;padding:0 0 15px}
+#news #live .news-container .news-thumbnail img{width:180px;margin:10px 0}
+#news #live .news-container .news-content{line-height:18px;word-wrap:break-word}
+#news p{display:inline;margin:0;padding:0}
+#hilight-banner #slider-container{width:640px;margin:0 auto;padding:15px 0 0}
+#slider-container .hilight-title{height:43px;padding:3px 0}
+#slider-container .hilight-title-content{font-size:1.125em}
+#news #main-content .column-news .header{background-color:#464646;color:#fff;margin:0}
+#news #main-content .column-news{width:240px;margin-top:10px}
+#news #main-content .column-news .column-news-box{margin-bottom:25px}
+#news #main-content .column-news .news-thumbnail{margin-top:6px;margin-bottom:10px}
+#news #main-content .column-news .news-content{line-height:18px;min-height:136px}
+#news #main-content .column-news .date-create{font-size:12px;padding-top:13px}
+#news #main-content .column-news .read-all{font-size: 17px;color:#000;text-decoration:none;border-bottom:solid 1px #000}
+.f-center{margin:0 auto}
+#banner-header {display:none;}
+#sendmail {display:none;}
+#subscribe{margin-top:54px;clear:both}
+#subscribe #fb-panel{float:left;width:350px;height:74px;border:solid 1px #ddd;border-radius:5px;padding:3px 14px;margin-bottom:20px;}
+#subscribe #sendmail span{font-size:1.5em;display:block}
+#subscribe #sendmail #subscribe-box{background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/bg_subscribe-mail.jpg) no-repeat center center;width:339px;height:32px;border:0;margin:6px 0 10px;padding:0 10px}
+#subscribe #sendmail #btn-subscribe{background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/bg_btn-subscribe.jpg) no-repeat center center;width:106px;height:37px;border:0;font-size:1.5em;text-align:left;padding-left:20px}
+#news #ht-head,#news h2,#subscribe #sendmail #btn-subscribe{font-family:'bebas_neueregular', 'true_boldregular'}
+#news #nc-category-list{list-style:none;overflow:auto;border-bottom:solid 1px #afafaf;margin:0;padding:0}
+#news #nc-category-list a{text-decoration:none;font-weight:normal}
+#news #nc-category-list li{float:left;margin-right:25px}
+#news #nc-category-list li .header{margin:20px 0 0;padding:0 0 10px}
+#news #news-category .clearfix{clear:both}
+#news #news-category li.inactive a{color:#e6e6e6}
+#news #news-category .active{border-bottom:solid 2px #caca4f}
+#news #news-category .news-category-item{position:relative;/* overflow:auto; */border-bottom:solid 1px #afafaf;padding:25px 0 23px}
+#news #news-category .news-category-item:after {content: ''; display: block; clear: both;}
+#news-category-list .title{font-size: 18px;display:block}
+#news-category-list .date-modify{font-size:13px;color:#a1a1a1;display:block}
+#news-category-list .content-container {margin-top: 10px; display: block;}
+#news-category-list .content-thumb{float:left;/*margin-right:10px*/}
+#news-category-list .content-box-outer{display:table;height:250px;overflow:hidden;width: 530px;margin-left: 260px;}
+#news-category-list .content-box-inner{position:absolute;top:50%;display:table-cell;vertical-align:middle}
+#news-category-list .content-desc{position:relative;top:-50%;font-size:14px; font-weight: normal;color:#a1a1a1}
+.content-desc a.more{color:#26f;text-decoration:none;border-bottom:solid 1px #26f}
+.news-desc{font-size: 14px;margin:15px 0 35px}
+.news-desc td {vertical-align: top;}
+#news .news-desc p{display:block;margin:inherit;padding:inherit}
+.social-container{position:relative;float:left}
+.sc-box{float:left;margin-right:35px}
+#news-paging{float:right;margin:13px 0 35px}
+#news-paging input{border:0;width:92px;height:31px;font-size:1.4em;cursor:pointer}
+#news-prev{background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/btn-left.jpg) no-repeat center center;margin-right:4px}
+#news-next{background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/btn-right.jpg) no-repeat center center}
+#news #news-category #news-category-list .title,#news-prev,#news-next,.social-container .head{font-family:'bebas_neueregular'}
+#news #live .news-container .news-content .title,#news #main-content .column-news .title{font-weight:bold;font-size:14px;}
+#news #live .news-container .news-content .desc,#news #main-content .column-news .desc{font-size:14px;}
+#news #live .news-container .news-content a.more,#news #main-content .column-news a.more{color:#26f;text-decoration:none;font-size:13px;border-bottom:solid 1px #26f}
+#news #news-next{background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/btn-right.jpg) no-repeat scroll left center transparent;float:left;font-size:1.5em;height:31px;line-height:31px;text-align:left;width:92px;padding-left:10px}
+#news #news-prev{background:url(http://www.itruemart.com/assets/itruemart_new/global/images/news/btn-left.jpg) no-repeat scroll left center transparent;float:left;font-size:1.5em;height:31px;line-height:31px;text-align:left;width:92px;padding-left:10px}
+
+/*New design*/
+/*.breadcrumbs {margin: 10px auto;width: 100% !important;}
+.breadcrumbs:after {content: ''; display: block; clear: both;}
+.breadcrumbs > li {float: left; margin-right: 4px;}
+.breadcrumbs > li .label, .breadcrumbs > li .label:hover {font-weight: normal;border: solid 1px #bdbdbd;color: #474747;padding-top: 2px;padding-bottom: 2px;font-size: 12px;font-family: Tahoma;}
+.breadcrumbs > li .label-default, .breadcrumbs > li .label-default:hover {background-color: #d7d7d7}
+.breadcrumbs > li .label-normal {background-color: #fff;}
+.category-menu.menu-news > li > a {font-size: 15px;}
+.insight #update{overflow:auto;margin:15px 0 0}
+.insight #hotnews{border:solid 1px #afafaf;border-left:0;border-right:0;overflow:auto;width: 800px;float:left;background-color: #ebebeb;margin-right: 35px;}
+.insight #ht-head{width:75px;height:25px;padding-left: 13px;background:url('../images/update.png') no-repeat center left;text-align: left;line-height: 1.6;font-size: 17px;float:left;display: block;font-family: 'oswaldbook','true_mediumregular';}
+.insight #ht-content{float:left;height: 25px;line-height: 1.8;width: 708px;text-align:left;overflow:hidden}
+.insight #ht-content ul{list-style:none;position:relative;margin:0;padding:0}
+.insight #ht-content ul li{position:absolute}
+.insight #ht-content > ul > li > a {display: block; width: 1000px; line-height: 1.5}
+.insight #ht-content span{font-size: 13px;padding:0 0 0 15px;font-family: Tahoma;}
+.insight #ico-social {float: right;}
+.insight #ico-social:after {content: ''; display: block; clear: both;}
+.insight #ico-social li {float:left;margin: 0 0 0 10px;}
+.insight #ico-social a{display:inline-block;width: 27px;height: 27px;overflow:hidden;text-indent:40px;background-position:center center;background-repeat:no-repeat}
+.insight .category-box {border-bottom: 0;margin-bottom: 10px;}
+.insight .header-text-container.container-tab {font-family: 'oswaldbook','true_boldregular'; font-size: 10px;margin-top: 20px; margin-bottom: 5px;float: left; padding-right: 5px; background-color: transparent; position: relative;}
+.insight .header-text-container.container-tab:after { content: ''; display: inline-block; border-top: solid 1px rgb(0, 0, 0);  margin-top: 0;  height: 1px; position: absolute; z-index: -1; left: 0; bottom: 8px;}
+.insight .header-text-container {margin-top: 10px;font-size: 20px;}
+.insight .header-text-container:after {bottom: 4px;}#ico-social a#fb{background-image:url('../images/icn/social/facebook-off.png')}
+.insight a[rel^="slideDescription"] .banner-desc {background-image: url('../images/gr-fade.png'); color: #fff;}
+.insight #banner-campaign .bx-controls {position: relative; bottom: 80px; z-index: 51;width: auto;margin-left: 20px;}
+.insight #banner-campaign .bx-pager { width: auto; bottom: -15px; left: 45px;}
+.insight #banner-campaign .bx-pager:after {content: ''; display: block; clear: both;}
+.header-text-container.container-tab {padding-right: 0;}
+.header-text-container.container-tab > ul > li {float: left;padding: 0 6px;font-size: 15px;margin-top: 4px;background-color: transparent;}
+.header-text-container.container-tab > ul > li:first-child {margin-left: 0;}
+.header-text-container.container-tab a:hover {text-decoration: none;}
+.header-text-container.container-tab a {color: #878787;}
+.header-text-container.container-tab > ul > li.active > a {color: #000;font-size: 22px; text-decoration: none;}
+.header-text-container.container-tab > ul > li.active {background-color: #fff;margin-top: 0;}
+#ico-social a#tw{background-image:url('../images/icn/social/twitter-off.png')}
+#ico-social a#ig{background-image:url('../images/icn/social/instagram-off.png')}
+#ico-social a#pt{background-image:url('../images/icn/social/pinterest-off.png')}
+#ico-social a#fb:hover{background-image:url('../images/icn/social/facebook.png')}
+#ico-social a#tw:hover{background-image:url('../images/icn/social/twitter.png')}
+#ico-social a#ig:hover{background-image:url('../images/icn/social/instagram.png')}
+#ico-social a#pt:hover{background-image:url('../images/icn/social/pinterest.png')}
+.insight-box:after {content: ''; display: block; clear: both;}
+.header-text-container em {color: #8d8d8d;font-size: 15px;margin-right: 5px;}
+#banner-campaign {width: 780px; height: 380px;float: left;}
+#banner-campaign a:hover {text-decoration: none;}
+#banner-camp-bxSlider {width: 780px; height: 372px; overflow: hidden;margin-bottom: 0;}
+#banner-camp-bxSlider > li {float: left;}
+.banner-camp-desc {display: block; height: 55px; overflow: hidden; color: #747474; font-family: Tahoma; font-size: 12px;padding: 10px 0;}
+.banner-camp-desc > b {color: #000;}
+#banner-campaign-mini {float: right;}
+#banner-campaign-mini a:hover {text-decoration: none;}
+#banner-campaign-mini > ul:after {content: ''; display: block; clear: both;}
+#banner-campaign-mini > ul > li {margin-top: 16px; display: block;}
+#banner-campaign-mini > ul > li > a {display: block;}
+#banner-campaign-mini > ul > li:first-child {margin-top: 0;}
+#banner-campaign-bottom {clear: both;}
+#banner-campaign-bottom a:hover {text-decoration: none;}
+#banner-campaign-bottom > ul:after {content: ''; display: block; clear: both;}
+#banner-campaign-bottom > ul > li {float: left; width: 240px; margin-left: 11px;}
+#banner-campaign-bottom > ul > li:first-child {margin-left: 0}
+.banner-btn-desc {height: 35px; display: block; overflow: hidden; background-color: #8c8c8c; color: #fff; font-family: Tahoma; font-size: 12px;padding: 3px 5px;line-height: 1.3;}
+.insight-news > .category-content > ul {margin-bottom: 0;}
+.insight-news > .category-content > ul:after {content: ''; display: block; clear: both;}
+.insight-news > .category-content > ul > li {float: left; width: 195px;height: 263px;margin-left: 19px;}
+.insight-news > .category-content > ul > li:first-child {width: 350px; margin-left: 0;}
+.insight-news > .category-content > ul > li > a {display: block; font-family: Tahoma; font-size: 12px;height: 263px; position: relative;}
+.insight-news > .category-content > ul > li > a:hover {text-decoration: none;}
+.insight-news > .category-content > .tab-pane > li {float: left;width: 302px;height: 132px;}
+.insight-news > .category-content > .tab-pane > li:first-child {width: 350px;height: 263px;}
+.insight-news > .category-content > .tab-pane > li > a {height: auto;float: left;}
+.insight-news .insight-desc {margin-top: 10px; color: #c5c5c5;height: 70px;overflow: hidden;line-height: 1.2;}
+.insight-news .insight-desc > b {color: #000;}
+.insight-news .insight-modified {position: absolute; bottom: 0; font-size: 10px; margin-bottom: 0; color: #a6a6a6;}
+.insight-news .insight-modified > span {display: block; text-decoration: underline; color: #0036ff; font-size: 12px;}
+.category-content .tab-pane.active {display: block;}
+.category-content .tab-pane {display: none;}
+.category-content .tab-pane .insight-modified {display: block; position: static;}
+.category-content .tab-pane .insight-desc {float: right; width: 155px; margin-top: 0; font-family: Tahoma; font-size: 12px;height: auto;}
+.category-content .tab-pane .insight-desc a {color: #c5c5c5;}
+.category-content .tab-pane .insight-desc b {color: #000;}
+.category-content .tab-pane .insight-desc span {display: block; text-decoration: underline; color: #0036ff; font-size: 12px;margin-top: 10px;}
+.insight-social {width: 100%;margin: 30px 0 20px 0;}
+.insight-social:after {content:''; display: block; clear: both;}
+.insight-social #fb-panel {float:left;width:350px; height:74px; border:solid 1px #ddd;border-radius:5px;padding: 11px 10px; margin-bottom:20px; }
+.insight-link {float: right; background-color: #ebebeb; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;width: 625px;position: relative;padding: 17px;}
+.insight-link .insight-msg {float: left;width: 70%;font-size: 12px;font-family: Tahoma; padding: 5px 10px; }
+.insight-link > ul {float: left;font-size: 12px;font-family: Tahoma;margin-bottom: 0;margin-top:  24px;}
+.insight-link > ul > li {float: left;padding: 0 10px; border-left: solid 1px #000;}
+.insight-link > ul > li > a {color: #777;}
+.insight-link > ul > li:first-child {padding-left: 0; border-left: 0;}
+.insight-social .insight-editor {position: absolute;right: 0;bottom: 0;}*/

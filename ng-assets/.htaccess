@@ -1,0 +1,49 @@
+# prerender.io
+<IfModule mod_headers.c>
+    RequestHeader set X-Prerender-Token "eT6n0sR0xqMpoirkNL78"
+</IfModule>
+
+#<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+    RewriteBase /
+
+    #SetEnvIf Host (www|m).itruemart-dev.com passreq
+    #AuthType Basic
+    #AuthName "Password Required"
+
+    # On Staging
+    #AuthUserFile /var/www/www.itruemart-dev.com/itruemart/public/.htpasswd
+
+    # On Dev
+    #AuthUserFile /var/www/test.dev.itruemart.com/public/.htpasswd
+    #Require valid-user
+    #Order allow,deny
+    #Allow from all
+    #Deny from env=passreq
+    #Satisfy any
+
+    AddType application/vnd.ms-fontobject    .eot
+    AddType application/x-font-opentype      .otf
+    AddType image/svg+xml                    .svg
+    AddType application/x-font-ttf           .ttf
+    AddType application/font-woff            .woff
+
+    RewriteCond %{HTTP_HOST} ^itruemart.com$
+    RewriteRule ^(.*)$ http://www.itruemart.com$1 [R=301]
+
+    RewriteCond %{HTTP_HOST} !^itruemart.com$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+
+    <IfModule mod_proxy_http.c>
+        RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora|link|preview|showyoubot|outbrain|pinterest [NC,OR]
+        RewriteCond %{QUERY_STRING} _escaped_fragment_
+
+        # Only proxy the request to Prerender if it's a request for HTML
+        RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent))(.*) http://service.prerender.io/http://itruemart.com/$2 [P,L]
+    </IfModule>
+#</IfModule>
+
+

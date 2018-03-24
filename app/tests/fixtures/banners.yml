@@ -1,0 +1,227 @@
+AccordionBannerData:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            0:
+                'id': 41
+                'name':  "Accordion Showroom"
+                'description':  "Accordion Banner for Level A : 582 x 260 pixels"
+                'max_group_active': 1
+                'status_flg': "Y"
+                'group_total': 1
+                'group_list':
+                    0:
+                        'id': 99
+                        'pkey': 23632989188117
+                        'name':  "Accordion Showroom Group"
+                        'description': ""
+                        'is_random': "N"
+                        'status_flg': "Y"
+                        'show_per_time': 1
+                        'banner_total': 3
+                        'banner_list':
+                            0:
+                                'id': 209
+                                'pkey': 25808766637860
+                                'banner_group_id': 99
+                                'name': "Watches"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/209.jpg"
+                                'url_link':  "http://www.itruemart.com/category/watches-3259084765891.html"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description': ""
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+                            1:
+                                'id': 210
+                                'pkey': 25137793962711
+                                'banner_group_id': 99
+                                'name':  " RealTechnique"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/210.jpg"
+                                'url_link':  "http://www.itruemart.com/brand/real-technique-6738595017260.html"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description': "Asus"
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+                            2:
+                                'id': 211
+                                'pkey': 25138017935167
+                                'banner_group_id': 99
+                                'name':  "EverydayWow"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/211.jpg"
+                                'url_link':  "http://www.itruemart.com/everyday-wow"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description':  "EverydayWow"
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+single_get_by_position_banner:
+    0:
+        'status':  "success"
+        'code': 200
+        'message':  "200 OK"
+        'data':
+            0:
+                'id': 8
+                'name': "Level B C : Promotion Banner"
+                'description': "Banner promotion for Level B C and promotion page(flash sale, today, discount, trueyou)Size : 246 x 246"
+                'max_group_active': 1
+                'status_flg':  "Y"
+                'group_total': 1
+                'group_list':
+                    0:
+                        'id': 99
+                        'pkey': 23632989188117
+                        'name':  "Group"
+                        'description': ""
+                        'is_random': "Y"
+                        'status_flg': "Y"
+                        'show_per_time': 1
+                        'banner_total': 3
+                        'banner_list':
+                            0:
+                                'id': 209
+                                'pkey': 25808766637860
+                                'banner_group_id': 99
+                                'name': "Watches"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/209.jpg"
+                                'url_link':  "http://www.itruemart.com/category/watches-3259084765891.html"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description': ""
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+                                'map_area':
+                                    0:
+                                        'id': 1
+                                        'pkey': 1111
+                                        'product_id': 612361
+                                        'map_position': []
+                                        'url_link': ''
+                                        'tag_alt': ''
+                                        'created_at': '0000-00-00 00:00:00'
+                            1:
+                                'id': 210
+                                'pkey': 25137793962711
+                                'banner_group_id': 99
+                                'name':  " RealTechnique"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/210.jpg"
+                                'url_link':  "http://www.itruemart.com/brand/real-technique-6738595017260.html"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description': "Asus"
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+                            2:
+                                'id': 211
+                                'pkey': 25138017935167
+                                'banner_group_id': 99
+                                'name':  "EverydayWow"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/211.jpg"
+                                'url_link':  "http://www.itruemart.com/everyday-wow"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description':  "EverydayWow"
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+
+single_get_by_position_banner_empty_banner_list:
+    0:
+        'status':  "success"
+        'code': 200
+        'message':  "200 OK"
+        'data':
+            0:
+                'id': 8
+                'name': "Level B C : Promotion Banner"
+                'description': "Banner promotion for Level B C and promotion page(flash sale, today, discount, trueyou)Size : 246 x 246"
+                'max_group_active': 1
+                'status_flg':  "Y"
+                'group_total': 1
+                'group_list':
+                    0:
+                        'id': 99
+                        'pkey': 23632989188117
+                        'name':  "Group"
+                        'description': ""
+                        'is_random': "N"
+                        'status_flg': "Y"
+                        'show_per_time': 1
+                        'banner_total': 3
+
+multi_get_by_position_banner:
+    0:
+        'status':  "success"
+        'code': 200
+        'message':  "200 OK"
+        'data':
+            0:
+                'id': 8
+                'name': "Level B C : Promotion Banner"
+                'description': "Banner promotion for Level B C and promotion page(flash sale, today, discount, trueyou)Size : 246 x 246"
+                'max_group_active': 1
+                'status_flg':  "Y"
+                'group_total': 1
+                'group_list':
+                    0:
+                        'id': 99
+                        'pkey': 23632989188117
+                        'name':  "Group"
+                        'description': ""
+                        'is_random': "N"
+                        'status_flg': "Y"
+                        'show_per_time': 1
+                        'banner_total': 3
+                        'banner_list':
+                            0:
+                                'id': 209
+                                'pkey': 25808766637860
+                                'banner_group_id': 99
+                                'name': "Watches"
+                                'type': "1"
+                                'target': "_blank"
+                                'width': 582
+                                'height': 260
+                                'img_path':  "//cdn-a.itruemart.com/pcms/uploads/banners/99/209.jpg"
+                                'url_link':  "http://www.itruemart.com/category/watches-3259084765891.html"
+                                'status_flg': "Y"
+                                'youtube_embed': ""
+                                'description': ""
+                                'effectived_at':  "0000-00-00 00:00:00"
+                                'expired_at':  "0000-00-00 00:00:00"
+            1:
+                'id': 9
+                'name': "Level A B C : Promotion Banner"
+                'description': "Banner promotion for Level B C and promotion page(flash sale, today, discount, trueyou)Size : 246 x 246"
+                'max_group_active': 1
+                'status_flg':  "Y"
+                'group_total': 1
+
+

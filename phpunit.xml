@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="bootstrap/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="true"
+         syntaxCheck="true"
+>
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <!--<file>./app/tests/xxx.php</file>-->
+            <!--<directory>./app/tests/</directory>-->
+
+            <!-- Folder controller -->
+            <file>./app/tests/controller/Mobile/CustomersControllerTest.php</file>
+            <file>./app/tests/controller/Mobile/HomeMobileControllerTest.php</file>
+            <file>./app/tests/controller/EverydayWowControllerTest.php</file>
+            <file>./app/tests/controller/HomeControllerTest.php</file>
+            <file>./app/tests/controller/MembersControllerTest.php</file>
+            <file>./app/tests/controller/NewCheckoutControllerTest.php</file>
+            <file>./app/tests/controller/SolrSearchControllerTest.php</file>
+            <file>./app/tests/controller/Mobile/CustomersControllerTest.php</file>
+            <file>./app/tests/controller/MerchantControllerTest.php</file>
+            <file>./app/tests/controller/AuthControllerTest.php</file>
+
+            <!-- Folder libraries -->
+            <file>./app/tests/libraries/TrueCard/ProcessTest.php</file>
+            <file>./app/tests/libraries/EncrypterTest.php</file>
+            <file>./app/tests/libraries/PcmsClientTest.php</file>
+            <file>./app/tests/libraries/AclTest.php</file>
+
+            <file>./app/tests/libraries/EmailTest.php</file>
+            <file>./app/tests/libraries/TimeLogger.php</file>
+            <file>./app/tests/libraries/ItmMemcached.php</file>
+            <file>./app/tests/libraries/CommonTest.php</file>
+            <file>./app/tests/libraries/HelpersTest.php</file>
+            <file>./app/tests/libraries/UrlManagerTest.php</file>
+            <file>./app/tests/libraries/ItruemartClient/ItruemartClientTest.php</file>
+            <file>./app/tests/libraries/ItruemartClient/ItruemartClientProcessTest.php</file>
+
+            <!-- Folder repository -->
+            <file>./app/tests/repository/AccordionBannerRepositoryTest.php</file>
+            <file>./app/tests/repository/BannerRepositoryTest.php</file>
+            <file>./app/tests/repository/BrandRepositoryTest.php</file>
+            <file>./app/tests/repository/CampaignRepositoryTest.php</file>
+            <file>./app/tests/repository/CollectionRepositoryTest.php</file>
+            <file>./app/tests/repository/CreditRepositoryTest.php</file>
+            <file>./app/tests/repository/CustomerAddressRepositoryTest.php</file>
+            <file>./app/tests/repository/EverydaywowRepositoryTest.php</file>
+            <file>./app/tests/repository/MemberRepositoryTest.php</file>
+            <file>./app/tests/repository/OldProductRepositoryTest.php</file>
+            <file>./app/tests/repository/ShowroomRepositoryTest.php</file>
+            <file>./app/tests/repository/SolrSearchRepositoryTest.php</file>
+            <file>./app/tests/repository/SuperDealRepositoryTest.php</file>
+
+            <!-- Folder widgets -->
+            <file>./app/tests/widgets/WidgetHomeShowroomTest.php</file>
+
+            <!-- SPRINT: 2015S11 -->
+            <file>./app/tests/controller/Mobile/CustomersControllerTest.php</file>
+            <file>./app/tests/controller/MerchantControllerTest.php</file>
+            <file>./app/tests/repository/CampaignRepositoryTest.php</file>
+
+            <!-- hopefully done -->
+            <file>./app/tests/controller/UsersControllerTest.php</file>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory>./vendor</directory>
+            <directory>./bootstrap</directory>
+            <directory>./public</directory>
+            <directory>./app/commands</directory>
+            <directory>./app/config</directory>
+            <directory>./app/core</directory>
+            <directory>./app/database</directory>
+            <directory>./app/exceptions</directory>
+            <directory>./app/lang</directory>
+            <directory>./app/libraries/WurflCloudClient</directory>
+            <directory>./app/models</directory>
+            <directory>./app/start</directory>
+            <directory>./app/storage</directory>
+            <directory>./app/utils</directory>
+            <directory>./app/container</directory>
+            <directory>./app/views</directory>
+            <directory>./app/widgets</directory>
+            <directory>./app/routes</directory>
+            <file>./app/routes.php</file>
+            <file>./app/binds.php</file>
+            <file>./app/addition-routes.php</file>
+            <file>./app/filters.php</file>
+        </blacklist>
+    </filter>
+</phpunit>

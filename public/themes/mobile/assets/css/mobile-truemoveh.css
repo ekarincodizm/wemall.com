@@ -1,0 +1,19 @@
+.tmvh-footer .bottom {
+	width: 100%;
+}
+
+.tmvh-footer .col-xs-12 {
+	width: 100%;
+}
+
+.tmvh-footer .col-xs-6 {
+	width: 50%;
+}
+
+.tmvh-footer .col-xs-6 ul {
+	margin-left: 0px;
+}
+
+.tmvh-mobile-backtotop {
+	display: none !important;
+}

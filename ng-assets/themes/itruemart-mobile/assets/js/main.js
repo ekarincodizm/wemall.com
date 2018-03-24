@@ -1,0 +1,5 @@
+var require=require||{};if(!require['load']){require.load=(function($){var loader={append:function(type,name){switch(type){case'css':for(var i=0;i<name.length;i++){var link=document.createElement('link');link.setAttribute('rel','stylesheet');link.setAttribute('type','text/css');link.setAttribute('href',name[i]+'.css');document.getElementsByTagName('head')[0].appendChild(link);}
+break;case'js':for(var i=0;i<name.length;i++){var script=document.createElement('script');script.setAttribute('type','text/javascript');script.setAttribute('src',name[i]+'.js');document.getElementsByTagName('body')[0].appendChild(script);}
+break;default:break;}}};return{css:function(name){loader.append('css',name);},js:function(name){loader.append('js',name);}};})(jQuery);}
+if($('#campaign').length){}
+jQuery(document).ready(function($){var buy=$('.review').offset();$(window).scroll(function(){if($(window).scrollTop()<=buy.top){$('.slide-up').removeClass('show').addClass('hide');}else{$('.slide-up').removeClass('hide').addClass('show');}});});

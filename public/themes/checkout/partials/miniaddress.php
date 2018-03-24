@@ -1,0 +1,1 @@
+<?php if(!empty($show) && $show === true) {echo Theme::widget('miniAddress', array('checkout'=>$checkout))->render();} ?>

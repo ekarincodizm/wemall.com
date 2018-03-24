@@ -1,0 +1,13 @@
+.hilightbanner {width: 1280px; margin-left: auto; margin-right: auto; margin-top: -38px;}
+.hilightbanner-container {width: 100%; height: 410px; margin: 0 auto; overflow: hidden;}
+.hilightbanner-wrapper, .subbanner {list-style: none; margin: 0; padding: 0;}
+.hilightbanner-wrapper:after {content: ''; display: block; clear: both;}
+.hilightbanner-wrapper > li {float: left;text-align: center;width: 100%;/*background-color: #000*/; height:410px;}
+.hilightbanner-wrapper > li img {max-height: 410px;margin: 0 auto;}
+.hilightbanner-wrapper .wrap-banner {width: 100%; height: 410px; background-position: center top; background-repeat: no-repeat; display: block;}
+.hilightbanner-container .bx-next {right: 0;}
+.subbanner {position: absolute; right: 0;top: 0; margin-top: 10px; margin-right: 40px;}
+.hilightbanner-container .bx-wrapper .bx-pager {bottom: 20px;z-index: 51;padding-top: 0;padding-right: 30px;text-align: right; width: 770px; left: 50%; margin-left: -385px;}
+.hilightbanner-container .bx-wrapper .bx-pager.bx-default-pager a {color: transparent;}
+.hilightbanner-container .bx-wrapper .bx-controls-direction a {z-index: 51;bottom: 0;}
+.hilightbanner-container .bx-controls-direction {width: 780px; position: relative; left: 50%; margin-left: -390px; bottom: 32px;}

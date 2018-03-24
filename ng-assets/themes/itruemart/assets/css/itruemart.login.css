@@ -1,0 +1,71 @@
+div#login_regist_wrapper{width: 100%;height:auto;margin:0 auto;padding:10px 0}
+div.title_login{/* width: 100%; */height:35px;line-height:35px;color:#000;font-size:16px;background-image:url(../images/profile/title_s.jpg);background-repeat:repeat-x;border-left:1px solid #CCC;border-right:1px solid #CCC;padding:0 10px}
+div.detail_wrapper{/* width:970px; min-height: 222px;*/height:280px;background:#fff;border:1px solid #ccc;padding:10px}
+#login_box{width:630px;height:auto;margin:0 auto;padding:15px 0}
+div.label{color:#333;height:25px;line-height:25px; width: 120px;padding:0 10px 10px 0;display: block;text-align: left;}
+.btn_regist{width:160px;height:41px;border:none;text-align:right;padding:10px 10px 0 0}
+#login_regist_wrapper #login{/* width:680px; */height:auto;_width:680px;padding-left:55px;margin:0 auto}
+#login .field{border:1px #ccc solid;/* background:#ccc; */height:25px;width:203px;border-radius:4px;-webkit-border-radius:4px;-moz-order-radius:4px;color:#333;line-height:25px;padding:0 5px}
+#login_form{width:215px;height:auto;float: left;}
+#login_form input{margin:0 0 5px;font-size: 12px;}
+#login_desc{width:215px;height:40px}
+#login_desc #form{width:215px;height:40px;padding:0}
+#login_desc input.checkbox{height:20px;margin:5px}
+#login_desc label span{color:#999;font-size:11px;height:20px;line-height:20px;padding:5px 0}
+#login_desc #text{width:80px;height:20px}
+#login_desc .btn_login{width:94px;height:29px;color:#999;font-size:11px}
+#login_remark{width:300px;padding-left:55px}
+#login_remark #remark{width:340px;color:#999;/* height:30px; */font-size:11px;padding:0 0 0 10px}
+#login_remark #login_pass{width:215px;color:#666;height:30px;line-height:30px;font-size:11px;text-decoration:underline;_width:330px;_padding:0;padding:0 0 0 10px}
+#login_remark #login_pass a{color:#666;text-decoration:underline;_width:330px;_padding:0 0 0 10px}
+#login_remark #login_pass a:hover{color:#000;_width:330px;_padding:0 0 0}
+#register_main{/* width: 100%; */_padding:0;_width:970px;padding:0 0 10px}
+#register_main_right{width:420px;padding-left:20px;_height:200px;_width:420px;_padding:0}
+.register_main_title{font-size:14px;font-weight:700;color:#666;margin:0;padding:10px 0}
+#register_main_right_c{width:400px;height:180px;overflow:auto;border:1px solid #ddd;color:#666;font-size:11px;margin:0;padding: 0 10px;}
+#register_main_right_c ul{list-style-type:decimal;padding-left: 40px;}
+.accept_condition_box{font-size:14px;font-weight:700;color:#666;margin:0;padding:10px 0 0}
+#register_main_left{width: 640px;padding: 10px 0 10px 100px;}
+#register_main_left_c{border:1px solid #B6C727;height:210px;/* width: 100%; */padding: 5px 20px;}
+#register_main_left_c table{width:325px}
+#register_main_left_c table tr td{margin:0;padding:4px}
+.register_label{font-size:11px;color:#333;width:auto;text-align:right}
+.register_validate{color:#999;font-size:10px;line-height:15px;width:200px}
+.register_validate a{color:#999;text-align: left;display: block;}
+.register_field{border:1px #ccc solid;background:#fff;height: 25px;width:200px;border-radius:4px;-webkit-border-radius:4px;-moz-order-radius:4px;color:#666;line-height: 1;font-size:11px;padding: 3px 5px;}
+.register_btn{background:url(../images/btn_submit.png) no-repeat;width:70px;height:25px;border:none}
+
+#register_tab_wrapper{width:170px;height:195px}
+#register_tab_wrapper a.registmail{width:170px;height:65px;background:url(../images/profile/btn_email.png) no-repeat;display:block}
+#register_tab_wrapper div.registmail.active{width:170px;height:65px;background:url(../images/profile/btn_email_active.png) no-repeat;display:block}
+#register_tab_wrapper a.registmail:hover{width:170px;height:65px;background:url(../images/profile/btn_email_hover.png) no-repeat;display:block}
+#register_tab_wrapper a.registmobile{width:170px;height:65px;background:url(../images/profile/btn_mobile.png) no-repeat;display:block}
+#register_tab_wrapper div.registmobile.active{width:170px;height:65px;background:url(../images/profile/btn_mobile_active.png) no-repeat;display:block}
+#register_tab_wrapper a.registmobile:hover{width:170px;height:65px;background:url(../images/profile/btn_mobile_hover.png) no-repeat;display:block}
+#register_tab_wrapper a.registtruecard{width:170px;height:65px;background:url(../images/profile/btn_truecard.png) no-repeat;display:block}
+#register_tab_wrapper div.registtruecard.active{width:170px;height:65px;background:url(../images/profile/btn_truecard_active.png) no-repeat;display:block}
+#register_tab_wrapper a.registtruecard:hover{width:170px;height:65px;background:url(../images/profile/btn_truecard_hover.png) no-repeat;display:block}
+
+#register_tab_wrapper a.registmail_en{width:170px;height:65px;display:block;background-image:url(../images/profile/btn_email_en.png);background-repeat:no-repeat}
+#register_tab_wrapper div.registmail_en.active{width:170px;height:65px;display:block;background-image:url(../images/profile/btn_email_en_active.png);background-repeat:no-repeat}
+#register_tab_wrapper a.registmail_en:hover{width:170px;height:65px;display:block;background-image:url(../images/profile/btn_email_en_hover.png);background-repeat:no-repeat}
+#register_tab_wrapper a.registmobile_en{width:170px;height:65px;background:url(../images/profile/btn_mobile_en.png) no-repeat;display:block}
+#register_tab_wrapper div.registmobile_en.active{width:170px;height:65px;background:url(../images/profile/btn_mobile_en_active.png) no-repeat;display:block}
+#register_tab_wrapper a.registmobile_en:hover{width:170px;height:65px;background:url(../images/profile/btn_mobile_en_hover.png) no-repeat;display:block}
+#register_tab_wrapper a.registtruecard_en{width:170px;height:65px;display:block;background-image:url(../images/profile/btn_truecard_en.png);background-repeat:no-repeat}
+#register_tab_wrapper div.registtruecard_en.active{width:170px;height:65px;background:url(../images/profile/btn_truecard_en_active.png) no-repeat;display:block}
+#register_tab_wrapper a.registtruecard_en:hover{width:170px;height:65px;display:block;background-image:url(../images/profile/btn_truecard_en_hover.png);background-repeat:no-repeat}
+
+
+.register_mobile{padding:10px 0 0}
+a.regist_otp{width:132px;height:27px;text-align:center;font-size:12px;font-weight:700;color:#666;line-height:27px;background-image:url(../images/profile/btn_otp.png);background-repeat:no-repeat;display:block}
+a.regist_otp:hover{color:#000}
+.error_msg{width: auto;height:auto;color:red;text-align:center;word-wrap:break-word;_width:650px;margin:0 auto;padding:10px 0}
+.float-left{float:left}
+.float-right{float:right}
+.btn_guest{cursor:pointer;background:url(../images/bg_green-btn.jpg) no-repeat center center;/* width:130px; */height:30px;border:0;text-align:center;font-weight:700;color:#000;font-size: 13px;}
+#btn_login{background-image:url(../images/bg_btn_login.png);width:94px;height:29px;border:0;font-weight:700;color:#000;float:right;cursor:pointer}
+.register_validate a:hover,.register_field2{color:#666}
+.col-login {float: left;width: 50%; padding-left: 5px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.col-login:first-child {padding-left: 0;}
+div.detail_wrapper.regist-panel {padding-top: 80px;}

@@ -1,0 +1,89 @@
+inthras_address:
+    0:
+        status: "success"
+        code: 200
+        message: "200 OK"
+        data:
+            0:
+                customer_addresses_id: 8797
+                customer_name:  "อินทรา อ่อนทรัพย์"
+                app_id: 1
+                customer_ref_id: "17760171"
+                email:  "inthra.onsap@gmail.com"
+                province_id: 1
+                city_id: 14
+                district_id: 58
+                address: "29 กุหลาบอพาร์ทเม้น ห้อง 505 ซอย ศุภราช 1 ถนนพหลโยธิน"
+                postcode: "10400"
+                phone:  "0804345451"
+                province_name:  "กรุงเทพมหานคร"
+                city_name:  "พญาไท"
+                district_name:  "สามเสนใน"
+            1:
+                customer_addresses_id: 8293
+                customer_name:  "อินทรา อ่อนทรัพย์"
+                app_id: 1
+                customer_ref_id: "17760171"
+                email:  "inthra.onsap@gmail.com"
+                province_id: 1
+                city_id: 34
+                district_id: 126
+                address: "บริษัท ทรูดิจิตอล คอนเท้น แอนด์ มิเดีย จำกัด 1252 ชั้น 4 โซน 1 ถ. พัฒนาการ "
+                postcode: "10250"
+                phone:  "0804345451"
+                province_name:  "กรุงเทพมหานคร"
+                city_name:  "สวนหลวง"
+                district_name:  "สวนหลวง"
+
+save_new_address_response:
+    0:
+        code: 200
+        data:
+            'address_id': 32186
+            'deleteUrl': "http://www.itruemart.loc/ajax/customers/delete-ship-addr?id=32186"
+        address_id: 32186
+        deleteUrl: "http://www.itruemart.loc/ajax/customers/delete-ship-addr?id=32186"
+        editUrl: "http://www.itruemart.loc/ajax/customers/edit-ship-addr?id=32186"
+        message: "Create successfully"
+        status: "success"
+
+update_new_address_response:
+    0:
+        code: 200
+        data:
+            'address_id': 32186
+            'deleteUrl': "http://www.itruemart.loc/ajax/customers/delete-ship-addr?id=32186"
+        address_id: 32186
+        deleteUrl: "http://www.itruemart.loc/ajax/customers/delete-ship-addr?id=32186"
+        editUrl: "http://www.itruemart.loc/ajax/customers/edit-ship-addr?id=32186"
+        message: "Create successfully"
+        status: "success"
+
+delete_customer_address_response:
+    0:
+        code: 200
+        message: "ลบที่อยู่เรียบร้อยแล้ว"
+        return_id: "32184"
+
+get_address_detail_response:
+    0:
+        'status': "success"
+        'code': 200
+        'message': "200 OK"
+        'data':
+            'id': 32186
+            'app_id': 1
+            'customer_ref_id': "17760171"
+            'name': "tesasdf"
+            'email': "inthra.onsap@gmail.com"
+            'province_id': 1
+            'city_id': 18
+            'district_id': 72
+            'address': "asdfas"
+            'postcode': "10600"
+            'phone': "0804345451"
+            'created_at': "2015-06-18 11:26:46"
+            'updated_at': "2015-06-18 11:26:46"
+            'deleted_at': null
+            'text': "tesasdf [asdfas, คลองสาน, คลองสาน, กรุงเทพมหานคร 10600]"
+

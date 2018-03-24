@@ -1,0 +1,204 @@
+payment_detail:
+    0:
+        "status": "success"
+        "code": 200
+        "message": "200 OK"
+        "data":
+            "order_id": 171526
+            "booking_id": null
+            "payment_order_id": "9150605201351"
+            "payment_status": "success"
+            "payment_channel": "online"
+            "payment_method": "3"
+            "payment_method_code": "ccinstm"
+            "payment_method_name": "ผ่อนชำระ"
+            "customer_email": "xxxx@xxxxx.co"
+            "customer_tel": "0890000000"
+            "ordered_date":
+                "date": "2015-06-05 11:31:21.000000"
+                "timezone_type": 3
+                "timezone": "Asia/Bangkok"
+            "sub_total": 11230
+            "customer_ref_id": "17760171"
+            "customer_name": "Test"
+            "customer_address": "aaa aaa"
+            "customer_district": "ตะคร้ำเอน"
+            "customer_city": "ท่ามะกา"
+            "customer_province": "กาญจนบุรี"
+            "customer_postcode": "71130"
+            "ref1": "NULL"
+            "ref2": "NULL"
+            "ref3": "171526"
+            "order_expired":
+                "date": "2015-06-05 12:01:21.000000"
+                "timezone_type": 3
+                "timezone": "Asia/Bangkok"
+            "analytics_status": "Y"
+            "lang_code": "th"
+            "billing_address_name": "Test"
+            "billing_address_address": "aaa aaa"
+            "billing_address_district": "ตะคร้ำเอน"
+            "billing_address_city": "ท่ามะกา"
+            "billing_address_province": "กาญจนบุรี"
+            "billing_address_postcode": 71130
+            "tax_id": null
+            "installment": "6"
+            "installment_bank":
+                "name": "กรุงเทพ"
+                "abbreviation": "bbl"
+                "card_type": "creditcard"
+                "tmn_name": "bbl"
+    1:
+        "status": "success"
+        "code": 200
+        "message": "200 OK"
+        "data":
+            "order_id": 171526
+            "booking_id": null
+            "payment_order_id": "9150605201351"
+            "payment_status": "success"
+            "payment_channel": "online"
+            "payment_method": "3"
+            "payment_method_code": "ccinstm"
+            "payment_method_name": "ผ่อนชำระ"
+            "customer_email": "xxxx@xxxxx.co"
+            "customer_tel": "0890000000"
+            "ordered_date":
+                "date": "2015-06-05 11:31:21.000000"
+                "timezone_type": 3
+                "timezone": "Asia/Bangkok"
+            "sub_total": 11230
+            "customer_ref_id": "17760171"
+            "customer_name": "Test"
+            "customer_address": "aaa aaa"
+            "customer_district": "ตะคร้ำเอน"
+            "customer_city": "ท่ามะกา"
+            "customer_province": "กาญจนบุรี"
+            "customer_postcode": "71130"
+            "ref1": "NULL"
+            "ref2": "NULL"
+            "ref3": "171526"
+            "order_expired":
+                "date": "2015-06-05 12:01:21.000000"
+                "timezone_type": 3
+                "timezone": "Asia/Bangkok"
+            "analytics_status": "Y"
+            "lang_code": "en"
+            "billing_address_name": "Test"
+            "billing_address_address": "aaa aaa"
+            "billing_address_district": "ตะคร้ำเอน"
+            "billing_address_city": "ท่ามะกา"
+            "billing_address_province": "กาญจนบุรี"
+            "billing_address_postcode": 71130
+            "tax_id": null
+            "installment": "6"
+            "installment_bank":
+                "name": "กรุงเทพ"
+                "abbreviation": "bbl"
+                "card_type": "creditcard"
+                "tmn_name": "bbl"
+payment_items:
+    0:
+        "status": "success"
+        "code": 200
+        "message": "200 OK"
+        "data":
+            "order_item":
+                0:
+                    "order_id": 171526
+                    "inventory_id": "ASAAA1112411"
+                    "sku_code": null
+                    "name": "Asus Zenfone 5. (Charcoal Black)"
+                    "category": null
+                    "brand": null
+                    "quantity": 1
+                    "price_per_unit": 5690
+                    "total_price": 5690
+                    "product_pkey": 2807712739892
+                    "item_status": "order_pending"
+                    "payment_status": "success"
+                    "item_status_customer": "กำลังจัดเตรียมสินค้าที่คลัง"
+                    "payment_status_customer": "ชำระเงินเรียบร้อยแล้ว"
+                1:
+                    "order_id": 171526
+                    "inventory_id": "ASAAA1112411"
+                    "sku_code": null
+                    "name": "Asus Zenfone 5. (Charcoal Black)"
+                    "category": null
+                    "brand": null
+                    "quantity": 1
+                    "price_per_unit": 5690
+                    "total_price": 5690
+                    "product_pkey": 2807712739892
+                    "item_status": "order_pending"
+                    "payment_status": "success"
+                    "item_status_customer": "กำลังจัดเตรียมสินค้าที่คลัง"
+                    "payment_status_customer": "ชำระเงินเรียบร้อยแล้ว"
+            "shipments_summary":
+                "total_price": 11380
+                "discount": 150
+                "total_shipping_fee": 0
+                "sub_total": 11230
+            "order":
+                "order_id": 171526
+                "customer_city": "ท่ามะกา"
+                "sub_total": 11230
+                "shipping_fee": 0
+                "customer_province": "กาญจนบุรี"
+                "shop_name": "322963"
+                "country": "ประเทศไทย"
+            "shipments":
+                0:
+                    "shop_id": 322963
+                    "shop_name": "iTrueMart Stock"
+                    "vendor_id": 2293
+                    "vendor_name": "SYNNEX (THAILAND) PUBLIC CO.LTD. ซื้อขาด"
+                    "item_count": 2
+                    "shipping_fee": ""
+                    "shipping_methods":
+                        "pkey": 14603191492758
+                        "name": "จัดส่งฟรี"
+                        "description": "0 บาท"
+                    "items":
+                        0:
+                            "inventory_id": "ASAAA1112411"
+                            "name": "Asus Zenfone 5. (Charcoal Black)"
+                            "quantity": 1
+                            "net_price": "5990.00"
+                            "price": 5690
+                            "discount": 0
+                            "total_price": 5690
+                            "total_discount": 0
+                            "item_status": "order_pending"
+                            "payment_status": "success"
+                            "tracking_number": 0
+                            "product_pkey": 2807712739892
+                            "item_status_customer": "กำลังจัดเตรียมสินค้าที่คลัง"
+                            "payment_status_customer": "ชำระเงินเรียบร้อยแล้ว"
+                            "expected_delivery_min": "11 มิ.ย. 58"
+                            "expected_delivery_max": "19 มิ.ย. 58"
+                            "debug":
+                                "is-empty": true
+                                "shipment-status": "order_pending"
+                                "shipment-status-order": "ชำระเงินเรียบร้อยแล้ว"
+                        1:
+                            "inventory_id": "ASAAA1112411"
+                            "name": "Asus Zenfone 5. (Charcoal Black)"
+                            "quantity": 1
+                            "net_price": "5990.00"
+                            "price": 5690
+                            "discount": 0
+                            "total_price": 5690
+                            "total_discount": 0
+                            "item_status": "order_pending"
+                            "payment_status": "success"
+                            "tracking_number": 0
+                            "product_pkey": 2807712739892
+                            "item_status_customer": "กำลังจัดเตรียมสินค้าที่คลัง"
+                            "payment_status_customer": "ชำระเงินเรียบร้อยแล้ว"
+                            "expected_delivery_min": "11 มิ.ย. 58"
+                            "expected_delivery_max": "19 มิ.ย. 58"
+                            "debug":
+                                "is-empty": true
+                                "shipment-status": "order_pending"
+                                "shipment-status-order": "ชำระเงินเรียบร้อยแล้ว"
